@@ -1,0 +1,12 @@
+{
+  "package": "TTE Mixed-Division Capacity-Safe Allocation",
+  "version": "13.0.5",
+  "multiple_rows_per_employee_supported": true,
+  "daily_capacity_sum_gate": true,
+  "field_capacity_reconciliation_gate": true,
+  "exact_duplicate_assignment_rejected": true,
+  "mixed_division_requires_supervisor_confirmation": true,
+  "employee_home_codes_verified": false,
+  "operational_use_allowed": false,
+  "live_deployment_started": false
+}

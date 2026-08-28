@@ -1,0 +1,30 @@
+{
+  "status": "PASS_EMPLOYEE_READINESS_INPUTS_CREATED",
+  "package_version": "6.0.0",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v6\\employee_readiness_runs\\employee_readiness_20260723_172820",
+  "productivity_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v2\\model_candidates\\productivity_gpu_20260723_084710",
+  "planning_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v5\\final_method_gate_runs_v503\\best_available_planning_20260723_170144",
+  "planning_date": "2026-07-24",
+  "training_files": 33,
+  "source_rows": 9003111,
+  "retained_rows": 9003111,
+  "invalid_rows": 0,
+  "employee_master_rows": 23043,
+  "employee_field_experience_rows": 304360,
+  "availability_template_rows": 12768,
+  "constraint_template_rows": 12768,
+  "candidate_matrix_rows": 24398,
+  "active_field_demand_rows_first_date": 447,
+  "historical_candidate_coverage_failures": 0,
+  "cp_sat_readiness": "NOT_READY_AVAILABILITY_AND_CONSTRAINTS_REQUIRED",
+  "operational_status": "DEVELOPMENT_INPUT_PREPARATION_ONLY",
+  "cp_sat_started": false,
+  "rl_started": false,
+  "important_interpretation": [
+    "Employee IDs, field history and productivity are derived from all 33 compressed productivity training files.",
+    "Home division is inferred from the modal observed field division when source home_division is unknown.",
+    "The candidate matrix is a historical suitability matrix, not a named employee allocation.",
+    "Availability, leave, medical fitness and movement constraints remain UNKNOWN until confirmed by estate management.",
+    "CP-SAT must not start until the edited templates pass the input recheck."
+  ]
+}

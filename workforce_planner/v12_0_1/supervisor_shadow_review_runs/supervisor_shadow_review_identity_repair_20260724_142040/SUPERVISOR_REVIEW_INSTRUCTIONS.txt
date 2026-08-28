@@ -1,0 +1,47 @@
+TTE SUPERVISOR SHADOW REVIEW IDENTITY REPAIR v12.0.1
+
+SOURCE
+------
+v11.0.2 run:
+C:\TTE_Integrated_Platform\ttel_crop_forecasting\workforce_planner\v11_0_2\complete_fallback_routing_repair_runs\movement_audit_repair_20260724_133455
+
+PURPOSE
+-------
+This pack supports supervisor review of simulated routing recommendations.
+It does not authorize live employee assignments.
+
+FILES TO COMPLETE
+-----------------
+1. supervisor_case_review.csv
+   - Complete all 396 rows.
+   - Mark all six verification fields YES only after checking actual records.
+   - Decision must be ACCEPT, REJECT or DEFER.
+   - REJECT and DEFER require an override reason.
+   - Keep live_assignment_authorized as NO.
+
+2. estate_daily_context.csv
+   - Complete all 33 estates.
+   - Use actual daily crop and verified workforce counts.
+   - Keep live_assignment_authorized as NO.
+
+3. employee_daily_status_verification.csv
+   - Select a representative shadow sample by changing
+     included_in_shadow_sample to YES.
+   - All 23,043 estate-employee identities are preserved; at least one verified employee is required per estate.
+   - Attendance, leave, fitness and movement restrictions must come from
+     approved records or direct supervisor confirmation.
+   - Keep live_assignment_authorized as NO.
+
+4. shadow_review_signoff.csv
+   - Complete only after the three files above are reviewed.
+   - Use APPROVED_FOR_CONTINUED_SHADOW_REVIEW or
+     REJECTED_REVIEW_REQUIRED.
+   - Keep live_assignment_authorized as NO.
+
+VALIDATION
+----------
+Run:
+.\VALIDATE_SUPERVISOR_SHADOW_REVIEW_v12.0.0.ps1
+
+A passing validation confirms review completeness only.
+It does not permit live assignment, payroll use or employee notification.

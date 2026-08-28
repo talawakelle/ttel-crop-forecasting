@@ -1,0 +1,12 @@
+{
+  "name": "tte-forecast-manager-portal",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "setup": "node --disable-warning=ExperimentalWarning setup.mjs",
+    "start": "node --disable-warning=ExperimentalWarning server.mjs",
+    "test": "node --disable-warning=ExperimentalWarning --test tests/*.test.mjs"
+  }
+}

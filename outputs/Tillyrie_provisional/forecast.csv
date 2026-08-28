@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Tillyrie,1,2026-06-14,2026-06-15,2026-06-21,15184.0,8945.0,22190.25,Recent 4-Week Mean,26.32693666117259
+Tillyrie,2,2026-06-14,2026-06-22,2026-06-28,8401.0,6491.5,18027.5,Same Week Last Year,27.0247233341182
+Tillyrie,3,2026-06-14,2026-06-29,2026-07-05,6849.0,4939.5,16475.5,Same Week Last Year,27.0247233341182
+Tillyrie,4,2026-06-14,2026-07-06,2026-07-12,6488.0,4578.5,16114.5,Same Week Last Year,27.0247233341182

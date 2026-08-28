@@ -1,0 +1,38 @@
+{
+  "validated_on": "2026-07-22",
+  "status": "PASS",
+  "source": "prompt_automation.zip",
+  "independent_import_rerun": {
+    "exact_dataframe_match_to_production": true,
+    "mapped_estates": 33,
+    "imported_workbooks": 33,
+    "daily_rows": 365,
+    "date_min": "2026-07-01",
+    "date_max": "2026-07-12",
+    "actual_kg_total": 1041849.0,
+    "crop_records_total": 135531,
+    "duplicate_weighing_ids_removed": 0,
+    "max_daily_summary_difference_kg": 0.0
+  },
+  "portal_actual_line_test": {
+    "passwordless_manager_links_tested": 33,
+    "graph_views": [
+      "daily",
+      "weekly",
+      "monthly",
+      "yearly"
+    ],
+    "graph_ranges": [
+      "week",
+      "month",
+      "year",
+      "3year",
+      "5year"
+    ],
+    "estate_view_range_combinations_tested": 660,
+    "combinations_passed": 660,
+    "failures": 0
+  },
+  "correction_applied": "The chart window is anchored to the latest available actual date when it is later than the model origin, ensuring current PROMPT actuals remain visible for every estate.",
+  "privacy_control": "Only estate/date net crop totals, record counts and source workbook names are retained; employee identifiers are excluded."
+}

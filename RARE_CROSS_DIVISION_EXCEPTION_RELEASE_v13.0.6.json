@@ -1,0 +1,11 @@
+{
+  "package": "TTE Rare Cross-Division Exception Review",
+  "version": "13.0.6",
+  "normal_model": "SAME_DIVISION_ALLOCATION",
+  "cross_division_treatment": "RARE_EXCEPTION_ONLY",
+  "percentage_threshold_invented": false,
+  "actual_exception_rate_reported": true,
+  "employee_home_codes_verified": false,
+  "operational_use_allowed": false,
+  "live_deployment_started": false
+}

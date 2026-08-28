@@ -1,0 +1,32 @@
+{
+  "status": "PASS_DIVISION_IDENTITY_NORMALIZATION_REVIEW_PACK_CREATED",
+  "package_version": "13.0.2",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_2\\division_identity_normalization_runs\\division_identity_normalization_20260724_152909",
+  "source_allocation_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_1\\named_plucker_allocation_runs\\named_plucker_allocation_kg_repair_20260724_150820\\allocation\\named_plucker_allocation_simulation.csv",
+  "source_allocation_rows": 15014,
+  "estate_count": 33,
+  "mapping_review_rows": 107,
+  "high_confidence_suggestions": 102,
+  "medium_confidence_suggestions": 1,
+  "ambiguous_or_low_suggestions": 4,
+  "raw_cross_division_counts": {
+    "YES": 14786,
+    "NO": 228
+  },
+  "suggested_cross_division_preview_counts": {
+    "YES": 9048,
+    "NO": 4610,
+    "UNKNOWN": 1356
+  },
+  "review_gate": "DIVISION_MAPPING_CONFIRMATION_REQUIRED",
+  "manager_review_started": false,
+  "manager_review_completed": false,
+  "operational_status": "DIVISION_MAPPING_REVIEW_ONLY",
+  "live_deployment_started": false,
+  "important_interpretation": [
+    "The source cross_division indicator compares full division names with short home-division codes and must not be used operationally until normalized.",
+    "Suggested mappings are pre-review suggestions only; they are not manager confirmations.",
+    "Every estate-home-code mapping must be confirmed by an authorized estate reviewer.",
+    "No employee notification or live assignment is authorized."
+  ]
+}

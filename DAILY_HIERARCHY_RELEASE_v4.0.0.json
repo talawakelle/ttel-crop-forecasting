@@ -1,0 +1,23 @@
+{
+  "package": "TTE Daily Estate-Division-Field Hierarchy Candidate",
+  "version": "4.0.0",
+  "stage": "daily hierarchy development candidate",
+  "forecast_horizon_days_default": 28,
+  "candidate_methods": [
+    "RECENT_SAME_WEEKDAY_MEDIAN",
+    "RECENT_28_OPERATING_MEDIAN",
+    "SEASONAL_364_DAY_MEDIAN",
+    "BLENDED_RECENT_SEASONAL"
+  ],
+  "division_field_method": "smoothed month-weekday historical share with exact reconciliation",
+  "requires": [
+    "corrected v3.0.1 data audit",
+    "33 estate ZIP archives",
+    "verified identity registry for legacy workbook filename mismatches"
+  ],
+  "read_only": true,
+  "changes_live_models": false,
+  "changes_portal": false,
+  "starts_cp_sat": false,
+  "starts_rl": false
+}

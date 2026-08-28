@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Glassaugh,1,2026-06-14,2026-06-15,2026-06-21,20548.5,13903.25,28431.125,Recent 4-Week Mean,21.302639342462744
+Glassaugh,2,2026-06-14,2026-06-22,2026-06-28,8984.0,6720.5,16425.0,Same Week Last Year,21.43325146134636
+Glassaugh,3,2026-06-14,2026-06-29,2026-07-05,5853.0,3589.5,13294.0,Same Week Last Year,21.43325146134636
+Glassaugh,4,2026-06-14,2026-07-06,2026-07-12,13642.0,11378.5,21083.0,Same Week Last Year,21.43325146134636

@@ -1,0 +1,12 @@
+{
+  "date_min": "2021-04-01",
+  "date_max": "2026-06-15",
+  "calendar_span_days": 1902,
+  "train_end": "2025-06-20",
+  "validation_start": "2025-06-21",
+  "validation_end": "2025-12-17",
+  "test_start": "2025-12-18",
+  "holdout_days_each": 180,
+  "training_days": 1542,
+  "history_class": "standard"
+}

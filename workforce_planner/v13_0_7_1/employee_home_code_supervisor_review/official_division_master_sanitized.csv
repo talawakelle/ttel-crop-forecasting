@@ -1,0 +1,219 @@
+﻿plc,region,estate,estate_code,division,official_division_code,source_sheet,source_row
+HPL,Lindula,Bambarakelly,BK,Bambrakelly,BK_BK,Division Resource Map,5
+HPL,Lindula,Bambarakelly,BK,Dell,BK_DL,Division Resource Map,6
+HPL,Lindula,Bambarakelly,BK,Queenwood,BK_QW,Division Resource Map,7
+HPL,Lindula,Bambarakelly,BK,Rahanwatta,BK_RW,Division Resource Map,8
+HPL,Lindula,Bambarakelly,BK,Upper Cranley,BK_UC,Division Resource Map,9
+HPL,Lindula,Eildonhall,EH,Eildonhall,EH_EH,Division Resource Map,10
+HPL,Lindula,Tillicoultry,TC,Mousa Ella Lower,TC_MEL,Division Resource Map,11
+HPL,Lindula,Tillicoultry,TC,Mousa Ella Upper,TC_MEU,Division Resource Map,12
+HPL,Lindula,Tillicoultry,TC,Tillicoultry,TC_TC,Division Resource Map,13
+HPL,Low Country - Oil Palm,Frocester,FC,Govinna,FC_GV,Division Resource Map,14
+HPL,Low Country - Oil Palm,Halwatura,HW,Kahagala,HW_KG,Division Resource Map,15
+HPL,Low Country - Oil Palm,Halwatura,HW,Lower,HW_LW,Division Resource Map,16
+HPL,Low Country - Oil Palm,Mirishena,MH,Mirishena,MH_MH,Division Resource Map,17
+HPL,Low Country - Oil Palm,Neuchatel,NC,Home,NC_HM,Division Resource Map,18
+HPL,Low Country - Oil Palm,Neuchatel,NC,Horahena,NC_HH,Division Resource Map,19
+HPL,Low Country - Oil Palm,Neuchatel,NC,Tempo,NC_TP,Division Resource Map,20
+HPL,Low Country - Rubber,Frocester,FC,Frocester,FC_FR,Division Resource Map,21
+HPL,Low Country - Rubber,Frocester,FC,Govinna,FC_GV,Division Resource Map,22
+HPL,Low Country - Rubber,Frocester,FC,Immalakanda,FC_IM,Division Resource Map,23
+HPL,Low Country - Rubber,Frocester,FC,Kobokka,FC_KB,Division Resource Map,24
+HPL,Low Country - Rubber,Frocester,FC,Kobowella,FC_KW,Division Resource Map,25
+HPL,Low Country - Rubber,Hillstream,HS,Cuilgaha,HS_CG,Division Resource Map,26
+HPL,Low Country - Rubber,Hillstream,HS,Dambala,HS_DB,Division Resource Map,27
+HPL,Low Country - Rubber,Hillstream,HS,Kudagaga,HS_KG,Division Resource Map,28
+HPL,Low Country - Rubber,Hillstream,HS,Ossington,HS_OS,Division Resource Map,29
+HPL,Low Country - Rubber,Halwatura,HW,Delmella,HW_DM,Division Resource Map,30
+HPL,Low Country - Rubber,Halwatura,HW,Kahagala,HW_KG,Division Resource Map,31
+HPL,Low Country - Rubber,Halwatura,HW,Lower,HW_LW,Division Resource Map,32
+HPL,Low Country - Rubber,Mirishena,MH,Hillcroft,MH_HC,Division Resource Map,33
+HPL,Low Country - Rubber,Mirishena,MH,Mirishena,MH_MR,Division Resource Map,34
+HPL,Low Country - Rubber,Neuchatel,NC,Dikhena,NC_DH,Division Resource Map,35
+HPL,Low Country - Rubber,Neuchatel,NC,Home,NC_HM,Division Resource Map,36
+HPL,Low Country - Rubber,Neuchatel,NC,Horahena,NC_HH,Division Resource Map,37
+HPL,Low Country - Rubber,Neuchatel,NC,Millaniya,NC_ML,Division Resource Map,38
+HPL,Low Country - Rubber,Neuchatel,NC,Tempo,NC_TP,Division Resource Map,39
+HPL,Low Country - Tea,Millakanda,M,Anderson,M_AND,Division Resource Map,40
+HPL,Low Country - Tea,Millakanda,M,Mihirigeekele,M_MGK,Division Resource Map,41
+HPL,Low Country - Tea,Millakanda,M,New,M_NEW,Division Resource Map,42
+HPL,Low Country - Tea,Millakanda,M,St Francis,M_STF,Division Resource Map,43
+HPL,UPCOT,Alton,AT,Beaconsfield,AT_BF,Division Resource Map,44
+HPL,UPCOT,Alton,AT,Kincora,AT_KC,Division Resource Map,45
+HPL,UPCOT,Alton,AT,Lower,AT_LW,Division Resource Map,46
+HPL,UPCOT,Alton,AT,Upper,AT_UP,Division Resource Map,47
+HPL,UPCOT,Fairlawn,FL,Bargany,FL_BG,Division Resource Map,48
+HPL,UPCOT,Fairlawn,FL,Blarivon,FL_BL,Division Resource Map,49
+HPL,UPCOT,Fairlawn,FL,Fairlawn,FL_FL,Division Resource Map,50
+HPL,UPCOT,Fairlawn,FL,Mincinglane,FL_ML,Division Resource Map,51
+HPL,UPCOT,Fairlawn,FL,Sooriyakanda,FL_SK,Division Resource Map,52
+HPL,UPCOT,Gouravilla,GV,Bargrove,GV_BG,Division Resource Map,53
+HPL,UPCOT,Gouravilla,GV,Cruden,GV_CR,Division Resource Map,54
+HPL,UPCOT,Gouravilla,GV,Gouravilla A,GV_ A,Division Resource Map,55
+HPL,UPCOT,Gouravilla,GV,Gouravilla B,GV_B,Division Resource Map,56
+HPL,UPCOT,Mahanilu,MN,Mahagala,MN_MG,Division Resource Map,57
+HPL,UPCOT,Mahanilu,MN,Mahanilu,MN_MN,Division Resource Map,58
+HPL,UPCOT,Stockholm,SH,Lower Cruden,SH_LC,Division Resource Map,59
+HPL,UPCOT,Stockholm,SH,Scarborough,SH_SC,Division Resource Map,60
+HPL,UPCOT,Stockholm,SH,Stockholm,SH_SH,Division Resource Map,61
+KVPL,Hatton,Annfield,AF,Annfield,AF_AF,Division Resource Map,62
+KVPL,Hatton,Annfield,AF,Barkindale,AF_BK,Division Resource Map,63
+KVPL,Hatton,Annfield,AF,Erslmare,AF_EM,Division Resource Map,64
+KVPL,Hatton,Annfield,AF,Kinloch,AF_KL,Division Resource Map,65
+KVPL,Hatton,Annfield,AF,StLeys,AF_St,Division Resource Map,66
+KVPL,Hatton,Annfield,AF,StamfordHill,AF_SH,Division Resource Map,67
+KVPL,Hatton,Battalgalla,BG,Hadley,BG_HD,Division Resource Map,68
+KVPL,Hatton,Battalgalla,BG,Lower,BG_LW,Division Resource Map,69
+KVPL,Hatton,Battalgalla,BG,Upper,BG_UP,Division Resource Map,70
+KVPL,Hatton,Fordyce,FD,Fordyce,FD_FD,Division Resource Map,71
+KVPL,Hatton,Fordyce,FD,Gonagalla,FD_GG,Division Resource Map,72
+KVPL,Hatton,Fordyce,FD,NewClearing,FD_NC,Division Resource Map,73
+KVPL,Hatton,Ingestre,IG,Abercarney,IG_AB,Division Resource Map,74
+KVPL,Hatton,Ingestre,IG,Bathford,IG_BF,Division Resource Map,75
+KVPL,Hatton,Ingestre,IG,Beret,IG_BR,Division Resource Map,76
+KVPL,Hatton,Ingestre,IG,Blinkbonnie,IG_BB,Division Resource Map,77
+KVPL,Hatton,Ingestre,IG,Hornsey,IG_HN,Division Resource Map,78
+KVPL,Hatton,Ingestre,IG,Lower,IG_LW,Division Resource Map,79
+KVPL,Hatton,Ingestre,IG,Portree,IG_PT,Division Resource Map,80
+KVPL,Hatton,Ingestre,IG,Upper,IG_UP,Division Resource Map,81
+KVPL,Hatton,Invery,IV,Invery,IV_IV,Division Resource Map,82
+KVPL,Hatton,Invery,IV,Ottery,IV_OT,Division Resource Map,83
+KVPL,Hatton,Robgill,RG,Bonaccord,RG_BC,Division Resource Map,84
+KVPL,Hatton,Robgill,RG,Robgill,RG_RG,Division Resource Map,85
+KVPL,Hatton,Robgill,RG,Singarawatte,RG_SG,Division Resource Map,86
+KVPL,Hatton,Tillyrie,TL,Lower,TL_LW,Division Resource Map,87
+KVPL,Hatton,Tillyrie,TL,Upper,TL_UP,Division Resource Map,88
+KVPL,Low Country - Rubber,Dewalakanda,DK,Accaramaly,DK_AC,Division Resource Map,89
+KVPL,Low Country - Rubber,Dewalakanda,DK,Dehiowita,DK_DO,Division Resource Map,90
+KVPL,Low Country - Rubber,Dewalakanda,DK,Dewalakande,DK_DK,Division Resource Map,91
+KVPL,Low Country - Rubber,Dewalakanda,DK,Dunedin,DK_DU,Division Resource Map,92
+KVPL,Low Country - Rubber,Ederapola,EP,Ardross,EP_AR,Division Resource Map,93
+KVPL,Low Country - Rubber,Ederapola,EP,East,EP_EA,Division Resource Map,94
+KVPL,Low Country - Rubber,Ederapola,EP,West,EP_WE,Division Resource Map,95
+KVPL,Low Country - Rubber,Ganepalla,GP,Lower,GP_LW,Division Resource Map,96
+KVPL,Low Country - Rubber,Ganepalla,GP,Upper,GP_UP,Division Resource Map,97
+KVPL,Low Country - Rubber,Kiriporuwa,KI,Kiriporuwa,KI_KI,Division Resource Map,98
+KVPL,Low Country - Rubber,Kiriporuwa,KI,Mipitikanda,KI_MK,Division Resource Map,99
+KVPL,Low Country - Rubber,Kiriporuwa,KI,Para,KI_PA,Division Resource Map,100
+KVPL,Low Country - Rubber,Kelani,KL,Bungalow,KL_BU,Division Resource Map,101
+KVPL,Low Country - Rubber,Kelani,KL,Factory,KL_FA,Division Resource Map,102
+KVPL,Low Country - Rubber,Kelani,KL,Upper,KL_UP,Division Resource Map,103
+KVPL,Low Country - Rubber,Kalupahana,KP,Kalupahana,KP_KP,Division Resource Map,104
+KVPL,Low Country - Rubber,Kalupahana,KP,Nirmala,KP_NI,Division Resource Map,105
+KVPL,Low Country - Rubber,Kalupahana,KP,Waharaka,KP_WA,Division Resource Map,106
+KVPL,Low Country - Rubber,Lavent,LV,Ivies,LV_IV,Division Resource Map,107
+KVPL,Low Country - Rubber,Lavent,LV,Lower,LV_LLO,Division Resource Map,108
+KVPL,Low Country - Rubber,Lavent,LV,Upper,LV_LUP,Division Resource Map,109
+KVPL,Low Country - Rubber,Panawatta,PW,Deg/LD,PW_DL,Division Resource Map,110
+KVPL,Low Country - Rubber,Panawatta,PW,Deg/UD,PW_DU,Division Resource Map,111
+KVPL,Low Country - Rubber,Panawatta,PW,Pan/1,PW_P1,Division Resource Map,112
+KVPL,Low Country - Rubber,Panawatta,PW,Pan/2,PW_P2,Division Resource Map,113
+KVPL,Low Country - Rubber,Panawatta,PW,Pan/3,PW_P3,Division Resource Map,114
+KVPL,Low Country - Rubber,Panawatta,PW,Pan/4,PW_P4,Division Resource Map,115
+KVPL,Low Country - Rubber,Urumiwella,UW,Kendawa,UW_KE,Division Resource Map,116
+KVPL,Low Country - Rubber,Urumiwella,UW,Lewella,UW_LE,Division Resource Map,117
+KVPL,Low Country - Rubber,Urumiwella,UW,Manangalla,UW_MG,Division Resource Map,118
+KVPL,Low Country - Rubber,Urumiwella,UW,Markville,UW_MV,Division Resource Map,119
+KVPL,Low Country - Rubber,Urumiwella,UW,Urumiwella,UW_UR,Division Resource Map,120
+KVPL,Low Country - Rubber,Urumiwella,UW,Wagolla,UW_WG,Division Resource Map,121
+KVPL,Low Country - Rubber,We Oya,WO,Ajmeer,WO_AJ,Division Resource Map,122
+KVPL,Low Country - Rubber,We Oya,WO,Malalpola,WO_MP,Division Resource Map,123
+KVPL,Low Country - Rubber,We Oya,WO,No 01,WO_N1,Division Resource Map,124
+KVPL,Low Country - Rubber,We Oya,WO,No 02,WO_N2,Division Resource Map,125
+KVPL,Low Country - Rubber,We Oya,WO,Parussella,WO_PE,Division Resource Map,126
+KVPL,Low Country - Rubber,We Oya,WO,WE Rubber,WO_WR,Division Resource Map,127
+KVPL,Low Country - Rubber,We Oya,WO,WE-Lower,WO_LW,Division Resource Map,128
+KVPL,Low Country - Rubber,We Oya,WO,WE-Upper,WO_UP,Division Resource Map,129
+KVPL,Low Country - Tea,Halgolla,HG,Halgolla,HG_HG,Division Resource Map,130
+KVPL,Low Country - Tea,Halgolla,HG,Punugala,HG_PG,Division Resource Map,131
+KVPL,Low Country - Tea,Halgolla,HG,Ullswater,HG_UW,Division Resource Map,132
+KVPL,Low Country - Tea,Halgolla,HG,Weweltalawa,HG_WT,Division Resource Map,133
+KVPL,Low Country - Tea,Kelani,KL,KelaniTea,KL_KL,Division Resource Map,134
+KVPL,Low Country - Tea,Kalupahana,KP,Kalupahana,KP_UP,Division Resource Map,135
+KVPL,Low Country - Tea,Kalupahana,KP,Nirmala,KP_NR,Division Resource Map,136
+KVPL,Low Country - Tea,Kalupahana,KP,Waharaka,KP_WR,Division Resource Map,137
+KVPL,Low Country - Tea,Kitulgala,KT,Debokhena,KT_DH,Division Resource Map,138
+KVPL,Low Country - Tea,Kitulgala,KT,Upper,KT_UP,Division Resource Map,139
+KVPL,Nuwara Eliya,Edinburgh,EB,A,EB_A,Division Resource Map,140
+KVPL,Nuwara Eliya,Edinburgh,EB,B,EB_B,Division Resource Map,141
+KVPL,Nuwara Eliya,Glassugh,GL,Aadneven,GL_AD,Division Resource Map,142
+KVPL,Nuwara Eliya,Glassugh,GL,Lower,GL_LW,Division Resource Map,143
+KVPL,Nuwara Eliya,Glassugh,GL,Upper,GL_UP,Division Resource Map,144
+KVPL,Nuwara Eliya,Nuwara Eliya,NE,Lower,NE_LW,Division Resource Map,145
+KVPL,Nuwara Eliya,Nuwara Eliya,NE,Upper,NE_UP,Division Resource Map,146
+KVPL,Nuwara Eliya,Oliphant,OP,Lower,OP_LW,Division Resource Map,147
+KVPL,Nuwara Eliya,Oliphant,OP,Upper,OP_UP,Division Resource Map,148
+KVPL,Nuwara Eliya,Pedro,PD,LoversLeap,PD_LL,Division Resource Map,149
+KVPL,Nuwara Eliya,Pedro,PD,Mahagastota Lower,PD_ML,Division Resource Map,150
+KVPL,Nuwara Eliya,Pedro,PD,Mahagastota Upper,PD_MU,Division Resource Map,151
+KVPL,Nuwara Eliya,Pedro,PD,MoonPlains,PD_MP,Division Resource Map,152
+KVPL,Nuwara Eliya,Pedro,PD,Nasbey,PD_NB,Division Resource Map,153
+KVPL,Nuwara Eliya,Pedro,PD,Pedro,PD_PD,Division Resource Map,154
+KVPL,Nuwara Eliya,Pedro,PD,Scrubs,PD_SC,Division Resource Map,155
+KVPL,Nuwara Eliya,Uda Radella,UR,Lower,UR_LW,Division Resource Map,156
+KVPL,Nuwara Eliya,Uda Radella,UR,Upper,UR_UP,Division Resource Map,157
+TTEL,Low Country Region,Deniyaya,DY,Diyadawa,DY_DY,Division Resource Map,158
+TTEL,Low Country Region,Deniyaya,DY,DownSide,DY_DS,Division Resource Map,159
+TTEL,Low Country Region,Deniyaya,DY,Handford,DY_HF,Division Resource Map,160
+TTEL,Low Country Region,Deniyaya,DY,Ihalakanda,DY_IK,Division Resource Map,161
+TTEL,Low Country Region,Deniyaya,DY,Lower,DY_LW,Division Resource Map,162
+TTEL,Low Country Region,Deniyaya,DY,Top,DY_TP,Division Resource Map,163
+TTEL,Low Country Region,Indola,ID,Ehelakanda,ID_EK,Division Resource Map,164
+TTEL,Low Country Region,Indola,ID,Indola,ID_IN,Division Resource Map,165
+TTEL,Low Country Region,Indola,ID,Mawarala,ID_MW,Division Resource Map,166
+TTEL,Low Country Region,Indola,ID,Moragahahena,ID_MH,Division Resource Map,167
+TTEL,Low Country Region,Indola,ID,Serugahahena,ID_SH,Division Resource Map,168
+TTEL,Low Country Region,Kiruwanaganga,KG,Amangiliya,KG_AM,Division Resource Map,169
+TTEL,Low Country Region,Kiruwanaganga,KG,Goluwandola,KG_GO,Division Resource Map,170
+TTEL,Low Country Region,Kiruwanaganga,KG,Keeripitiya,KG_KP,Division Resource Map,171
+TTEL,Low Country Region,Kiruwanaganga,KG,Kiruwanaganga A,KG_KA,Division Resource Map,172
+TTEL,Low Country Region,Kiruwanaganga,KG,Kiruwanaganga B,KG_KB,Division Resource Map,173
+TTEL,Low Country Region,Kiruwanaganga,KG,Kobomella,KG_KM,Division Resource Map,174
+TTEL,Low Country Region,Kiruwanaganga,KG,Kotapola,KG_KO,Division Resource Map,175
+TTEL,Low Country Region,Kiruwanaganga,KG,Mervillion,KG_MR,Division Resource Map,176
+TTEL,Low Country Region,Kiruwanaganga,KG,Sirimedura,KG_SR,Division Resource Map,177
+TTEL,Low Country Region,Moragalla,MG,Greenland,MG_GL,Division Resource Map,178
+TTEL,Low Country Region,Moragalla,MG,Hirikumbura,MG_HK,Division Resource Map,179
+TTEL,Low Country Region,Moragalla,MG,Imaduwa,MG_IM,Division Resource Map,180
+TTEL,Low Country Region,Moragalla,MG,Paragoda,MG_PG,Division Resource Map,181
+TTEL,Low Country Region,Moragalla,MG,Pitiagoda,MG_PD,Division Resource Map,182
+TTEL,Low Country Region,Moragalla,MG,Welendava3,MG_W3,Division Resource Map,183
+TTEL,Nanu Oya Region,Calsay,CA,Calsay,CA_CA,Division Resource Map,184
+TTEL,Nanu Oya Region,Calsay,CA,Maha Eliya,CA_ME,Division Resource Map,185
+TTEL,Nanu Oya Region,Clarendon,CL,Avoca,CL_AV,Division Resource Map,186
+TTEL,Nanu Oya Region,Clarendon,CL,Lower,CL_CL,Division Resource Map,187
+TTEL,Nanu Oya Region,Clarendon,CL,Upper,CL_CU,Division Resource Map,188
+TTEL,Nanu Oya Region,Dessford,DF,Dessford,DF_DF,Division Resource Map,189
+TTEL,Nanu Oya Region,Dessford,DF,Lorne,DF_LN,Division Resource Map,190
+TTEL,Nanu Oya Region,Dessford,DF,Lower,DF_DL,Division Resource Map,191
+TTEL,Nanu Oya Region,Dessford,DF,Upper,DF_DU,Division Resource Map,192
+TTEL,Nanu Oya Region,Radella,RD,RLower,RD_RL,Division Resource Map,193
+TTEL,Nanu Oya Region,Radella,RD,RUpper,RD_RU,Division Resource Map,194
+TTEL,Nanu Oya Region,Radella,RD,WLower,RD_WL,Division Resource Map,195
+TTEL,Nanu Oya Region,Radella,RD,WUpper,RD_WU,Division Resource Map,196
+TTEL,Nanu Oya Region,Somerset,SS,Carlabeck,SS_CB,Division Resource Map,197
+TTEL,Nanu Oya Region,Somerset,SS,Dambagastalawa,SS_DT,Division Resource Map,198
+TTEL,Nanu Oya Region,Somerset,SS,Easdale,SS_ED,Division Resource Map,199
+TTEL,Nanu Oya Region,Somerset,SS,Langdale,SS_LA,Division Resource Map,200
+TTEL,Nanu Oya Region,Somerset,SS,Somerset,SS_SS,Division Resource Map,201
+TTEL,Talawakelle Region,Bearwell,BW,Bearwell,BW_BW,Division Resource Map,202
+TTEL,Talawakelle Region,Bearwell,BW,Belgravia,BW_BG,Division Resource Map,203
+TTEL,Talawakelle Region,Bearwell,BW,Fairfield,BW_FF,Division Resource Map,204
+TTEL,Talawakelle Region,Bearwell,BW,Walaha,BW_WA,Division Resource Map,205
+TTEL,Talawakelle Region,Great Western,GW,Galkandawatte,GW_GK,Division Resource Map,206
+TTEL,Talawakelle Region,Great Western,GW,GreatWestern,GW_GW,Division Resource Map,207
+TTEL,Talawakelle Region,Great Western,GW,Louisa,GW_LS,Division Resource Map,208
+TTEL,Talawakelle Region,Great Western,GW,Scalpa,GW_SC,Division Resource Map,209
+TTEL,Talawakelle Region,Holyrood,HR,East-Rath,HR_ER,Division Resource Map,210
+TTEL,Talawakelle Region,Holyrood,HR,Lower,HR_HL,Division Resource Map,211
+TTEL,Talawakelle Region,Holyrood,HR,Upper,HR_HU,Division Resource Map,212
+TTEL,Talawakelle Region,Logie,LG,Coombwood,LG_CW,Division Resource Map,213
+TTEL,Talawakelle Region,Logie,LG,Logie,LG_LG,Division Resource Map,214
+TTEL,Talawakelle Region,Logie,LG,Middleton,LG_MT,Division Resource Map,215
+TTEL,Talawakelle Region,Mattakelle,MK,Cairness,MK_CN,Division Resource Map,216
+TTEL,Talawakelle Region,Mattakelle,MK,Mattakelle,MK_MK,Division Resource Map,217
+TTEL,Talawakelle Region,Palmerston,PT,Palmerston,PT_PT,Division Resource Map,218
+TTEL,Talawakelle Region,Palmerston,PT,Ritnagiriya,PT_RT,Division Resource Map,219
+TTEL,Talawakelle Region,Wattegoda,WG,Lower,WG_WL,Division Resource Map,220
+TTEL,Talawakelle Region,Wattegoda,WG,Upper,WG_WU,Division Resource Map,221
+TTEL,Talawakelle Region,Wattegoda,WG,Yoxford,WG_YF,Division Resource Map,222

@@ -1,0 +1,135 @@
+{
+  "crop": {
+    "source_file": "EildonHall_output.zip",
+    "estate": "EildonHall",
+    "raw_rows": 50107,
+    "date_min": "2025-06-06",
+    "date_max": "2026-06-19",
+    "observed_crop_days": 302,
+    "calendar_days": 379,
+    "non_record_days_treated_as_zero": 77,
+    "duplicate_weighing_ids_removed": 0,
+    "zero_net_rows": 0,
+    "negative_net_rows": 0,
+    "division_count": 1,
+    "field_count": 28,
+    "estate_ids": [
+      "60"
+    ],
+    "plantation_ids": [
+      "7"
+    ],
+    "workbook_files": [
+      "EildonHall_2023.xlsx",
+      "EildonHall_2024.xlsx",
+      "EildonHall_2025.xlsx",
+      "EildonHall_2026.xlsx"
+    ],
+    "filename_estate_mismatches": [],
+    "status_counts": {
+      "(blank)": 50107
+    },
+    "yearly_reconciliation": [
+      {
+        "file": "EildonHall_2023.xlsx",
+        "computed_net_kg": 0.0,
+        "summary_net_kg": 0.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "EildonHall_2024.xlsx",
+        "computed_net_kg": 0.0,
+        "summary_net_kg": 0.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "EildonHall_2025.xlsx",
+        "computed_net_kg": 230276.0,
+        "summary_net_kg": 230276.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "EildonHall_2026.xlsx",
+        "computed_net_kg": 301447.0,
+        "summary_net_kg": 301447.0,
+        "difference_kg": 0.0
+      }
+    ]
+  },
+  "weather": {
+    "source_file": "TRI-Thalawakele.xlsx + TRI-Thalawakele_2026_06.xlsx",
+    "source_files": [
+      "TRI-Thalawakele.xlsx",
+      "TRI-Thalawakele_2026_06.xlsx"
+    ],
+    "source_sheets": [
+      "All Records",
+      "June 2026"
+    ],
+    "center_codes": [
+      "TRI-TW"
+    ],
+    "raw_rows": 172234,
+    "date_min": "2020-06-12",
+    "date_max": "2026-06-25",
+    "observed_days": 2044,
+    "calendar_days": 2205,
+    "missing_calendar_days": 161,
+    "coverage_pct": 92.7,
+    "individual_sources": [
+      {
+        "source_file": "TRI-Thalawakele.xlsx",
+        "source_sheet": "All Records",
+        "center_codes": [
+          "TRI-TW"
+        ],
+        "raw_rows": 170040,
+        "date_min": "2020-06-12",
+        "date_max": "2026-06-18",
+        "observed_days": 2037,
+        "calendar_days": 2198,
+        "missing_calendar_days": 161,
+        "coverage_pct": 92.68
+      },
+      {
+        "source_file": "TRI-Thalawakele_2026_06.xlsx",
+        "source_sheet": "June 2026",
+        "center_codes": [
+          "TRI-TW"
+        ],
+        "raw_rows": 2194,
+        "date_min": "2026-06-01",
+        "date_max": "2026-06-25",
+        "observed_days": 25,
+        "calendar_days": 25,
+        "missing_calendar_days": 0,
+        "coverage_pct": 100.0
+      }
+    ]
+  },
+  "joined": {
+    "join_start": "2025-06-06",
+    "join_end": "2026-06-19",
+    "weekly_rows": 54,
+    "weeks_with_7_weather_days": 36,
+    "weeks_with_less_than_5_weather_days": 18,
+    "last_complete_week_ending": "2026-06-14"
+  },
+  "pooled_model": {
+    "provisional": true,
+    "training_mode": "short-history pooled provisional",
+    "target_estate": "EildonHall",
+    "donor_estates": [
+      "Alton",
+      "Bambarakelly",
+      "Fairlawn",
+      "Gouravilla",
+      "Mahanilu",
+      "Stockholm"
+    ],
+    "donor_selection_basis": "same plantation_id 7 and same nearest weather station TRI-TW; not selected by crop performance",
+    "normalization": "estate crop is normalized by its trailing 13-week mean before pooling",
+    "target_validation": "last 13 target-estate observations held out chronologically for each horizon",
+    "warning": "Use for interim planning only until the estate has enough history for its own standard model."
+  }
+}

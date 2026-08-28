@@ -1,0 +1,38 @@
+{
+  "package": "TTE Employee Planner Conservative High-Confidence Hybrid RL v1.5.0",
+  "build_date": "2026-07-22",
+  "architecture": {
+    "morning_primary": "OR-Tools CP-SAT",
+    "intraday_primary": "budgeted dynamic greedy",
+    "default_uncertain_move_action": "accept budgeted greedy proposal",
+    "rl_role": "MaskablePPO veto only when masked veto probability meets a calibrated high-confidence threshold",
+    "confidence_threshold_grid": [0.8, 0.85, 0.9, 0.95, 0.98],
+    "calibration_data": "held-out temporal validation period only",
+    "untouched_test_opened_after_threshold_freeze": true,
+    "fallback": "conservative fallback to budgeted dynamic greedy",
+    "maximum_move_rate": 0.15,
+    "maximum_total_moves": 15,
+    "maximum_moves_per_round": 10
+  },
+  "validation": {
+    "python_compileall": "passed",
+    "javascript_syntax": "passed",
+    "confidence_gate_unit_tests": "3 passed",
+    "confidence_gate_smoke_test": "passed",
+    "full_dependency_test_suite": "not run in build container because Gymnasium/SB3-Contrib were not installed; package targets the user's existing v1.4 environment where those dependencies are installed",
+    "official_api_check": "MaskableActorCriticPolicy.get_distribution(obs, action_masks) is documented by SB3-Contrib 2.9.0"
+  },
+  "previous_v1_4_result_used_for_design": {
+    "untouched_test_gain_vs_no_replan_pct_points": 0.862,
+    "untouched_test_gain_vs_budgeted_greedy_pct_points": 0.03,
+    "untouched_test_noninferior_rate_vs_budgeted_greedy_pct": 79.167,
+    "failed_gate": "noninferior_rate_vs_budgeted_greedy"
+  },
+  "not_completed": [
+    "GPU training of the v1.5 calibrated high-confidence tournament",
+    "untouched-test approval of a trained v1.5 model",
+    "actual estate shadow-mode validation",
+    "live attendance and intraday weighment integration"
+  ],
+  "truthful_status": "The v1.5 code changes are implemented and statically validated. No claim is made that v1.5 will pass until GPU training and untouched-test evaluation finish."
+}

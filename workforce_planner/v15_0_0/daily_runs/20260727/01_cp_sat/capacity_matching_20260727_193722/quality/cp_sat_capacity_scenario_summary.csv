@@ -1,0 +1,3 @@
+﻿scenario,field_rows,fields_coverage_95_plus,uncovered_fields,total_target_crop_kg,total_under_kg,total_over_kg,effective_coverage_pct
+EXPECTED,442,442,0,105113.9271,19.931,18.7307,99.98
+CONSERVATIVE,442,442,0,143596.0976,21.9623,38.51,99.98

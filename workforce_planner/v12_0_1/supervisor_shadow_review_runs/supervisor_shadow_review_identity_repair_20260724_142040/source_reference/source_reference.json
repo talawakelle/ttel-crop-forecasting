@@ -1,0 +1,18 @@
+{
+  "source_repair_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v11_0_2\\complete_fallback_routing_repair_runs\\movement_audit_repair_20260724_133455",
+  "source_summary": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v11_0_2\\complete_fallback_routing_repair_runs\\movement_audit_repair_20260724_133455\\run_summary.json",
+  "source_route_register": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v11_0_2\\complete_fallback_routing_repair_runs\\movement_audit_repair_20260724_133455\\policy\\repaired_shadow_route_register.csv",
+  "source_result_file": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v11_0_2\\complete_fallback_routing_repair_runs\\movement_audit_repair_20260724_133455\\evaluation\\routed_policy_repaired_results.csv",
+  "source_employee_master": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v6\\all_employee_scenario_runs\\all_employee_scenario_20260723_175211\\registers\\all_employee_development_scenario_roster.csv",
+  "employee_template_rows": 23043,
+  "employee_identity_key": "estate|employee_id",
+  "employee_identity_duplicate_count": 0,
+  "employee_estate_count": 33,
+  "source_route_counts": {
+    "PROTECTED_HYBRID_RL": 338,
+    "EXACT_SHOCK_GREEDY_FALLBACK": 28,
+    "EPISODE_GREEDY_FALLBACK": 30
+  },
+  "total_exact_fallback_rules": 28,
+  "live_deployment_started": false
+}

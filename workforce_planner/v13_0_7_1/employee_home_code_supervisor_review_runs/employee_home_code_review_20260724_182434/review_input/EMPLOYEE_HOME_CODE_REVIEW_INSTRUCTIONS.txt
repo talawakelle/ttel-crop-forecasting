@@ -1,0 +1,15 @@
+This stage verifies employee home-division codes.
+
+Automated candidates are review aids only. They do not prove an employee's current home division.
+
+For SINGLE_CANDIDATE contexts, an authorized reviewer must check an approved employee master, division register or equivalent source and complete the confirmation fields.
+
+For MULTIPLE_CANDIDATES and NO_DIRECT_CANDIDATE contexts, complete employee_home_code_exception_review.csv for every employee using approved records.
+
+Do not use today's assigned division as proof of home division.
+
+TLD remains unresolved until approved records identify the employee's actual home division.
+
+Keep attendance, leave, fitness, movement restriction, operational-use and live-assignment fields as NO.
+
+After review, run VALIDATE_EMPLOYEE_HOME_CODE_SUPERVISOR_REVIEW_v13.0.7.ps1.

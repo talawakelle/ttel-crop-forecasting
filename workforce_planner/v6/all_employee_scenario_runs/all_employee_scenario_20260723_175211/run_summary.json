@@ -1,0 +1,27 @@
+{
+  "status": "PASS_ALL_EMPLOYEES_INCLUDED_FOR_DEVELOPMENT_SCENARIO",
+  "package_version": "6.1.0",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v6\\all_employee_scenario_runs\\all_employee_scenario_20260723_175211",
+  "employee_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v6\\employee_readiness_runs\\employee_readiness_20260723_172820",
+  "planning_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v5\\final_method_gate_runs_v503\\best_available_planning_20260723_170144",
+  "planning_date": "2026-07-24",
+  "employee_records": 23043,
+  "scenario_roster_rows": 23043,
+  "candidate_matrix_rows": 46746,
+  "active_field_rows": 447,
+  "employees_skipped": 0,
+  "field_candidate_coverage_failures": 0,
+  "ready_estates_for_cp_sat_development_simulation": 33,
+  "operational_status": "DEVELOPMENT_SIMULATION_ONLY",
+  "official_templates_changed": false,
+  "cp_sat_started": false,
+  "rl_started": false,
+  "duration_minutes": 0.03,
+  "important_interpretation": [
+    "Every employee in employee_master.csv is included in the scenario roster.",
+    "The scenario assumes provisional availability only because the user requested progress using every employee.",
+    "No employee is declared genuinely available, medically fit or unrestricted.",
+    "The official management-confirmation templates remain unchanged.",
+    "The candidate matrix supports the next CP-SAT development simulation but is not a live allocation."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "application": "TTE Employee Planner \u2014 Conservative High-Confidence Hybrid RL",
+  "version": "1.5.0",
+  "release_date": "2026-07-22",
+  "model_schema_versions": {
+    "morning_static_rl": 3,
+    "legacy_dynamic_rl": 3,
+    "selective_hybrid_rl": 5
+  },
+  "primary_change": "Budgeted dynamic greedy is always the default; RL vetoes are used only above a validation-calibrated high-confidence threshold.",
+  "training_command": "TRAIN_HYBRID_RL_GPU.bat",
+  "evaluation_command": "EVALUATE_HYBRID_RL.bat",
+  "safety_benchmark_command": "BENCHMARK_HYBRID_SAFETY.bat",
+  "approved_model_expected": "models/selective_hybrid_maskable_ppo.zip",
+  "approved_metrics_expected": "models/selective_hybrid_training_metrics.json",
+  "rejected_metrics_expected": "models/selective_hybrid_training_rejected.json",
+  "approved_model_included": false,
+  "operational_shadow_approved": false,
+  "crop_forecast_stale": true,
+  "confidence_threshold_grid": [
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    0.98
+  ],
+  "rejected_candidate_expected": "models/selective_hybrid_rejected_candidate.zip"
+}

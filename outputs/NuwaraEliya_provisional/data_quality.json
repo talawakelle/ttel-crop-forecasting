@@ -1,0 +1,101 @@
+{
+  "crop": {
+    "source_file": "NuwaraEliya_output.zip",
+    "estate": "NuwaraEliya",
+    "raw_rows": 246290,
+    "date_min": "2023-04-01",
+    "date_max": "2026-06-18",
+    "observed_crop_days": 1009,
+    "calendar_days": 1175,
+    "non_record_days_treated_as_zero": 166,
+    "duplicate_weighing_ids_removed": 0,
+    "zero_net_rows": 0,
+    "negative_net_rows": 0,
+    "division_count": 2,
+    "field_count": 48,
+    "estate_ids": [
+      "10"
+    ],
+    "plantation_ids": [
+      "1"
+    ],
+    "workbook_files": [
+      "NuwaraEliya_2021.xlsx",
+      "NuwaraEliya_2022.xlsx",
+      "NuwaraEliya_2023.xlsx",
+      "NuwaraEliya_2024.xlsx",
+      "NuwaraEliya_2025.xlsx",
+      "NuwaraEliya_2026.xlsx"
+    ],
+    "filename_estate_mismatches": [],
+    "status_counts": {
+      "original": 246263,
+      "updated": 27
+    },
+    "yearly_reconciliation": [
+      {
+        "file": "NuwaraEliya_2021.xlsx",
+        "computed_net_kg": 0.0,
+        "summary_net_kg": 0.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "NuwaraEliya_2022.xlsx",
+        "computed_net_kg": 0.0,
+        "summary_net_kg": 0.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "NuwaraEliya_2023.xlsx",
+        "computed_net_kg": 741040.0,
+        "summary_net_kg": 741040.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "NuwaraEliya_2024.xlsx",
+        "computed_net_kg": 977812.0,
+        "summary_net_kg": 977812.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "NuwaraEliya_2025.xlsx",
+        "computed_net_kg": 932135.0,
+        "summary_net_kg": 932135.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "NuwaraEliya_2026.xlsx",
+        "computed_net_kg": 497474.0,
+        "summary_net_kg": 497474.0,
+        "difference_kg": 0.0
+      }
+    ]
+  },
+  "weather": {
+    "source_file": null,
+    "center_codes": [],
+    "raw_rows": 0,
+    "date_min": null,
+    "date_max": null,
+    "observed_days": 0,
+    "calendar_days": 0,
+    "missing_calendar_days": 0,
+    "coverage_pct": 0.0,
+    "mode": "crop_only"
+  },
+  "joined": {
+    "mode": "crop_only",
+    "join_start": "2023-04-01",
+    "join_end": "2026-06-18",
+    "weekly_rows": 168,
+    "weeks_with_7_weather_days": 0,
+    "weeks_with_less_than_5_weather_days": 168,
+    "last_complete_week_ending": "2026-06-14"
+  },
+  "weather_candidate_evaluation": {
+    "station_code": "PEDRO-NE",
+    "candidate_average_wape_pct": 27.65354925622816,
+    "retained_average_wape_pct": 26.06454360391349,
+    "result": "rejected_crop_only_or_previous_model_retained"
+  }
+}

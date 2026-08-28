@@ -1,0 +1,25 @@
+horizon_weeks,method,selected,mae_kg,rmse_kg,wape_pct,training_rows,validation_rows,history_class
+1,Weather + Crop Gradient Boosting,False,15268.372955383766,17537.777608595414,29.657624148364942,52,17,short-history provisional
+1,Weather + Crop Random Forest,False,11685.600422825,14172.313850932287,22.69836781566929,52,17,short-history provisional
+1,Crop-Only Gradient Boosting,False,17127.987410277157,19388.094846850618,33.26978025204773,52,17,short-history provisional
+1,Crop-Only Random Forest,False,12156.398724798319,14487.737028909616,23.612856813967547,52,17,short-history provisional
+1,Same Week Last Year,False,13766.64705882353,15697.015971571307,26.740638668366856,52,17,short-history provisional
+1,Recent 4-Week Mean,True,7550.029411764706,9583.124048524665,14.665343534476849,52,17,short-history provisional
+2,Weather + Crop Gradient Boosting,False,8898.817883274773,11700.135054170552,17.25262533230212,52,16,short-history provisional
+2,Weather + Crop Random Forest,False,9199.70713167438,12152.864030388819,17.835975788199537,52,16,short-history provisional
+2,Crop-Only Gradient Boosting,False,10557.736860820482,12851.099788340418,20.4688623596981,52,16,short-history provisional
+2,Crop-Only Random Forest,False,11909.698482278873,14231.531995430701,23.08998435866744,52,16,short-history provisional
+2,Same Week Last Year,False,13642.875,15693.886683992592,26.450188543898257,52,16,short-history provisional
+2,Recent 4-Week Mean,True,8321.328125,10556.54791449808,16.133014327397515,52,16,short-history provisional
+3,Weather + Crop Gradient Boosting,True,8369.448906016432,10877.54558746657,16.095733752270476,52,15,short-history provisional
+3,Weather + Crop Random Forest,False,9501.716867459572,12265.212432671418,18.273258682318605,52,15,short-history provisional
+3,Crop-Only Gradient Boosting,False,12692.20269163863,15357.513691637645,24.409052202661826,52,15,short-history provisional
+3,Crop-Only Random Forest,False,12827.59202245402,15277.81363897702,24.669426648598893,52,15,short-history provisional
+3,Same Week Last Year,False,13634.466666666667,15813.883998984353,26.22117032856434,52,15,short-history provisional
+3,Recent 4-Week Mean,False,9733.183333333332,12192.34505386474,18.718404192987155,52,15,short-history provisional
+4,Weather + Crop Gradient Boosting,False,10386.903394713267,14554.756980387883,19.851993644537878,52,14,short-history provisional
+4,Weather + Crop Random Forest,True,9301.93175701401,12505.184754128575,17.77833903954055,52,14,short-history provisional
+4,Crop-Only Gradient Boosting,False,14272.19212875119,17657.962050480986,27.277760913594555,52,14,short-history provisional
+4,Crop-Only Random Forest,False,12655.836867998592,15654.779624774457,24.18849810403497,52,14,short-history provisional
+4,Same Week Last Year,False,13264.214285714286,15577.150809989062,25.35126088048666,52,14,short-history provisional
+4,Recent 4-Week Mean,False,10703.160714285714,12380.645794913411,20.456441193495188,52,14,short-history provisional

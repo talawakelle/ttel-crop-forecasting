@@ -1,0 +1,17 @@
+{
+  "provisional": true,
+  "training_mode": "short-history pooled provisional",
+  "target_estate": "EildonHall",
+  "donor_estates": [
+    "Alton",
+    "Bambarakelly",
+    "Fairlawn",
+    "Gouravilla",
+    "Mahanilu",
+    "Stockholm"
+  ],
+  "donor_selection_basis": "same plantation_id 7 and same nearest weather station TRI-TW; not selected by crop performance",
+  "normalization": "estate crop is normalized by its trailing 13-week mean before pooling",
+  "target_validation": "last 13 target-estate observations held out chronologically for each horizon",
+  "warning": "Use for interim planning only until the estate has enough history for its own standard model."
+}

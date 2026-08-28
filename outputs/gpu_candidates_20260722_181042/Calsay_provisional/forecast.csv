@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Calsay,1,2026-07-19,2026-07-20,2026-07-26,14036.0,9673.5,18728.0,Same Week Last Year,15.81714714774052
+Calsay,2,2026-07-19,2026-07-27,2026-08-02,9289.0,4926.5,13981.0,Same Week Last Year,15.81714714774052
+Calsay,3,2026-07-19,2026-08-03,2026-08-09,10999.0,6636.5,15691.0,Same Week Last Year,15.81714714774052
+Calsay,4,2026-07-19,2026-08-10,2026-08-16,13137.0,8774.5,17829.0,Same Week Last Year,15.81714714774052

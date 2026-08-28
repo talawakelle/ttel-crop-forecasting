@@ -1,0 +1,14 @@
+This stage allows one employee to have several field or division allocation rows on the same day.
+
+The rule is:
+sum(employee_field_allocated_capacity_kg) must not exceed employee_daily_capacity_kg for the same date, scenario, estate and employee.
+
+Single-row employees are prefilled with their full daily capacity. If an employee has several rows, enter the capacity split for each row. Do not repeat the full daily capacity on every row.
+
+When an employee is assigned to more than one division, an authorized supervisor must complete supervisor_mixed_division_confirmed, supervisor_name and reviewed_at. This does not verify attendance, leave, fitness or movement restrictions.
+
+Keep employee_home_code_verified, attendance_verified, approved_leave_verified, fitness_verified, movement_restrictions_verified, operational_use_allowed and live_assignment_authorized as NO.
+
+TLD or any other unclear home code must remain unverified until an authorized reviewer confirms its meaning.
+
+After review, run VALIDATE_MIXED_DIVISION_CAPACITY_v13.0.5.ps1.

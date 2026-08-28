@@ -1,0 +1,154 @@
+{
+  "crop": {
+    "source_file": "Tillicoultry_output.zip",
+    "estate": "Tillicoultry",
+    "raw_rows": 91368,
+    "date_min": "2025-07-07",
+    "date_max": "2026-06-19",
+    "observed_crop_days": 315,
+    "calendar_days": 348,
+    "non_record_days_treated_as_zero": 33,
+    "duplicate_weighing_ids_removed": 0,
+    "zero_net_rows": 0,
+    "negative_net_rows": 0,
+    "division_count": 3,
+    "field_count": 43,
+    "estate_ids": [
+      "61"
+    ],
+    "plantation_ids": [
+      "7"
+    ],
+    "workbook_files": [
+      "Tillicoultry_2023.xlsx",
+      "Tillicoultry_2024.xlsx",
+      "Tillicoultry_2025.xlsx",
+      "Tillicoultry_2026.xlsx"
+    ],
+    "filename_estate_mismatches": [],
+    "status_counts": {
+      "(blank)": 91368
+    },
+    "yearly_reconciliation": [
+      {
+        "file": "Tillicoultry_2023.xlsx",
+        "computed_net_kg": 0.0,
+        "summary_net_kg": 0.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Tillicoultry_2024.xlsx",
+        "computed_net_kg": 0.0,
+        "summary_net_kg": 0.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Tillicoultry_2025.xlsx",
+        "computed_net_kg": 394053.0,
+        "summary_net_kg": 394053.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Tillicoultry_2026.xlsx",
+        "computed_net_kg": 597238.0,
+        "summary_net_kg": 597238.0,
+        "difference_kg": 0.0
+      }
+    ],
+    "prompt_actual_extension": {
+      "status": "SKIPPED_NO_MATCHING_COMPLETED_ROWS",
+      "source_file": "prompt_daily_actuals_snapshot.csv",
+      "rows_used": 0,
+      "completed_day_cutoff_exclusive": "2026-07-23",
+      "fallback": "historical crop archive only",
+      "provisional": true,
+      "personal_identifiers_retained": false
+    }
+  },
+  "weather": {
+    "source_file": "TRI-Thalawakele.xlsx",
+    "source_files": [
+      "TRI-Thalawakele.xlsx"
+    ],
+    "source_sheets": [
+      null
+    ],
+    "center_codes": [
+      "TRI-TW"
+    ],
+    "raw_rows": 170040,
+    "date_min": "2020-06-12",
+    "date_max": "2026-06-18",
+    "observed_days": 2037,
+    "calendar_days": 2198,
+    "missing_calendar_days": 161,
+    "coverage_pct": 92.68,
+    "individual_sources": [
+      {
+        "source_file": "TRI-Thalawakele.xlsx",
+        "source_files": [
+          "TRI-Thalawakele.xlsx"
+        ],
+        "source_sheets": [
+          "All Records"
+        ],
+        "center_codes": [
+          "TRI-TW"
+        ],
+        "raw_rows": 170040,
+        "date_min": "2020-06-12",
+        "date_max": "2026-06-18",
+        "observed_days": 2037,
+        "calendar_days": 2198,
+        "missing_calendar_days": 161,
+        "coverage_pct": 92.68,
+        "individual_sources": [
+          {
+            "source_file": "TRI-Thalawakele.xlsx",
+            "source_sheet": "All Records",
+            "center_codes": [
+              "TRI-TW"
+            ],
+            "raw_rows": 170040,
+            "date_min": "2020-06-12",
+            "date_max": "2026-06-18",
+            "observed_days": 2037,
+            "calendar_days": 2198,
+            "missing_calendar_days": 161,
+            "coverage_pct": 92.68
+          }
+        ],
+        "prepared_daily_cache": true,
+        "cache_file": "tri_weather_daily_cache.csv"
+      }
+    ]
+  },
+  "joined": {
+    "join_start": "2025-07-07",
+    "join_end": "2026-06-19",
+    "weekly_rows": 49,
+    "weeks_with_7_weather_days": 32,
+    "weeks_with_less_than_5_weather_days": 17,
+    "last_complete_week_ending": "2026-06-14",
+    "incomplete_crop_weeks_excluded_from_training": 0,
+    "minimum_crop_days_for_training_week": 3
+  },
+  "pooled_model": {
+    "provisional": true,
+    "training_mode": "short-history pooled provisional",
+    "target_estate": "Tillicoultry",
+    "donor_estates": [
+      "Alton",
+      "Bambarakelly",
+      "Fairlawn",
+      "Gouravilla",
+      "Mahanilu",
+      "Stockholm"
+    ],
+    "donor_selection_basis": "same plantation_id 7 and same nearest weather station TRI-TW; not selected by crop performance",
+    "normalization": "estate crop is normalized by its trailing 13-week mean before pooling",
+    "target_validation": "last 13 target-estate observations held out chronologically for each horizon",
+    "warning": "Use for interim planning only until the estate has enough history for its own standard model."
+  },
+  "training_accelerator": "GPU"
+}

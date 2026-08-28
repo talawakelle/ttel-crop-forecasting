@@ -1,0 +1,11 @@
+{
+  "package": "TTE Division Identity Normalization",
+  "version": "13.0.2",
+  "source": "latest v13.0.1 named plucker allocation",
+  "creates_manager_mapping_review": true,
+  "auto_confirms_manager_decisions": false,
+  "splits_expected_and_conservative_after_validation": true,
+  "actual_supervisor_verified": false,
+  "operational_use_allowed": false,
+  "live_deployment_started": false
+}

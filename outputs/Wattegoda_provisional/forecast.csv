@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Wattegoda,1,2026-06-14,2026-06-15,2026-06-21,28979.0,16885.0,39212.5,Same Week Last Year,21.243721310293445
+Wattegoda,2,2026-06-14,2026-06-22,2026-06-28,28063.0,15969.0,38296.5,Same Week Last Year,21.243721310293445
+Wattegoda,3,2026-06-14,2026-06-29,2026-07-05,22623.0,10529.0,32856.5,Same Week Last Year,21.243721310293445
+Wattegoda,4,2026-06-14,2026-07-06,2026-07-12,27579.0,15485.0,37812.5,Same Week Last Year,21.243721310293445

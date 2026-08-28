@@ -1,0 +1,7 @@
+target_estate,donor_estate,selection_basis,plantation_ids,nearest_station,nearest_station_distance_km,crop_date_min,crop_date_max,weekly_rows,field_count,division_count
+EildonHall,Alton,same plantation_id and same nearest weather station,7,TRI-TW,17.5,2023-04-01,2026-06-19,168,70,4
+EildonHall,Bambarakelly,same plantation_id and same nearest weather station,7,TRI-TW,6.2,2024-08-14,2026-06-19,96,107,5
+EildonHall,Fairlawn,same plantation_id and same nearest weather station,7,TRI-TW,17.0,2023-04-01,2026-06-19,168,50,5
+EildonHall,Gouravilla,same plantation_id and same nearest weather station,7,TRI-TW,17.5,2023-04-01,2026-06-19,168,53,4
+EildonHall,Mahanilu,same plantation_id and same nearest weather station,7,TRI-TW,16.1,2023-04-04,2026-06-19,167,61,2
+EildonHall,Stockholm,same plantation_id and same nearest weather station,7,TRI-TW,16.1,2023-04-01,2026-06-19,168,35,3

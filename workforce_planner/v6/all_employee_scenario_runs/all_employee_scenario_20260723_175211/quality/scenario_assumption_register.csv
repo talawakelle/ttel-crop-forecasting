@@ -1,0 +1,8 @@
+﻿assumption,value,interpretation
+ALL_EMPLOYEES_INCLUDED,YES,All employee master records are included in the development scenario and none are silently removed.
+AVAILABILITY,PROVISIONALLY_AVAILABLE_FOR_SIMULATION,"This is a user-requested development assumption, not confirmed attendance."
+LEAVE,ASSUMED_NONE_FOR_SIMULATION,Actual leave remains unverified.
+MEDICAL_FITNESS,UNVERIFIED,The scenario does not claim that every employee is medically fit.
+MOVEMENT,WITHIN_ESTATE_ALLOWED_WITH_PENALTY,Exact-field and same-division history are preferred. Cross-division fallback is lower priority.
+OFFICIAL_TEMPLATES,UNCHANGED,The existing availability and constraint templates are not overwritten.
+OPERATIONAL_USE,PROHIBITED,Outputs are for development and simulation only until management confirmation is obtained.

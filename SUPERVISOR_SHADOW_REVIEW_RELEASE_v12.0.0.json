@@ -1,0 +1,12 @@
+{
+  "package": "TTE Supervisor Shadow Review",
+  "version": "12.0.0",
+  "source_stage": "v11.0.2 complete fallback routing repair",
+  "case_review_rows_expected": 396,
+  "estate_context_rows_expected": 33,
+  "minimum_employee_shadow_sample": "at least one verified employee per estate",
+  "starts_live_deployment": false,
+  "employee_notification": false,
+  "payroll_connection": false,
+  "operational_use": false
+}

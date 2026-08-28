@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Mahanilu,1,2026-06-14,2026-06-15,2026-06-21,14790.0,10191.0,17538.5,Same Week Last Year,20.596190704079312
+Mahanilu,2,2026-06-14,2026-06-22,2026-06-28,15224.0,10625.0,17972.5,Same Week Last Year,20.596190704079312
+Mahanilu,3,2026-06-14,2026-06-29,2026-07-05,13735.0,9136.0,16483.5,Same Week Last Year,20.596190704079312
+Mahanilu,4,2026-06-14,2026-07-06,2026-07-12,14240.0,9641.0,16988.5,Same Week Last Year,20.596190704079312

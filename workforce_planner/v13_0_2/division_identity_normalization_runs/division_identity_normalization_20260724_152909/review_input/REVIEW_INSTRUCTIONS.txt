@@ -1,0 +1,4 @@
+Complete division_identity_mapping_review.csv.
+For each row, review the suggested division, enter the confirmed full division name, set manager_confirmed to YES, and enter reviewer_name and reviewed_at.
+Do not change live_assignment_authorized from NO.
+After review, run VALIDATE_DIVISION_IDENTITY_NORMALIZATION_v13.0.2.ps1.

@@ -1,0 +1,17 @@
+{
+  "package": "TTE Pooled Hierarchical Technical-Method Planning",
+  "version": "5.0.2",
+  "technical_method_estates": [
+    "Bambarakelly",
+    "Tillicoultry",
+    "EildonHall"
+  ],
+  "technical_method": "POOLED_HIERARCHICAL_SEASONAL_TRANSFER",
+  "other_estates_method": "continue existing gate-based planning methods",
+  "uses_matched_donor_estates": false,
+  "data_policy": "USE_EXISTING_DATA_ONLY",
+  "changes_live_models": false,
+  "changes_portal": false,
+  "starts_cp_sat": false,
+  "starts_rl": false
+}

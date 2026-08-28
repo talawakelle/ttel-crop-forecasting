@@ -1,0 +1,35 @@
+{
+  "source_file": "TRI-Thalawakele.xlsx",
+  "source_files": [
+    "TRI-Thalawakele.xlsx"
+  ],
+  "source_sheets": [
+    "All Records"
+  ],
+  "center_codes": [
+    "TRI-TW"
+  ],
+  "raw_rows": 170040,
+  "date_min": "2020-06-12",
+  "date_max": "2026-06-18",
+  "observed_days": 2037,
+  "calendar_days": 2198,
+  "missing_calendar_days": 161,
+  "coverage_pct": 92.68,
+  "individual_sources": [
+    {
+      "source_file": "TRI-Thalawakele.xlsx",
+      "source_sheet": "All Records",
+      "center_codes": [
+        "TRI-TW"
+      ],
+      "raw_rows": 170040,
+      "date_min": "2020-06-12",
+      "date_max": "2026-06-18",
+      "observed_days": 2037,
+      "calendar_days": 2198,
+      "missing_calendar_days": 161,
+      "coverage_pct": 92.68
+    }
+  ]
+}

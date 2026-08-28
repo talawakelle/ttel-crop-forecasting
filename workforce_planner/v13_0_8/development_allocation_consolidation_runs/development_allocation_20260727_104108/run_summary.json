@@ -1,0 +1,29 @@
+{
+  "status": "PASS_DEVELOPMENT_ALLOCATION_CONSOLIDATION_OUTPUTS",
+  "package_version": "13.0.8",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_8\\development_allocation_consolidation_runs\\development_allocation_20260727_104108",
+  "source_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_6\\rare_cross_division_exception_runs\\rare_cross_division_exception_20260724_175818",
+  "source_allocation_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_6\\rare_cross_division_exception_runs\\rare_cross_division_exception_20260724_175818\\review_input\\employee_capacity_and_cross_division_exception_review.csv",
+  "source_validation_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_6\\rare_cross_division_exception_runs\\rare_cross_division_exception_20260724_175818\\validation_summary.json",
+  "allocation_rows": 15014,
+  "expected_primary_rows": 6101,
+  "conservative_backup_rows": 8913,
+  "estate_count": 33,
+  "official_field_code_rows": 14919,
+  "official_field_code_unresolved_rows": 95,
+  "home_code_exception_assignment_rows": 1508,
+  "home_code_exception_employees": 945,
+  "cross_division_exception_rows": 0,
+  "duplicate_assignment_failures": 0,
+  "safety_control_failures": 0,
+  "review_gate": "READY_FOR_MANAGEMENT_SIMULATION_REVIEW_WITH_OPEN_HOME_CODE_EXCEPTIONS",
+  "employee_home_code_verification_completed": false,
+  "operational_status": "DEVELOPMENT_ALLOCATION_MANAGEMENT_REVIEW_ONLY",
+  "live_deployment_started": false,
+  "important_interpretation": [
+    "The project continues without treating blank supervisor fields as verified facts.",
+    "Official assigned division codes are included as development references only.",
+    "Unresolved assigned-field contexts and employee home-code exceptions remain visibly flagged.",
+    "No payroll connection, employee notification or live field allocation is authorized."
+  ]
+}

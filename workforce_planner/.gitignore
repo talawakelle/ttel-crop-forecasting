@@ -1,0 +1,9 @@
+backend/.venv/
+**/__pycache__/
+*.pyc
+models/*.zip
+models/*.cbm
+models/productivity_*.json
+models/forecast-backup/
+data/imports/
+.env

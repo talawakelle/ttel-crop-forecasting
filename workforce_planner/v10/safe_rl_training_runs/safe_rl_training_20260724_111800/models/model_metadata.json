@@ -1,0 +1,13 @@
+{
+  "model_type": "SAFE_ACTION_CONDITIONED_Q_NETWORK",
+  "package_version": "10.0.0",
+  "feature_count": 10,
+  "device_used": "cuda",
+  "cuda_available": true,
+  "training_pairs": 264,
+  "validation_pairs": 66,
+  "baseline_pairs": 66,
+  "hybrid_acceptance_ratio": 0.95,
+  "policy_gate": "CANDIDATE_FOR_SHADOW_BACKTEST",
+  "operational_use_allowed": false
+}

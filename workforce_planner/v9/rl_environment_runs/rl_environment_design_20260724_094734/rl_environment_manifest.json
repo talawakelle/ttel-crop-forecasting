@@ -1,0 +1,17 @@
+{
+  "package_version": "9.0.0",
+  "status": "DEVELOPMENT_ENVIRONMENT_ONLY",
+  "episode_index_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v9\\rl_environment_runs\\rl_environment_design_20260724_094734\\data\\episode_index.csv",
+  "baseline_field_state_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v9\\rl_environment_runs\\rl_environment_design_20260724_094734\\data\\baseline_field_state.csv",
+  "baseline_assignment_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v9\\rl_environment_runs\\rl_environment_design_20260724_094734\\data\\baseline_employee_assignments.csv",
+  "shock_field_state_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v9\\rl_environment_runs\\rl_environment_design_20260724_094734\\data\\shock_field_state.csv",
+  "candidate_matrix_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v7\\cp_sat_capacity_matching_runs\\capacity_matching_20260724_081322\\inputs\\expanded_employee_field_candidate_matrix.csv",
+  "environment_code_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v9\\rl_environment_runs\\rl_environment_design_20260724_094734\\environment_code\\tte_workforce_rl_env.py",
+  "episodes": 66,
+  "baseline_field_rows": 894,
+  "baseline_assignment_rows": 15014,
+  "shock_sets_per_episode": 6,
+  "shock_field_rows": 5364,
+  "rl_started": false,
+  "operational_use_allowed": false
+}

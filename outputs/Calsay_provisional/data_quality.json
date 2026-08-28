@@ -1,0 +1,119 @@
+{
+  "crop": {
+    "source_file": "calsay_recovered",
+    "estate": "Calsay",
+    "raw_rows": 524305,
+    "date_min": "2021-04-01",
+    "date_max": "2025-12-30",
+    "observed_crop_days": 1551,
+    "calendar_days": 1735,
+    "non_record_days_treated_as_zero": 184,
+    "duplicate_weighing_ids_removed": 0,
+    "zero_net_rows": 0,
+    "negative_net_rows": 0,
+    "division_count": 2,
+    "field_count": 31,
+    "status_counts": {
+      "original": 524305
+    },
+    "yearly_reconciliation": [
+      {
+        "file": "Calsay_2021.xlsx",
+        "computed_net_kg": 561786.0,
+        "summary_net_kg": 561786.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Calsay_2022.xlsx",
+        "computed_net_kg": 681085.0,
+        "summary_net_kg": 681085.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Calsay_2023.xlsx",
+        "computed_net_kg": 871161.0,
+        "summary_net_kg": 871161.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Calsay_2024.xlsx",
+        "computed_net_kg": 812864.0,
+        "summary_net_kg": 812864.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Calsay_2025.xlsx",
+        "computed_net_kg": 895477.0,
+        "summary_net_kg": 895477.0,
+        "difference_kg": 0.0
+      }
+    ]
+  },
+  "weather": {
+    "source_file": "TRI-Thalawakele.xlsx + TRI-Thalawakele_2026_06.xlsx",
+    "source_files": [
+      "TRI-Thalawakele.xlsx",
+      "TRI-Thalawakele_2026_06.xlsx"
+    ],
+    "source_sheets": [
+      "All Records",
+      "June 2026"
+    ],
+    "center_codes": [
+      "TRI-TW"
+    ],
+    "raw_rows": 172234,
+    "date_min": "2020-06-12",
+    "date_max": "2026-06-25",
+    "observed_days": 2044,
+    "calendar_days": 2205,
+    "missing_calendar_days": 161,
+    "coverage_pct": 92.7,
+    "individual_sources": [
+      {
+        "source_file": "TRI-Thalawakele.xlsx",
+        "source_sheet": "All Records",
+        "center_codes": [
+          "TRI-TW"
+        ],
+        "raw_rows": 170040,
+        "date_min": "2020-06-12",
+        "date_max": "2026-06-18",
+        "observed_days": 2037,
+        "calendar_days": 2198,
+        "missing_calendar_days": 161,
+        "coverage_pct": 92.68
+      },
+      {
+        "source_file": "TRI-Thalawakele_2026_06.xlsx",
+        "source_sheet": "June 2026",
+        "center_codes": [
+          "TRI-TW"
+        ],
+        "raw_rows": 2194,
+        "date_min": "2026-06-01",
+        "date_max": "2026-06-25",
+        "observed_days": 25,
+        "calendar_days": 25,
+        "missing_calendar_days": 0,
+        "coverage_pct": 100.0
+      }
+    ]
+  },
+  "joined": {
+    "mode": "mapped_weather_from_weekly_crop_checkpoint",
+    "join_start": "2021-03-29",
+    "join_end": "2025-12-28",
+    "weekly_rows": 248,
+    "weeks_with_7_weather_days": 225,
+    "weeks_with_less_than_5_weather_days": 12,
+    "last_complete_week_ending": "2025-12-28"
+  },
+  "weather_mapping": {
+    "station_code": "TRI-TW",
+    "estate_distance_km": 5.7,
+    "coordinate_basis": "estate_location",
+    "source_url": "https://mapcarta.com/14809202",
+    "selection_rule": "nearest physical station; retain weather features only if chronological validation wins"
+  }
+}

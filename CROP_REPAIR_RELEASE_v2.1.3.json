@@ -1,0 +1,20 @@
+{
+  "name": "TTE 8-Estate Crop Repair and Workforce Continuation",
+  "version": "2.1.3",
+  "purpose": "Repair missing-PROMPT crop candidate failures using clearly labelled historical-only provisional fallback, rebuild short-history pooled estates, and continue to all-estate workforce-productivity GPU training.",
+  "direct_historical_only_estates": [
+    "Alton",
+    "Bambarakelly",
+    "Fairlawn",
+    "Gouravilla",
+    "Mahanilu",
+    "Stockholm"
+  ],
+  "pooled_short_history_estates": [
+    "EildonHall",
+    "Tillicoultry"
+  ],
+  "starts_workforce_productivity_after_crop_gate": true,
+  "starts_rl": false,
+  "live_models_replaced": false
+}

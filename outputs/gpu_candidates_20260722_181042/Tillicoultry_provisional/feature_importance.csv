@@ -1,0 +1,82 @@
+horizon_weeks,selected_method,feature,importance
+3,Crop-Only Pooled Random Forest,log_scale,0.08593819230604666
+3,Crop-Only Pooled Random Forest,crop_ratio_lag_0,0.038074350123020975
+3,Crop-Only Pooled Random Forest,crop_ratio_lag_1,0.03687834995639014
+3,Crop-Only Pooled Random Forest,crop_ratio_lag_2,0.03275922294152747
+3,Crop-Only Pooled Random Forest,crop_ratio_lag_3,0.02368642834719663
+3,Crop-Only Pooled Random Forest,crop_ratio_lag_4,0.04618128227271296
+3,Crop-Only Pooled Random Forest,crop_ratio_lag_8,0.03041448222513364
+3,Crop-Only Pooled Random Forest,crop_ratio_lag_13,0.050420253315430937
+3,Crop-Only Pooled Random Forest,crop_mean_ratio_4,0.03233054089777849
+3,Crop-Only Pooled Random Forest,crop_std_ratio_4,0.03345848467719392
+3,Crop-Only Pooled Random Forest,crop_mean_ratio_8,0.17411198360786684
+3,Crop-Only Pooled Random Forest,crop_std_ratio_8,0.0267952370214612
+3,Crop-Only Pooled Random Forest,crop_mean_ratio_13,0.0
+3,Crop-Only Pooled Random Forest,crop_std_ratio_13,0.0283063469812733
+3,Crop-Only Pooled Random Forest,crop_days,0.008646663353717736
+3,Crop-Only Pooled Random Forest,crop_records_log,0.03792990312732523
+3,Crop-Only Pooled Random Forest,origin_week_sin,0.13912596155978296
+3,Crop-Only Pooled Random Forest,origin_week_cos,0.0974794338410207
+3,Crop-Only Pooled Random Forest,target_week_sin,0.044242082605369805
+3,Crop-Only Pooled Random Forest,target_week_cos,0.03322080083975041
+4,Weather + Crop Pooled GPU CatBoost,log_scale,6.002632757598337
+4,Weather + Crop Pooled GPU CatBoost,crop_ratio_lag_0,1.4082144452350884
+4,Weather + Crop Pooled GPU CatBoost,crop_ratio_lag_1,1.1986829398285719
+4,Weather + Crop Pooled GPU CatBoost,crop_ratio_lag_2,0.2959687085802772
+4,Weather + Crop Pooled GPU CatBoost,crop_ratio_lag_3,1.6773241556419514
+4,Weather + Crop Pooled GPU CatBoost,crop_ratio_lag_4,0.241589107642761
+4,Weather + Crop Pooled GPU CatBoost,crop_ratio_lag_8,1.0323571123519477
+4,Weather + Crop Pooled GPU CatBoost,crop_ratio_lag_13,2.647996742588159
+4,Weather + Crop Pooled GPU CatBoost,crop_mean_ratio_4,2.8509150030953525
+4,Weather + Crop Pooled GPU CatBoost,crop_std_ratio_4,0.5647214990084947
+4,Weather + Crop Pooled GPU CatBoost,crop_mean_ratio_8,11.592381309313167
+4,Weather + Crop Pooled GPU CatBoost,crop_std_ratio_8,0.6765275555392379
+4,Weather + Crop Pooled GPU CatBoost,crop_mean_ratio_13,0.0
+4,Weather + Crop Pooled GPU CatBoost,crop_std_ratio_13,2.950124359330585
+4,Weather + Crop Pooled GPU CatBoost,crop_days,0.05745481442698891
+4,Weather + Crop Pooled GPU CatBoost,crop_records_log,1.719822536354526
+4,Weather + Crop Pooled GPU CatBoost,weather_days,0.20795825434542992
+4,Weather + Crop Pooled GPU CatBoost,origin_week_sin,3.815698750538515
+4,Weather + Crop Pooled GPU CatBoost,origin_week_cos,3.7480373660350965
+4,Weather + Crop Pooled GPU CatBoost,target_week_sin,2.370244530894998
+4,Weather + Crop Pooled GPU CatBoost,target_week_cos,1.3144941922548379
+4,Weather + Crop Pooled GPU CatBoost,rainfall_mm_lag_0,0.5635647140257919
+4,Weather + Crop Pooled GPU CatBoost,rainfall_mm_lag_1,1.0623078545985636
+4,Weather + Crop Pooled GPU CatBoost,rainfall_mm_mean_4,1.0403369334715558
+4,Weather + Crop Pooled GPU CatBoost,rainfall_mm_mean_13,6.629938745565928
+4,Weather + Crop Pooled GPU CatBoost,air_temp_mean_lag_0,0.5626194577816935
+4,Weather + Crop Pooled GPU CatBoost,air_temp_mean_lag_1,0.34495111146164764
+4,Weather + Crop Pooled GPU CatBoost,air_temp_mean_mean_4,0.663259983060944
+4,Weather + Crop Pooled GPU CatBoost,air_temp_mean_mean_13,1.201944789538402
+4,Weather + Crop Pooled GPU CatBoost,air_temp_min_lag_0,1.6887776048189425
+4,Weather + Crop Pooled GPU CatBoost,air_temp_min_lag_1,0.6527750916596814
+4,Weather + Crop Pooled GPU CatBoost,air_temp_min_mean_4,1.0369992486809352
+4,Weather + Crop Pooled GPU CatBoost,air_temp_min_mean_13,0.9021901709916611
+4,Weather + Crop Pooled GPU CatBoost,air_temp_max_lag_0,1.7140389420990032
+4,Weather + Crop Pooled GPU CatBoost,air_temp_max_lag_1,0.5131343776793906
+4,Weather + Crop Pooled GPU CatBoost,air_temp_max_mean_4,1.0675270948144486
+4,Weather + Crop Pooled GPU CatBoost,air_temp_max_mean_13,1.2598814441088364
+4,Weather + Crop Pooled GPU CatBoost,humidity_mean_lag_0,1.4137478765035874
+4,Weather + Crop Pooled GPU CatBoost,humidity_mean_lag_1,0.9221604135695336
+4,Weather + Crop Pooled GPU CatBoost,humidity_mean_mean_4,0.6815828284613166
+4,Weather + Crop Pooled GPU CatBoost,humidity_mean_mean_13,0.3644402256212442
+4,Weather + Crop Pooled GPU CatBoost,soil_moisture_mean_lag_0,0.807103866402023
+4,Weather + Crop Pooled GPU CatBoost,soil_moisture_mean_lag_1,0.33802162047432
+4,Weather + Crop Pooled GPU CatBoost,soil_moisture_mean_mean_4,0.046105407395389736
+4,Weather + Crop Pooled GPU CatBoost,soil_moisture_mean_mean_13,0.22506926959258625
+4,Weather + Crop Pooled GPU CatBoost,soil_temp_mean_lag_0,0.3249987690557485
+4,Weather + Crop Pooled GPU CatBoost,soil_temp_mean_lag_1,0.23549528775893577
+4,Weather + Crop Pooled GPU CatBoost,soil_temp_mean_mean_4,0.6684991860249786
+4,Weather + Crop Pooled GPU CatBoost,soil_temp_mean_mean_13,0.3072470787004714
+4,Weather + Crop Pooled GPU CatBoost,sunshine_duration_lag_0,1.553359732218772
+4,Weather + Crop Pooled GPU CatBoost,sunshine_duration_lag_1,0.6954646059392111
+4,Weather + Crop Pooled GPU CatBoost,sunshine_duration_mean_4,1.1974954868458918
+4,Weather + Crop Pooled GPU CatBoost,sunshine_duration_mean_13,3.5730406455887995
+4,Weather + Crop Pooled GPU CatBoost,light_mean_lag_0,2.338914447177603
+4,Weather + Crop Pooled GPU CatBoost,light_mean_lag_1,0.5490635093652566
+4,Weather + Crop Pooled GPU CatBoost,light_mean_mean_4,1.3088056730839275
+4,Weather + Crop Pooled GPU CatBoost,light_mean_mean_13,7.38199107495442
+4,Weather + Crop Pooled GPU CatBoost,wind_speed_mean_lag_0,1.1577939526028194
+4,Weather + Crop Pooled GPU CatBoost,wind_speed_mean_lag_1,0.6070734565750108
+4,Weather + Crop Pooled GPU CatBoost,wind_speed_mean_mean_4,2.03737593219249
+4,Weather + Crop Pooled GPU CatBoost,wind_speed_mean_mean_13,3.9877559489339496

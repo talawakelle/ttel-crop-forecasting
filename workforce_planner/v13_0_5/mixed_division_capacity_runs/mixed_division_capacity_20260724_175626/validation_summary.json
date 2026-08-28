@@ -1,0 +1,24 @@
+{
+  "status": "PASS_MIXED_DIVISION_CAPACITY_VALIDATION_OUTPUTS",
+  "package_version": "13.0.5",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_5\\mixed_division_capacity_runs\\mixed_division_capacity_20260724_175626",
+  "source_assignment_rows": 15014,
+  "review_assignment_rows": 15014,
+  "employee_daily_groups": 15014,
+  "multi_row_employee_groups": 0,
+  "mixed_division_employee_groups": 0,
+  "validation_failures": 0,
+  "field_reconciliation_failures": 0,
+  "expected_primary_rows": 6101,
+  "conservative_backup_rows": 8913,
+  "review_gate": "READY_FOR_EMPLOYEE_HOME_CODE_SUPERVISOR_REVIEW",
+  "employee_home_code_verification_completed": false,
+  "operational_status": "CAPACITY_SAFE_SUPERVISOR_REVIEW_ONLY",
+  "live_deployment_started": false,
+  "important_interpretation": [
+    "Multiple employee allocation rows are allowed when their total does not exceed daily capacity.",
+    "Mixed-division rows require supervisor confirmation.",
+    "Passing this gate does not verify attendance, leave, fitness, movement restrictions or home division codes.",
+    "No employee notification or live assignment is authorized."
+  ]
+}

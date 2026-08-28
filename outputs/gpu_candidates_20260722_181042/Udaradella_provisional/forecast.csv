@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Udaradella,1,2026-07-19,2026-07-20,2026-07-26,15306.0,12044.0,23239.5,Same Week Last Year,19.412958820117655
+Udaradella,2,2026-07-19,2026-07-27,2026-08-02,10443.0,7181.0,18376.5,Same Week Last Year,19.412958820117655
+Udaradella,3,2026-07-19,2026-08-03,2026-08-09,13843.0,10581.0,21776.5,Same Week Last Year,19.412958820117655
+Udaradella,4,2026-07-19,2026-08-10,2026-08-16,16313.0,13051.0,24246.5,Same Week Last Year,19.412958820117655

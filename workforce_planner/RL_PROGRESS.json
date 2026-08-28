@@ -1,0 +1,16 @@
+{
+  "version": "1.5.0",
+  "architecture_ready": true,
+  "gpu_training_required": true,
+  "untouched_test_approved": false,
+  "shadow_mode_approved": false,
+  "default_action": "budgeted_dynamic_greedy",
+  "rl_override": "high_confidence_veto_only",
+  "threshold_grid": [
+    0.8,
+    0.85,
+    0.9,
+    0.95,
+    0.98
+  ]
+}

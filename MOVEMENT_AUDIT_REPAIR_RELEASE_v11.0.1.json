@@ -1,0 +1,13 @@
+{
+  "package": "TTE Movement Audit and Fallback Repair",
+  "version": "11.0.1",
+  "retrain_rl_model": false,
+  "episode_fallback_rules_expected": 5,
+  "exact_replay_fallback_rules_expected": 13,
+  "routed_cases_expected": 396,
+  "authoritative_movement_count": "accepted non-NO_OP environment actions",
+  "corrected_objective": "1000*under_kg + 10*over_kg + accepted_moves",
+  "required_all_case_noninferiority_pct": 100.0,
+  "operational_use": false,
+  "starts_live_deployment": false
+}

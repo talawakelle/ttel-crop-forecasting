@@ -1,0 +1,40 @@
+alias,canonical_estate,plantation_id,estate_id,scope,status,notes
+alton,Alton,7,54,tea_estate_labour,ACTIVE,
+annfield,Annfield,1,1,tea_estate_labour,ACTIVE,
+bambarakelly,Bambarakelly,7,59,tea_estate_labour,ACTIVE,
+bambrakelly,Bambarakelly,7,59,tea_estate_labour,ACTIVE,Observed spelling variant
+battalgalla,Battalgalla,1,2,tea_estate_labour,ACTIVE,
+bearwell,Bearwell,2,27,tea_estate_labour,ACTIVE,
+calsay,Calsay,2,28,tea_estate_labour,ACTIVE,
+clarendon,Clarendon,2,29,tea_estate_labour,ACTIVE,Tea estate labour only; do not merge factory or combined units
+dessford,Dessford,2,31,tea_estate_labour,ACTIVE,
+edinburgh,Edinburgh,1,11,tea_estate_labour,ACTIVE,
+eildonhall,EildonHall,7,60,tea_estate_labour,ACTIVE,
+fairlawn,Fairlawn,7,55,tea_estate_labour,ACTIVE,
+fordyce,Fordyce,1,4,tea_estate_labour,ACTIVE,
+glassaugh,Glassaugh,1,13,tea_estate_labour,ACTIVE,
+glassugh,Glassaugh,1,13,tea_estate_labour,ACTIVE,Observed spelling variant
+gouravilla,Gouravilla,7,56,tea_estate_labour,ACTIVE,
+greatwestern,GreatWestern,2,32,tea_estate_labour,ACTIVE,
+great_western,GreatWestern,2,32,tea_estate_labour,ACTIVE,
+holyrood,Holyrood,2,34,tea_estate_labour,ACTIVE,
+ingestre,Ingestre,1,5,tea_estate_labour,ACTIVE,
+invery,Invery,1,6,tea_estate_labour,ACTIVE,
+logie,Logie,2,37,tea_estate_labour,ACTIVE,
+mahanilu,Mahanilu,7,57,tea_estate_labour,ACTIVE,
+mattakelle,Mattakelle,2,38,tea_estate_labour,ACTIVE,
+nuwaraeliya,NuwaraEliya,1,10,tea_estate_labour,ACTIVE,
+nuwara_eliya,NuwaraEliya,1,10,tea_estate_labour,ACTIVE,
+oilphant,Oilphant,1,12,tea_estate_labour,ACTIVE,
+oliphant,Oilphant,1,12,tea_estate_labour,ACTIVE,Source spelling variant
+palmerston,Palmerston,2,40,tea_estate_labour,ACTIVE,
+pedro,Pedro,1,9,tea_estate_labour,ACTIVE,
+radella,Radella,2,41,tea_estate_labour,ACTIVE,Tea estate labour only; Radella Black must remain separate
+robgill,Robgill,1,7,tea_estate_labour,ACTIVE,
+somerset,Somerset,2,42,tea_estate_labour,ACTIVE,
+stockholm,Stockholm,7,58,tea_estate_labour,ACTIVE,
+tillicoultry,Tillicoultry,7,61,tea_estate_labour,ACTIVE,
+tillyrie,Tillyrie,1,8,tea_estate_labour,ACTIVE,
+udaradella,Udaradella,1,14,tea_estate_labour,ACTIVE,Recovered filenames are Annfield but IDs identify Udaradella
+wattegoda,Wattegoda,2,43,tea_estate_labour,ACTIVE,
+wattegodde,Wattegoda,2,43,tea_estate_labour,ACTIVE,Observed spelling variant

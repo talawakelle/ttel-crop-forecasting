@@ -1,0 +1,132 @@
+{
+  "crop": {
+    "source_file": "Wattegoda_output.zip",
+    "estate": "Wattegoda",
+    "raw_rows": 786548,
+    "date_min": "2021-04-01",
+    "date_max": "2026-06-15",
+    "observed_crop_days": 1743,
+    "calendar_days": 1902,
+    "non_record_days_treated_as_zero": 159,
+    "duplicate_weighing_ids_removed": 0,
+    "zero_net_rows": 0,
+    "negative_net_rows": 0,
+    "division_count": 3,
+    "field_count": 68,
+    "estate_ids": [
+      "43"
+    ],
+    "plantation_ids": [
+      "2"
+    ],
+    "workbook_files": [
+      "Wattegoda_2021.xlsx",
+      "Wattegoda_2022.xlsx",
+      "Wattegoda_2023.xlsx",
+      "Wattegoda_2024.xlsx",
+      "Wattegoda_2025.xlsx",
+      "Wattegoda_2026.xlsx"
+    ],
+    "filename_estate_mismatches": [],
+    "status_counts": {
+      "original": 786548
+    },
+    "yearly_reconciliation": [
+      {
+        "file": "Wattegoda_2021.xlsx",
+        "computed_net_kg": 707516.0,
+        "summary_net_kg": 707516.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Wattegoda_2022.xlsx",
+        "computed_net_kg": 733643.0,
+        "summary_net_kg": 733643.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Wattegoda_2023.xlsx",
+        "computed_net_kg": 980572.0,
+        "summary_net_kg": 980572.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Wattegoda_2024.xlsx",
+        "computed_net_kg": 1371465.0,
+        "summary_net_kg": 1371465.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Wattegoda_2025.xlsx",
+        "computed_net_kg": 1583341.0,
+        "summary_net_kg": 1583341.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Wattegoda_2026.xlsx",
+        "computed_net_kg": 772134.0,
+        "summary_net_kg": 772134.0,
+        "difference_kg": 0.0
+      }
+    ]
+  },
+  "weather": {
+    "source_file": "TRI-Thalawakele.xlsx + TRI-Thalawakele_2026_06.xlsx",
+    "source_files": [
+      "TRI-Thalawakele.xlsx",
+      "TRI-Thalawakele_2026_06.xlsx"
+    ],
+    "source_sheets": [
+      "All Records",
+      "June 2026"
+    ],
+    "center_codes": [
+      "TRI-TW"
+    ],
+    "raw_rows": 172234,
+    "date_min": "2020-06-12",
+    "date_max": "2026-06-25",
+    "observed_days": 2044,
+    "calendar_days": 2205,
+    "missing_calendar_days": 161,
+    "coverage_pct": 92.7,
+    "individual_sources": [
+      {
+        "source_file": "TRI-Thalawakele.xlsx",
+        "source_sheet": "All Records",
+        "center_codes": [
+          "TRI-TW"
+        ],
+        "raw_rows": 170040,
+        "date_min": "2020-06-12",
+        "date_max": "2026-06-18",
+        "observed_days": 2037,
+        "calendar_days": 2198,
+        "missing_calendar_days": 161,
+        "coverage_pct": 92.68
+      },
+      {
+        "source_file": "TRI-Thalawakele_2026_06.xlsx",
+        "source_sheet": "June 2026",
+        "center_codes": [
+          "TRI-TW"
+        ],
+        "raw_rows": 2194,
+        "date_min": "2026-06-01",
+        "date_max": "2026-06-25",
+        "observed_days": 25,
+        "calendar_days": 25,
+        "missing_calendar_days": 0,
+        "coverage_pct": 100.0
+      }
+    ]
+  },
+  "joined": {
+    "join_start": "2021-04-01",
+    "join_end": "2026-06-15",
+    "weekly_rows": 272,
+    "weeks_with_7_weather_days": 240,
+    "weeks_with_less_than_5_weather_days": 21,
+    "last_complete_week_ending": "2026-06-14"
+  }
+}

@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Alton,1,2026-06-14,2026-06-15,2026-06-21,20276.0,12926.5,24928.5,Same Week Last Year,19.1861629441146
+Alton,2,2026-06-14,2026-06-22,2026-06-28,20502.0,13152.5,25154.5,Same Week Last Year,19.1861629441146
+Alton,3,2026-06-14,2026-06-29,2026-07-05,18888.0,11538.5,23540.5,Same Week Last Year,19.1861629441146
+Alton,4,2026-06-14,2026-07-06,2026-07-12,18111.0,10761.5,22763.5,Same Week Last Year,19.1861629441146

@@ -1,0 +1,2 @@
+﻿"file_name","full_path","size_mb","header"
+"productivity_portfolio_summary.csv","C:\TTE_Integrated_Platform\ttel_crop_forecasting\workforce_planner\v2\model_candidates\productivity_gpu_20260723_084710\productivity_portfolio_summary.csv","0.005","estate,status,history_class,date_min,date_max,employees,fields,divisions,training_device,gpu_name,base_approved,weather_approved,test_model_mae_kg,test_baseline_mae_kg,test_mae_improvement_pct,training_seconds,live_use_approved,shadow_mode_required"

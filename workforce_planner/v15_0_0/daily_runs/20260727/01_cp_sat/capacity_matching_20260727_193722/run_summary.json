@@ -1,0 +1,62 @@
+{
+  "status": "PASS_CP_SAT_CAPACITY_MATCHING_OUTPUTS",
+  "performance_gate": "PASS",
+  "package_version": "7.1.0",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v15_0_0\\daily_runs\\20260727\\01_cp_sat\\capacity_matching_20260727_193722",
+  "employee_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v6\\employee_readiness_runs\\employee_readiness_20260723_172820",
+  "planning_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v15_0_0\\daily_inputs\\planning_20260727",
+  "planning_date": "2026-07-27",
+  "employee_master_records": 23043,
+  "audit_roster_records": 23043,
+  "unique_solver_employee_ids": 23043,
+  "duplicate_employee_id_records": 0,
+  "expanded_candidate_edges": 372506,
+  "active_fields_per_scenario": 442,
+  "scenarios": [
+    "EXPECTED",
+    "CONSERVATIVE"
+  ],
+  "expected_field_result_rows": 884,
+  "actual_field_result_rows": 884,
+  "field_identity_failures": 0,
+  "assignment_rows": 14966,
+  "solver_failures": 0,
+  "duplicate_employee_assignment_failures": 0,
+  "field_reconciliation_failures": 0,
+  "scenario_performance": [
+    {
+      "scenario": "EXPECTED",
+      "field_rows": 442,
+      "fields_coverage_95_plus": 442,
+      "uncovered_fields": 0,
+      "total_target_crop_kg": 105113.9271,
+      "total_under_kg": 19.931,
+      "total_over_kg": 18.7307,
+      "effective_coverage_pct": 99.98
+    },
+    {
+      "scenario": "CONSERVATIVE",
+      "field_rows": 442,
+      "fields_coverage_95_plus": 442,
+      "uncovered_fields": 0,
+      "total_target_crop_kg": 143596.0976,
+      "total_under_kg": 21.9623,
+      "total_over_kg": 38.51,
+      "effective_coverage_pct": 99.98
+    }
+  ],
+  "old_reference_demand_used_as_hard_maximum": false,
+  "operational_status": "DEVELOPMENT_SIMULATION_ONLY",
+  "live_allocator_changed": false,
+  "rl_started": false,
+  "duration_minutes": 38.83,
+  "important_interpretation": [
+    "Every employee master record remains in the audit roster.",
+    "Every unique employee identity is considered for every active field within the same estate.",
+    "Field identity is estate plus division plus field.",
+    "The old headcount forecast is a soft reference and no longer blocks capacity matching.",
+    "The optimizer minimizes uncovered crop before excess capacity and worker count.",
+    "Each employee can be assigned to at most one field per scenario.",
+    "These outputs remain development simulation only."
+  ]
+}

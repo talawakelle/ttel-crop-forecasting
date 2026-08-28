@@ -1,0 +1,115 @@
+{
+  "package_name": "TTE_Forecasting_Protected_Hybrid_RL_Continuous_v16.0.0",
+  "package_version": "16.0.0",
+  "default_period": {
+    "start_date": "2026-07-27",
+    "end_date": "2031-07-26",
+    "total_days": 1826,
+    "planned_blocks": 21,
+    "block_days_max": 90
+  },
+  "workflow": {
+    "forecasting": true,
+    "estate_division_field_reconciliation": true,
+    "plucker_demand_calculation": true,
+    "cp_sat_morning_employee_allocation": true,
+    "named_employee_allocation": true,
+    "protected_hybrid_rl_inference_on_cuda": true,
+    "rl_model_retraining": false,
+    "safety_shield": true,
+    "greedy_fallback": true,
+    "monthly_excel_workbooks": true,
+    "live_operational_authorization": false
+  },
+  "shadow_controls": {
+    "employee_home_code_verified": false,
+    "attendance_verified": false,
+    "approved_leave_verified": false,
+    "fitness_verified": false,
+    "movement_restrictions_verified": false,
+    "operational_use_allowed": false,
+    "live_assignment_authorized": false
+  },
+  "files": [
+    {
+      "path": "CHECK_TTE_FORECASTING_RL_CONTINUOUS_v16.0.0.ps1",
+      "size_bytes": 2903,
+      "sha256": "f1f787931873c90c28150c62fc59b3f5c185535229c3df8a34d4f42a2137c683"
+    },
+    {
+      "path": "README.txt",
+      "size_bytes": 2748,
+      "sha256": "77864ccb9a01f00f5b8ad4988e96af617377da38c2cf8f95ca4cc585813b077b"
+    },
+    {
+      "path": "RUN_TTE_FORECASTING_RL_BLOCK_v16.0.0.ps1",
+      "size_bytes": 13676,
+      "sha256": "9fd67ddfdae619e3b8fdd245d53314f41445dd4c85dd634898dfcd88b38b0ae5"
+    },
+    {
+      "path": "RUN_TTE_FORECASTING_RL_CONTINUOUS_v16.0.0.ps1",
+      "size_bytes": 12749,
+      "sha256": "ca87d0bafc04685357d20229fe4128384bf87ab8a7cfe736355d51eed8f9d1ca"
+    },
+    {
+      "path": "RUN_TTE_PROTECTED_HYBRID_RL_ONE_DAY_v15.0.0.ps1",
+      "size_bytes": 12358,
+      "sha256": "e1369eb2d78e7202b4b809ae284dae1ebcc572e98a98320f1bb0907fc46ecaf3"
+    },
+    {
+      "path": "START_OVERNIGHT_TTE_FORECASTING_RL_v16.0.0.cmd",
+      "size_bytes": 300,
+      "sha256": "9fb454d714386e5c0027e3976fff8d79d4c415cf13eef20835f7269d6b900a80"
+    },
+    {
+      "path": "workforce_planner/v14_0_0/model/safe_action_q_network.pt",
+      "size_bytes": 32700,
+      "sha256": "ad6729bc824fd01cb740b47cdc59b8a11d8a446dc6cda0d8d8a15e3d8387aafe"
+    },
+    {
+      "path": "workforce_planner/v14_0_0/policy/repaired_shadow_route_register.csv",
+      "size_bytes": 42550,
+      "sha256": "cd54d5adbff2976088a28d5349466d069d70727028c0c6e96ca8cb5e630c81df"
+    },
+    {
+      "path": "workforce_planner/v14_0_0/protected_hybrid_daily/run_protected_hybrid_daily_v1400.py",
+      "size_bytes": 30994,
+      "sha256": "1da84f1de15a0bab905e0b3c2fdcd6dadb27701814aa3004e53e84a378506c0c"
+    },
+    {
+      "path": "workforce_planner/v14_0_0/runtime_sources/v7/run_cp_sat_capacity_matching_v710.py",
+      "size_bytes": 37600,
+      "sha256": "1103bf8b6860fd762a28ddd25963041404fe4ab5cb7479c3363d6717bead297c"
+    },
+    {
+      "path": "workforce_planner/v14_0_0/runtime_sources/v8/run_balanced_baseline_review_v801.py",
+      "size_bytes": 14346,
+      "sha256": "224cc863dfab2b2861830acc98aebcd5f38547047cc7efc668bb04bf37ed9a91"
+    },
+    {
+      "path": "workforce_planner/v14_0_0/runtime_sources/v8/run_greedy_comparison_v800.py",
+      "size_bytes": 25840,
+      "sha256": "7b2b098b091d22546a735d9cf7c89d646726bb60e42dcd8c6874f20f85be0b89"
+    },
+    {
+      "path": "workforce_planner/v14_0_0/runtime_sources/v9/build_rl_environment_v900.py",
+      "size_bytes": 14488,
+      "sha256": "ac29b1367c015c0234e37938fd41a407b20d3027e6442c7df53a14774e48498f"
+    },
+    {
+      "path": "workforce_planner/v14_0_0/runtime_sources/v9/tte_workforce_rl_env.py",
+      "size_bytes": 11507,
+      "sha256": "a8bb019da6bac13135200d7f300a59587ab86d39bdbfad74b96765f137457095"
+    },
+    {
+      "path": "workforce_planner/v16_0_0/batch/build_block_outputs_v1600.py",
+      "size_bytes": 24452,
+      "sha256": "5a583fdb83848b0b5e48bb36b5b16ff03ef291d39cd229d9e4c5e4d787a3badd"
+    },
+    {
+      "path": "workforce_planner/v16_0_0/batch/build_continuous_master_index_v1600.py",
+      "size_bytes": 14973,
+      "sha256": "9664a1b7464d9ea611b0ea1492d7250c53fbb7f887e713d2cc96f81aa45c6602"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+GreatWestern,1,2026-06-14,2026-06-15,2026-06-21,25803.0,19040.0,41401.0,Same Week Last Year,17.95204308217149
+GreatWestern,2,2026-06-14,2026-06-22,2026-06-28,25490.0,18727.0,41088.0,Same Week Last Year,17.95204308217149
+GreatWestern,3,2026-06-14,2026-06-29,2026-07-05,17810.0,11047.0,33408.0,Same Week Last Year,17.95204308217149
+GreatWestern,4,2026-06-14,2026-07-06,2026-07-12,30826.0,24063.0,46424.0,Same Week Last Year,17.95204308217149

@@ -1,0 +1,17 @@
+﻿estate,home_division_code,candidate_division_name,current_system_suggestion,suggestion_confidence,allocation_rows_for_code,include_as_valid_mapping,mapping_scope,source_document_name,source_document_date,source_sheet_or_page,source_row_or_cell_reference,source_document_owner,approved_by,approved_at,evidence_status,comments,operational_use_allowed,live_assignment_authorized
+gouravilla,GOU,BARGROVE,NO,LOW,418,,,,,,,,,,PENDING,,NO,NO
+gouravilla,GOU,CRUDEN,NO,LOW,418,,,,,,,,,,PENDING,,NO,NO
+gouravilla,GOU,GOURAVILLA - A,NO,LOW,418,,,,,,,,,,PENDING,,NO,NO
+gouravilla,GOU,GOURAVILLA - B,NO,LOW,418,,,,,,,,,,PENDING,,NO,NO
+mahanilu,MAH,MAHAGALA,NO,LOW,467,,,,,,,,,,PENDING,,NO,NO
+mahanilu,MAH,MAHANILU,NO,LOW,467,,,,,,,,,,PENDING,,NO,NO
+pedro,MAH,LoversLeap,NO,LOW,245,,,,,,,,,,PENDING,,NO,NO
+pedro,MAH,Mahagastota Lower,NO,LOW,245,,,,,,,,,,PENDING,,NO,NO
+pedro,MAH,Mahagastota Upper,NO,LOW,245,,,,,,,,,,PENDING,,NO,NO
+pedro,MAH,MoonPlains,NO,LOW,245,,,,,,,,,,PENDING,,NO,NO
+pedro,MAH,Nasbey,NO,LOW,245,,,,,,,,,,PENDING,,NO,NO
+pedro,MAH,Pedro,NO,LOW,245,,,,,,,,,,PENDING,,NO,NO
+pedro,MAH,Scrubs,NO,LOW,245,,,,,,,,,,PENDING,,NO,NO
+Tillicoultry,MOU,MOUSA ELLA LOWER DIV,NO,LOW,226,,,,,,,,,,PENDING,,NO,NO
+Tillicoultry,MOU,MOUSA ELLA UPPER DIV,NO,LOW,226,,,,,,,,,,PENDING,,NO,NO
+Tillicoultry,MOU,TILICOULTRY,NO,LOW,226,,,,,,,,,,PENDING,,NO,NO

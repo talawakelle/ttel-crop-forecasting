@@ -1,0 +1,3 @@
+﻿scenario,estate_scenarios,material_noninferiority_rate_pct,cp_sat_service_safe_rate_pct,portfolio_effective_coverage_pct,uncovered_fields,fields_coverage_95_plus,field_rows,scenario_gate
+EXPECTED,33,100.0,100.0,99.98,0,451,451,PASS
+CONSERVATIVE,33,100.0,100.0,99.98,0,451,451,PASS

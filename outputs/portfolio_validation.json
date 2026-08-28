@@ -1,0 +1,65 @@
+{
+  "validated_on": "2026-07-22",
+  "status": "PASS",
+  "estate_datasets": 33,
+  "standard_estate_models": 31,
+  "provisional_pooled_models": 2,
+  "short_history_standard_model_pending": [
+    "EildonHall",
+    "Tillicoultry"
+  ],
+  "forecast_rows": 132,
+  "raw_crop_rows": 15905370,
+  "max_annual_reconciliation_abs_difference_kg": 0.0,
+  "ml_artifacts_reloaded": 73,
+  "weather_selected_horizons": 45,
+  "weather_selected_estates": 20,
+  "mapping_rows": 33,
+  "tri_tw_mappings": 31,
+  "pedro_ne_mappings": 2,
+  "temporary_files": 0,
+  "manager_portal": {
+    "estate_manager_accounts": 33,
+    "administrator_accounts": 1,
+    "access_mode": "passwordless estate-specific secure links",
+    "graph_series": [
+      "Actual value",
+      "Current-practice forecast",
+      "Best-practice forecast"
+    ],
+    "graph_views": [
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Yearly"
+    ],
+    "maximum_planning_horizon_years": 5
+  },
+  "automated_actuals": {
+    "source": "PROMPT privacy-safe estate/day aggregate",
+    "estates": 33,
+    "daily_rows": 365,
+    "date_min": "2026-07-01",
+    "date_max": "2026-07-12",
+    "max_daily_summary_difference_kg": 0.0
+  },
+  "five_year_daily_current_practice_projection_rows": 60258,
+  "checks": [
+    "Each trained estate has horizons 1, 2, 3 and 4",
+    "Forecast values and intervals contain no missing values",
+    "Each selected metric agrees with the forecast method",
+    "Every selected machine-learning artifact loads and matches its horizon and method",
+    "Each pooled provisional horizon uses 13 held-out target-estate observations",
+    "Both pooled donor audits contain the six same-plantation, same-station peer estates",
+    "Pooled forecasts and model artifacts are explicitly labelled provisional",
+    "All 33 manager access links resolve to estate-restricted sessions without password entry",
+    "Cross-estate URL access is rejected for manager sessions",
+    "PROMPT actual imports retain no employee identifiers and reconcile exactly",
+    "Graph controls expose daily, weekly, monthly and yearly views through five years",
+    "Best-practice graph values remain unavailable rather than being fabricated",
+    "Every annual workbook total reconciles exactly",
+    "Weather mapping contains one unique row for every supplied estate dataset",
+    "No temporary model or weather-candidate files remain",
+    "Python source compilation passed"
+  ]
+}

@@ -1,0 +1,108 @@
+﻿estate,home_division_code,available_assigned_divisions,suggested_division_name,suggestion_method,suggestion_confidence,allocation_rows_for_code,raw_cross_division_yes_rows,raw_cross_division_no_rows,confirmed_division_name,manager_confirmed,reviewer_name,reviewed_at,comments,live_assignment_authorized
+alton,BEA,BEACONSFIELD|KINCORA|LOWER|UPPER,BEACONSFIELD,CODE_PREFIX_MATCH,HIGH,146,146,0,,NO,,,,NO
+alton,KIN,BEACONSFIELD|KINCORA|LOWER|UPPER,KINCORA,CODE_PREFIX_MATCH,HIGH,190,190,0,,NO,,,,NO
+alton,LD,BEACONSFIELD|KINCORA|LOWER|UPPER,LOWER,LOWER_DIVISION_ALIAS,HIGH,121,121,0,,NO,,,,NO
+alton,UD,BEACONSFIELD|KINCORA|LOWER|UPPER,UPPER,UPPER_DIVISION_ALIAS,HIGH,239,239,0,,NO,,,,NO
+annfield,ANN,Annfield|Barkindale|Erslmare|Kinloch|StamfordHill|StLeys,Annfield,CODE_PREFIX_MATCH,HIGH,6,6,0,,NO,,,,NO
+annfield,BAR,Annfield|Barkindale|Erslmare|Kinloch|StamfordHill|StLeys,Barkindale,CODE_PREFIX_MATCH,HIGH,13,13,0,,NO,,,,NO
+annfield,ERS,Annfield|Barkindale|Erslmare|Kinloch|StamfordHill|StLeys,Erslmare,CODE_PREFIX_MATCH,HIGH,78,78,0,,NO,,,,NO
+annfield,KIN,Annfield|Barkindale|Erslmare|Kinloch|StamfordHill|StLeys,Kinloch,CODE_PREFIX_MATCH,HIGH,40,40,0,,NO,,,,NO
+annfield,STA,Annfield|Barkindale|Erslmare|Kinloch|StamfordHill|StLeys,StamfordHill,CODE_PREFIX_MATCH,HIGH,89,89,0,,NO,,,,NO
+annfield,STL,Annfield|Barkindale|Erslmare|Kinloch|StamfordHill|StLeys,StLeys,CODE_PREFIX_MATCH,HIGH,8,8,0,,NO,,,,NO
+bambarakelly,BAM,BAMBRAKELLY|DELL|QUEEN WOOD|RAHANWATTE|UPPER CRANLEY,BAMBRAKELLY,CODE_PREFIX_MATCH,HIGH,184,184,0,,NO,,,,NO
+bambarakelly,DEL,BAMBRAKELLY|DELL|QUEEN WOOD|RAHANWATTE|UPPER CRANLEY,DELL,CODE_PREFIX_MATCH,HIGH,78,78,0,,NO,,,,NO
+bambarakelly,QUE,BAMBRAKELLY|DELL|QUEEN WOOD|RAHANWATTE|UPPER CRANLEY,QUEEN WOOD,CODE_PREFIX_MATCH,HIGH,68,68,0,,NO,,,,NO
+bambarakelly,RAH,BAMBRAKELLY|DELL|QUEEN WOOD|RAHANWATTE|UPPER CRANLEY,RAHANWATTE,CODE_PREFIX_MATCH,HIGH,152,152,0,,NO,,,,NO
+bambarakelly,UPP,BAMBRAKELLY|DELL|QUEEN WOOD|RAHANWATTE|UPPER CRANLEY,UPPER CRANLEY,CODE_PREFIX_MATCH,HIGH,151,151,0,,NO,,,,NO
+battalgalla,HAD,Hadley|Lower|Upper,Hadley,CODE_PREFIX_MATCH,HIGH,37,37,0,,NO,,,,NO
+battalgalla,LD,Hadley|Lower|Upper,Lower,LOWER_DIVISION_ALIAS,HIGH,62,62,0,,NO,,,,NO
+battalgalla,UD,Hadley|Lower|Upper,Upper,UPPER_DIVISION_ALIAS,HIGH,82,82,0,,NO,,,,NO
+bearwell,BEA,Bearwell|Belgravia|Fairfield|Walaha,Bearwell,CODE_PREFIX_MATCH,HIGH,161,161,0,,NO,,,,NO
+bearwell,BEL,Bearwell|Belgravia|Fairfield|Walaha,Belgravia,CODE_PREFIX_MATCH,HIGH,70,70,0,,NO,,,,NO
+bearwell,FAI,Bearwell|Belgravia|Fairfield|Walaha,Fairfield,CODE_PREFIX_MATCH,HIGH,174,174,0,,NO,,,,NO
+bearwell,WAL,Bearwell|Belgravia|Fairfield|Walaha,Walaha,CODE_PREFIX_MATCH,HIGH,126,126,0,,NO,,,,NO
+Calsay,CAL,Calsay|Maha Eliya,Calsay,CODE_PREFIX_MATCH,HIGH,158,158,0,,NO,,,,NO
+Calsay,MAH,Calsay|Maha Eliya,Maha Eliya,CODE_PREFIX_MATCH,HIGH,230,230,0,,NO,,,,NO
+Clarendon,AD,Avoca|Lower|Upper,Avoca,FIRST_LETTER_DIVISION_ALIAS,MEDIUM,27,27,0,,NO,,,,NO
+Clarendon,LD,Avoca|Lower|Upper,Lower,LOWER_DIVISION_ALIAS,HIGH,84,84,0,,NO,,,,NO
+Clarendon,UD,Avoca|Lower|Upper,Upper,UPPER_DIVISION_ALIAS,HIGH,111,111,0,,NO,,,,NO
+Dessford,DES,Dessford|Lorne|Lower|Upper,Dessford,CODE_PREFIX_MATCH,HIGH,171,171,0,,NO,,,,NO
+Dessford,LD,Dessford|Lorne|Lower|Upper,Lower,LOWER_DIVISION_ALIAS,HIGH,117,117,0,,NO,,,,NO
+Dessford,LOR,Dessford|Lorne|Lower|Upper,Lorne,CODE_PREFIX_MATCH,HIGH,151,151,0,,NO,,,,NO
+Dessford,UD,Dessford|Lorne|Lower|Upper,Upper,UPPER_DIVISION_ALIAS,HIGH,119,119,0,,NO,,,,NO
+edinburgh,A,A|B,A,SOURCE_RAW_CROSS_DIVISION_NO_EVIDENCE,HIGH,92,0,92,,NO,,,,NO
+edinburgh,B,A|B,B,SOURCE_RAW_CROSS_DIVISION_NO_EVIDENCE,HIGH,41,0,41,,NO,,,,NO
+EildonHall,EIL,EILDON HALL,EILDON HALL,ONLY_ASSIGNED_DIVISION_IN_ESTATE,HIGH,213,213,0,,NO,,,,NO
+fairlawn,BAR,BARGANY|BLAIRAVON|FAIRLAWN|MINCINGLANE|SOORAYAKENDA,BARGANY,CODE_PREFIX_MATCH,HIGH,139,139,0,,NO,,,,NO
+fairlawn,BLA,BARGANY|BLAIRAVON|FAIRLAWN|MINCINGLANE|SOORAYAKENDA,BLAIRAVON,CODE_PREFIX_MATCH,HIGH,77,77,0,,NO,,,,NO
+fairlawn,FAI,BARGANY|BLAIRAVON|FAIRLAWN|MINCINGLANE|SOORAYAKENDA,FAIRLAWN,CODE_PREFIX_MATCH,HIGH,127,127,0,,NO,,,,NO
+fairlawn,MIN,BARGANY|BLAIRAVON|FAIRLAWN|MINCINGLANE|SOORAYAKENDA,MINCINGLANE,CODE_PREFIX_MATCH,HIGH,139,139,0,,NO,,,,NO
+fairlawn,SOO,BARGANY|BLAIRAVON|FAIRLAWN|MINCINGLANE|SOORAYAKENDA,SOORAYAKENDA,CODE_PREFIX_MATCH,HIGH,151,151,0,,NO,,,,NO
+fordyce,FOR,Fordyce|Gonagalla|NewClearing,Fordyce,CODE_PREFIX_MATCH,HIGH,79,79,0,,NO,,,,NO
+fordyce,GON,Fordyce|Gonagalla|NewClearing,Gonagalla,CODE_PREFIX_MATCH,HIGH,149,149,0,,NO,,,,NO
+fordyce,NEW,Fordyce|Gonagalla|NewClearing,NewClearing,CODE_PREFIX_MATCH,HIGH,96,96,0,,NO,,,,NO
+glassaugh,AAD,Aadneven|Lower|Upper,Aadneven,CODE_PREFIX_MATCH,HIGH,115,115,0,,NO,,,,NO
+glassaugh,LD,Aadneven|Lower|Upper,Lower,LOWER_DIVISION_ALIAS,HIGH,96,96,0,,NO,,,,NO
+glassaugh,UD,Aadneven|Lower|Upper,Upper,UPPER_DIVISION_ALIAS,HIGH,91,91,0,,NO,,,,NO
+gouravilla,BAR,BARGROVE|CRUDEN|GOURAVILLA - A|GOURAVILLA - B,BARGROVE,CODE_PREFIX_MATCH,HIGH,237,237,0,,NO,,,,NO
+gouravilla,CRU,BARGROVE|CRUDEN|GOURAVILLA - A|GOURAVILLA - B,CRUDEN,CODE_PREFIX_MATCH,HIGH,164,164,0,,NO,,,,NO
+gouravilla,GOU,BARGROVE|CRUDEN|GOURAVILLA - A|GOURAVILLA - B,,AMBIGUOUS_SUGGESTION,LOW,418,418,0,,NO,,,,NO
+greatwestern,GAL,Galkandawatte|GreatWestern|Louisa|Scalpa,Galkandawatte,CODE_PREFIX_MATCH,HIGH,164,164,0,,NO,,,,NO
+greatwestern,GRE,Galkandawatte|GreatWestern|Louisa|Scalpa,GreatWestern,CODE_PREFIX_MATCH,HIGH,247,247,0,,NO,,,,NO
+greatwestern,LOU,Galkandawatte|GreatWestern|Louisa|Scalpa,Louisa,CODE_PREFIX_MATCH,HIGH,228,228,0,,NO,,,,NO
+greatwestern,SCA,Galkandawatte|GreatWestern|Louisa|Scalpa,Scalpa,CODE_PREFIX_MATCH,HIGH,321,321,0,,NO,,,,NO
+holyrood,EAS,East-Rath|Lower|Upper,East-Rath,CODE_PREFIX_MATCH,HIGH,296,296,0,,NO,,,,NO
+holyrood,LD,East-Rath|Lower|Upper,Lower,LOWER_DIVISION_ALIAS,HIGH,132,132,0,,NO,,,,NO
+holyrood,UD,East-Rath|Lower|Upper,Upper,UPPER_DIVISION_ALIAS,HIGH,209,209,0,,NO,,,,NO
+ingestre,ABE,Abercarney|Bathford|Beret|Blinkbonnie|Hornsey|Lower|Portree|Upper,Abercarney,CODE_PREFIX_MATCH,HIGH,65,65,0,,NO,,,,NO
+ingestre,BAT,Abercarney|Bathford|Beret|Blinkbonnie|Hornsey|Lower|Portree|Upper,Bathford,CODE_PREFIX_MATCH,HIGH,87,87,0,,NO,,,,NO
+ingestre,BER,Abercarney|Bathford|Beret|Blinkbonnie|Hornsey|Lower|Portree|Upper,Beret,CODE_PREFIX_MATCH,HIGH,51,51,0,,NO,,,,NO
+ingestre,BLI,Abercarney|Bathford|Beret|Blinkbonnie|Hornsey|Lower|Portree|Upper,Blinkbonnie,CODE_PREFIX_MATCH,HIGH,18,18,0,,NO,,,,NO
+ingestre,HOR,Abercarney|Bathford|Beret|Blinkbonnie|Hornsey|Lower|Portree|Upper,Hornsey,CODE_PREFIX_MATCH,HIGH,76,76,0,,NO,,,,NO
+ingestre,LD,Abercarney|Bathford|Beret|Blinkbonnie|Hornsey|Lower|Portree|Upper,Lower,LOWER_DIVISION_ALIAS,HIGH,102,102,0,,NO,,,,NO
+ingestre,POR,Abercarney|Bathford|Beret|Blinkbonnie|Hornsey|Lower|Portree|Upper,Portree,CODE_PREFIX_MATCH,HIGH,70,70,0,,NO,,,,NO
+ingestre,UD,Abercarney|Bathford|Beret|Blinkbonnie|Hornsey|Lower|Portree|Upper,Upper,UPPER_DIVISION_ALIAS,HIGH,18,18,0,,NO,,,,NO
+Invery,INV,Invery|Ottery,Invery,CODE_PREFIX_MATCH,HIGH,85,85,0,,NO,,,,NO
+Invery,OTT,Invery|Ottery,Ottery,CODE_PREFIX_MATCH,HIGH,52,52,0,,NO,,,,NO
+logie,COO,Coombwood|Logie|Middleton,Coombwood,CODE_PREFIX_MATCH,HIGH,130,130,0,,NO,,,,NO
+logie,LOG,Coombwood|Logie|Middleton,Logie,CODE_PREFIX_MATCH,HIGH,143,143,0,,NO,,,,NO
+logie,MID,Coombwood|Logie|Middleton,Middleton,CODE_PREFIX_MATCH,HIGH,208,208,0,,NO,,,,NO
+mahanilu,MAH,MAHAGALA|MAHANILU,,AMBIGUOUS_SUGGESTION,LOW,467,467,0,,NO,,,,NO
+mattakelle,CAI,Cairness|Mattakelle,Cairness,CODE_PREFIX_MATCH,HIGH,345,345,0,,NO,,,,NO
+mattakelle,MAT,Cairness|Mattakelle,Mattakelle,CODE_PREFIX_MATCH,HIGH,421,421,0,,NO,,,,NO
+NuwaraEliya,LD,Lower|Upper,Lower,LOWER_DIVISION_ALIAS,HIGH,82,82,0,,NO,,,,NO
+NuwaraEliya,UD,Lower|Upper,Upper,UPPER_DIVISION_ALIAS,HIGH,8,8,0,,NO,,,,NO
+oilphant,LD,Lower|Upper,Lower,LOWER_DIVISION_ALIAS,HIGH,58,58,0,,NO,,,,NO
+oilphant,UD,Lower|Upper,Upper,UPPER_DIVISION_ALIAS,HIGH,9,9,0,,NO,,,,NO
+palmerston,PAL,Palmerston|Ritnagiriya,Palmerston,CODE_PREFIX_MATCH,HIGH,72,72,0,,NO,,,,NO
+palmerston,RIT,Palmerston|Ritnagiriya,Ritnagiriya,CODE_PREFIX_MATCH,HIGH,129,129,0,,NO,,,,NO
+pedro,LOV,LoversLeap|Mahagastota Lower|Mahagastota Upper|MoonPlains|Nasbey|Pedro|Scrubs,LoversLeap,CODE_PREFIX_MATCH,HIGH,188,188,0,,NO,,,,NO
+pedro,MAH,LoversLeap|Mahagastota Lower|Mahagastota Upper|MoonPlains|Nasbey|Pedro|Scrubs,,AMBIGUOUS_SUGGESTION,LOW,245,245,0,,NO,,,,NO
+pedro,MOO,LoversLeap|Mahagastota Lower|Mahagastota Upper|MoonPlains|Nasbey|Pedro|Scrubs,MoonPlains,CODE_PREFIX_MATCH,HIGH,72,72,0,,NO,,,,NO
+pedro,NAS,LoversLeap|Mahagastota Lower|Mahagastota Upper|MoonPlains|Nasbey|Pedro|Scrubs,Nasbey,CODE_PREFIX_MATCH,HIGH,34,34,0,,NO,,,,NO
+pedro,PED,LoversLeap|Mahagastota Lower|Mahagastota Upper|MoonPlains|Nasbey|Pedro|Scrubs,Pedro,CODE_PREFIX_MATCH,HIGH,214,214,0,,NO,,,,NO
+pedro,SCR,LoversLeap|Mahagastota Lower|Mahagastota Upper|MoonPlains|Nasbey|Pedro|Scrubs,Scrubs,CODE_PREFIX_MATCH,HIGH,60,60,0,,NO,,,,NO
+Radella,RLO,RLower|RUpper|WLower|WUpper,RLower,CODE_PREFIX_MATCH,HIGH,254,254,0,,NO,,,,NO
+Radella,RUP,RLower|RUpper|WLower|WUpper,RUpper,CODE_PREFIX_MATCH,HIGH,123,123,0,,NO,,,,NO
+Radella,WLO,RLower|RUpper|WLower|WUpper,WLower,CODE_PREFIX_MATCH,HIGH,309,309,0,,NO,,,,NO
+Radella,WUP,RLower|RUpper|WLower|WUpper,WUpper,CODE_PREFIX_MATCH,HIGH,152,152,0,,NO,,,,NO
+robgill,BON,Bonaccord|Robgill|Singarawatte,Bonaccord,CODE_PREFIX_MATCH,HIGH,44,44,0,,NO,,,,NO
+robgill,ROB,Bonaccord|Robgill|Singarawatte,Robgill,CODE_PREFIX_MATCH,HIGH,107,107,0,,NO,,,,NO
+robgill,SIN,Bonaccord|Robgill|Singarawatte,Singarawatte,CODE_PREFIX_MATCH,HIGH,141,141,0,,NO,,,,NO
+Somerset,CAR,Carlabeck|Dambagastalawa|Easdale|Langdale|Somerset,Carlabeck,CODE_PREFIX_MATCH,HIGH,171,171,0,,NO,,,,NO
+Somerset,DAM,Carlabeck|Dambagastalawa|Easdale|Langdale|Somerset,Dambagastalawa,CODE_PREFIX_MATCH,HIGH,123,123,0,,NO,,,,NO
+Somerset,EAS,Carlabeck|Dambagastalawa|Easdale|Langdale|Somerset,Easdale,CODE_PREFIX_MATCH,HIGH,114,114,0,,NO,,,,NO
+Somerset,LAN,Carlabeck|Dambagastalawa|Easdale|Langdale|Somerset,Langdale,CODE_PREFIX_MATCH,HIGH,291,291,0,,NO,,,,NO
+Somerset,SOM,Carlabeck|Dambagastalawa|Easdale|Langdale|Somerset,Somerset,CODE_PREFIX_MATCH,HIGH,166,166,0,,NO,,,,NO
+stockholm,LOW,LOWER CRUDEN|SCARBOROUGH|STOCKHHOLM,LOWER CRUDEN,CODE_PREFIX_MATCH,HIGH,169,169,0,,NO,,,,NO
+stockholm,SCA,LOWER CRUDEN|SCARBOROUGH|STOCKHHOLM,SCARBOROUGH,CODE_PREFIX_MATCH,HIGH,125,125,0,,NO,,,,NO
+stockholm,STO,LOWER CRUDEN|SCARBOROUGH|STOCKHHOLM,STOCKHHOLM,CODE_PREFIX_MATCH,HIGH,238,238,0,,NO,,,,NO
+Tillicoultry,MOU,MOUSA ELLA LOWER DIV|MOUSA ELLA UPPER DIV|TILICOULTRY,,AMBIGUOUS_SUGGESTION,LOW,226,226,0,,NO,,,,NO
+Tillicoultry,TIL,MOUSA ELLA LOWER DIV|MOUSA ELLA UPPER DIV|TILICOULTRY,TILICOULTRY,CODE_PREFIX_MATCH,HIGH,104,104,0,,NO,,,,NO
+tillyrie,TLD,TLD|Upper,TLD,SOURCE_RAW_CROSS_DIVISION_NO_EVIDENCE,HIGH,125,30,95,,NO,,,,NO
+tillyrie,UD,TLD|Upper,Upper,UPPER_DIVISION_ALIAS,HIGH,54,54,0,,NO,,,,NO
+udaradella,LD,Lower|Upper,Lower,LOWER_DIVISION_ALIAS,HIGH,183,183,0,,NO,,,,NO
+udaradella,UD,Lower|Upper,Upper,UPPER_DIVISION_ALIAS,HIGH,83,83,0,,NO,,,,NO
+Wattegoda,LD,Lower|Upper|Yoxford,Lower,LOWER_DIVISION_ALIAS,HIGH,268,268,0,,NO,,,,NO
+Wattegoda,UD,Lower|Upper|Yoxford,Upper,UPPER_DIVISION_ALIAS,HIGH,288,288,0,,NO,,,,NO
+Wattegoda,YOX,Lower|Upper|Yoxford,Yoxford,CODE_PREFIX_MATCH,HIGH,183,183,0,,NO,,,,NO

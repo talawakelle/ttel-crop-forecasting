@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "package_version": "3.0.1",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v3\\data_audit_runs\\estate_audit_v301_20260723_120451",
+  "archives_found": 33,
+  "expected_estates": 33,
+  "ready": 25,
+  "conditional": 8,
+  "not_ready": 0,
+  "identity_mismatch_estates": [
+    "edinburgh",
+    "gouravilla",
+    "ingestre",
+    "oilphant",
+    "pedro",
+    "robgill",
+    "tillyrie",
+    "udaradella"
+  ],
+  "rejected_row_samples": 1,
+  "duration_minutes": 77.39,
+  "live_models_changed": false,
+  "portal_changed": false,
+  "rl_started": false
+}

@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Ingestre,1,2026-06-14,2026-06-15,2026-06-21,38243.99117452436,29648.590634464294,53743.16895585296,Crop-Only Gradient Boosting,18.719910944635394
+Ingestre,2,2026-06-14,2026-06-22,2026-06-28,36052.0,21243.5,50203.0,Same Week Last Year,18.847992849079358
+Ingestre,3,2026-06-14,2026-06-29,2026-07-05,33995.0,19186.5,48146.0,Same Week Last Year,18.847992849079358
+Ingestre,4,2026-06-14,2026-07-06,2026-07-12,27276.0,12467.5,41427.0,Same Week Last Year,18.847992849079358

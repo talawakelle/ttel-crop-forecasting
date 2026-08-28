@@ -1,0 +1,18 @@
+{
+  "package": "TTE Complete Fallback Routing Repair",
+  "version": "11.0.2",
+  "retrain_rl_model": false,
+  "episode_fallback_rules_expected": 5,
+  "prior_exact_fallback_rules_expected": 13,
+  "additional_exact_fallback_rules_expected": 15,
+  "total_exact_fallback_rules_expected": 28,
+  "routed_cases_expected": 396,
+  "expected_route_counts": {
+    "EPISODE_GREEDY_FALLBACK": 30,
+    "EXACT_SHOCK_GREEDY_FALLBACK": 28,
+    "PROTECTED_HYBRID_RL": 338
+  },
+  "required_all_case_noninferiority_pct": 100.0,
+  "operational_use": false,
+  "starts_live_deployment": false
+}

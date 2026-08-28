@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checkpoint_date": "2026-07-22",
+  "manager_accounts_tested": 33,
+  "administrator_accounts_tested": 1,
+  "workforce_cross_estate_blocks": 33,
+  "manager_admin_access_blocked": true,
+  "graph_view_range_checks": 660,
+  "graph_series_labels": [
+    "Actual value",
+    "Current-practice forecast",
+    "Best-practice forecast"
+  ],
+  "workforce_controls_verified": [
+    "stale crop demand is blocked",
+    "RL is disabled",
+    "no automatic employee moves",
+    "short-history status is visible"
+  ],
+  "notes": "Runtime tests used a temporary copy of the portal database; access links and manager data in the packaged database were not changed."
+}

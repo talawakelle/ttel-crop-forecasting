@@ -1,0 +1,13 @@
+{
+  "package": "TTE CP-SAT Capacity Matching Repair",
+  "version": "7.1.0",
+  "fixes": [
+    "Use estate+division+field identity",
+    "Expand candidates to all unique employees within each estate",
+    "Treat old plucker demand as a soft reference rather than a hard maximum"
+  ],
+  "all_employee_records_in_audit_roster": true,
+  "duplicate_employee_ids_double_counted": false,
+  "operational_use": false,
+  "starts_rl": false
+}

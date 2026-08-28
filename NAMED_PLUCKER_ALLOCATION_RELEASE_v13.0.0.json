@@ -1,0 +1,9 @@
+{
+  "package": "TTE Simulation Named Plucker Allocation",
+  "version": "13.0.0",
+  "source": "latest v7.1 CP-SAT named assignment output",
+  "supervisor_acceptance_mode": "SIMULATION_ACCEPT_ALL_NOT_REAL_APPROVAL",
+  "actual_supervisor_verified": false,
+  "live_deployment_started": false,
+  "operational_use_allowed": false
+}

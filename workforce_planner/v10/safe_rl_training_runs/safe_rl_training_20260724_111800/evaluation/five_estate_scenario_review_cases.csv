@@ -1,0 +1,6 @@
+﻿"episode_id","shock_id","scenario","estate","greedy_final_objective","rl_only_final_objective","hybrid_final_objective","greedy_final_under_kg","rl_only_final_under_kg","hybrid_final_under_kg","hybrid_rl_actions_used","hybrid_greedy_fallbacks","hybrid_noninferior_to_greedy","hybrid_safety_violations","hybrid_duplicate_assignments","evaluation_group","objective_difference","recommended_shadow_policy"
+"EP_004_CONSERVATIVE_eildonhall","SHOCK_05","CONSERVATIVE","EildonHall","873.695","880.802","893.148","0.0","0.0","0.0","4","1","NO","0","0","UNSEEN_SHOCK_05","19.453","GREEDY_FALLBACK"
+"EP_032_CONSERVATIVE_tillyrie","SHOCK_05","CONSERVATIVE","tillyrie","299.433","321.432","321.432","0.0","0.0","0.0","3","0","NO","0","0","UNSEEN_SHOCK_05","21.999","GREEDY_FALLBACK"
+"EP_038_EXPECTED_invery","SHOCK_05","EXPECTED","Invery","4718.937","8061.305","8061.305","4.5436","7.8588","7.8588","2","0","NO","0","0","UNSEEN_SHOCK_05","3342.368","GREEDY_FALLBACK"
+"EP_047_EXPECTED_battalgalla","SHOCK_05","EXPECTED","battalgalla","248.804","396.101","396.101","0.0","0.1406","0.1406","3","0","NO","0","0","UNSEEN_SHOCK_05","147.297","GREEDY_FALLBACK"
+"EP_058_EXPECTED_mahanilu","SHOCK_05","EXPECTED","mahanilu","1115.259","1156.427","1153.729","0.0","0.0","0.0","4","1","NO","0","0","UNSEEN_SHOCK_05","38.47","GREEDY_FALLBACK"

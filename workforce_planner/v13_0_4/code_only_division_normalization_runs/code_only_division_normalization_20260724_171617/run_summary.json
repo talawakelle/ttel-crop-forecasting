@@ -1,0 +1,25 @@
+{
+  "status": "PASS_CODE_ONLY_DIVISION_EVIDENCE_PACK_CREATED",
+  "package_version": "13.0.4",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_4\\code_only_division_normalization_runs\\code_only_division_normalization_20260724_171617",
+  "source_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_3\\official_division_evidence_runs\\official_division_evidence_20260724_161628",
+  "source_preview_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_2\\division_identity_normalization_runs\\division_identity_normalization_20260724_152909\\allocation\\suggested_division_normalization_preview.csv",
+  "source_allocation_rows": 15014,
+  "field_division_context_rows": 447,
+  "employee_home_code_context_keys": 107,
+  "estate_count": 33,
+  "duplicate_estate_field_context_rows": 61,
+  "review_gate": "OFFICIAL_FIELD_DIVISION_CODE_INPUT_REQUIRED",
+  "official_field_code_input_started": false,
+  "official_field_code_input_completed": false,
+  "employee_home_code_verification_completed": false,
+  "operational_status": "CODE_ONLY_DIVISION_EVIDENCE_COLLECTION",
+  "live_deployment_started": false,
+  "important_interpretation": [
+    "Official division long names are not required in this stage.",
+    "The official assigned division code is entered at estate + division-context + field level.",
+    "Allocation division text is context only and is not official evidence.",
+    "Employee home division codes remain inferred historical context until supervisor verification.",
+    "No employee notification or live assignment is authorized."
+  ]
+}

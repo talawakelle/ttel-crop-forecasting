@@ -1,0 +1,8 @@
+{
+  "recheck_time": "2026-07-23T17:37:48",
+  "estates": 33,
+  "ready_estates": 0,
+  "not_ready_estates": 33,
+  "cp_sat_started": false,
+  "output": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v6\\employee_readiness_runs\\employee_readiness_20260723_172820\\quality\\cp_sat_input_recheck.csv"
+}

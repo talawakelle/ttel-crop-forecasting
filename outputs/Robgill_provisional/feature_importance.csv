@@ -1,0 +1,86 @@
+horizon_weeks,selected_method,feature,importance
+3,Crop-Only Random Forest,crop_lag_0,0.059501284694167114
+3,Crop-Only Random Forest,crop_lag_1,0.02682691100051242
+3,Crop-Only Random Forest,crop_lag_2,0.02155645484658381
+3,Crop-Only Random Forest,crop_lag_3,0.01743926087472494
+3,Crop-Only Random Forest,crop_lag_4,0.019370363145033057
+3,Crop-Only Random Forest,crop_lag_8,0.03253500540895797
+3,Crop-Only Random Forest,crop_lag_13,0.04059467027085074
+3,Crop-Only Random Forest,crop_lag_26,0.02486178146157958
+3,Crop-Only Random Forest,crop_lag_52,0.019389845114991637
+3,Crop-Only Random Forest,crop_mean_4,0.03226898729832434
+3,Crop-Only Random Forest,crop_std_4,0.025129410600100398
+3,Crop-Only Random Forest,crop_mean_8,0.047768429368698816
+3,Crop-Only Random Forest,crop_std_8,0.02373707930957713
+3,Crop-Only Random Forest,crop_mean_13,0.04115648327667995
+3,Crop-Only Random Forest,crop_std_13,0.04775575126828537
+3,Crop-Only Random Forest,crop_mean_26,0.0761759350366287
+3,Crop-Only Random Forest,crop_std_26,0.06748657511104109
+3,Crop-Only Random Forest,crop_days,0.02097816057197265
+3,Crop-Only Random Forest,origin_week_sin,0.09364548996776922
+3,Crop-Only Random Forest,origin_week_cos,0.08939775612293004
+3,Crop-Only Random Forest,target_week_sin,0.08682493177027199
+3,Crop-Only Random Forest,target_week_cos,0.08559943348031918
+4,Weather + Crop Random Forest,crop_lag_0,0.006656261824035919
+4,Weather + Crop Random Forest,crop_lag_1,0.00878999906111277
+4,Weather + Crop Random Forest,crop_lag_2,0.004921514113902041
+4,Weather + Crop Random Forest,crop_lag_3,0.007891176426046349
+4,Weather + Crop Random Forest,crop_lag_4,0.06933096967768965
+4,Weather + Crop Random Forest,crop_lag_8,0.012841559183807583
+4,Weather + Crop Random Forest,crop_lag_13,0.008863938404300529
+4,Weather + Crop Random Forest,crop_lag_26,0.010546812803283708
+4,Weather + Crop Random Forest,crop_lag_52,0.008672144226032059
+4,Weather + Crop Random Forest,crop_mean_4,0.0087181528866342
+4,Weather + Crop Random Forest,crop_std_4,0.011902256701846081
+4,Weather + Crop Random Forest,crop_mean_8,0.015542809722642822
+4,Weather + Crop Random Forest,crop_std_8,0.028177027884970392
+4,Weather + Crop Random Forest,crop_mean_13,0.020784090432334926
+4,Weather + Crop Random Forest,crop_std_13,0.00993244240520888
+4,Weather + Crop Random Forest,crop_mean_26,0.02317202850235412
+4,Weather + Crop Random Forest,crop_std_26,0.011777136995723476
+4,Weather + Crop Random Forest,rainfall_mm_lag_0,0.013372124202716813
+4,Weather + Crop Random Forest,rainfall_mm_lag_1,0.012572944931235099
+4,Weather + Crop Random Forest,rainfall_mm_mean_4,0.012892193566846722
+4,Weather + Crop Random Forest,rainfall_mm_mean_13,0.008186050344403213
+4,Weather + Crop Random Forest,air_temp_mean_lag_0,0.01833094698784008
+4,Weather + Crop Random Forest,air_temp_mean_lag_1,0.00879489485156449
+4,Weather + Crop Random Forest,air_temp_mean_mean_4,0.01194296409105617
+4,Weather + Crop Random Forest,air_temp_mean_mean_13,0.12855814253055975
+4,Weather + Crop Random Forest,air_temp_min_lag_0,0.026001172937920935
+4,Weather + Crop Random Forest,air_temp_min_lag_1,0.00809539342549293
+4,Weather + Crop Random Forest,air_temp_min_mean_4,0.03632950514548682
+4,Weather + Crop Random Forest,air_temp_min_mean_13,0.02826795552863764
+4,Weather + Crop Random Forest,air_temp_max_lag_0,0.014697980521063546
+4,Weather + Crop Random Forest,air_temp_max_lag_1,0.010220927324242937
+4,Weather + Crop Random Forest,air_temp_max_mean_4,0.00990381689749344
+4,Weather + Crop Random Forest,air_temp_max_mean_13,0.009090187961613694
+4,Weather + Crop Random Forest,humidity_mean_lag_0,0.004629147787696543
+4,Weather + Crop Random Forest,humidity_mean_lag_1,0.002889652506672634
+4,Weather + Crop Random Forest,humidity_mean_mean_4,0.0037178132188669614
+4,Weather + Crop Random Forest,humidity_mean_mean_13,0.010376691455396
+4,Weather + Crop Random Forest,soil_moisture_mean_lag_0,0.0029335322691968887
+4,Weather + Crop Random Forest,soil_moisture_mean_lag_1,0.0015646602085781186
+4,Weather + Crop Random Forest,soil_moisture_mean_mean_4,0.001014006177724303
+4,Weather + Crop Random Forest,soil_moisture_mean_mean_13,0.0030725135251775666
+4,Weather + Crop Random Forest,soil_temp_mean_lag_0,0.0006007443743568672
+4,Weather + Crop Random Forest,soil_temp_mean_lag_1,0.0009493207041730591
+4,Weather + Crop Random Forest,soil_temp_mean_mean_4,0.0019649132343393765
+4,Weather + Crop Random Forest,soil_temp_mean_mean_13,0.006775151953251109
+4,Weather + Crop Random Forest,sunshine_duration_lag_0,0.006633169917564171
+4,Weather + Crop Random Forest,sunshine_duration_lag_1,0.0035968365260339655
+4,Weather + Crop Random Forest,sunshine_duration_mean_4,0.010503670866089122
+4,Weather + Crop Random Forest,sunshine_duration_mean_13,0.01095871101198036
+4,Weather + Crop Random Forest,light_mean_lag_0,0.00989656136978909
+4,Weather + Crop Random Forest,light_mean_lag_1,0.00440173620515496
+4,Weather + Crop Random Forest,light_mean_mean_4,0.005835983579747242
+4,Weather + Crop Random Forest,light_mean_mean_13,0.007095973003381567
+4,Weather + Crop Random Forest,wind_speed_mean_lag_0,0.02893345240976997
+4,Weather + Crop Random Forest,wind_speed_mean_lag_1,0.008006600948482543
+4,Weather + Crop Random Forest,wind_speed_mean_mean_4,0.009933492896040196
+4,Weather + Crop Random Forest,wind_speed_mean_mean_13,0.011328121430719238
+4,Weather + Crop Random Forest,crop_days,0.0011672453648418478
+4,Weather + Crop Random Forest,weather_days,0.00048533737818028046
+4,Weather + Crop Random Forest,origin_week_sin,0.08228969819404482
+4,Weather + Crop Random Forest,origin_week_cos,0.039093531366346045
+4,Weather + Crop Random Forest,target_week_sin,0.07193852081154566
+4,Weather + Crop Random Forest,target_week_cos,0.021635686804759798

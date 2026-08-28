@@ -1,0 +1,78 @@
+{
+  "weather_schema_version": 1,
+  "station": "TRI-TW",
+  "station_label": "TRI Thalawakelle",
+  "source_name": "TRI-Thalawakelle.zip",
+  "source_sha256": "df0b81bfbd5f085040a408286ab4a2993d824f0e877b590b4c587489c7b51e04",
+  "source_bytes": 10113747,
+  "workbooks": {
+    "TRI-Thalawakele.xlsx": 170040,
+    "TRI-Thalawakele_2026_06.xlsx": 2194
+  },
+  "raw_rows_read": 172234,
+  "unique_timestamps": 170673,
+  "duplicate_timestamps_removed": 1561,
+  "date_min": "2020-06-12",
+  "date_max": "2026-06-25",
+  "calendar_days": 2205,
+  "observed_days": 2044,
+  "usable_days": 2011,
+  "calendar_day_coverage_pct": 92.7,
+  "usable_observed_day_pct": 98.39,
+  "invalid_sensor_readings": {
+    "temperature": 745,
+    "humidity": 729,
+    "rainfall": 79,
+    "wind": 5
+  },
+  "daily_file": "weather_daily.csv.gz",
+  "daily_sha256": "80c2317e743e363ae83fe29bf1cdf1befb49adacb0ae7f7fc11282a07fc5b6c9",
+  "training_cutoff": "2026-06-15",
+  "training_prefix_sha256": "8d314de4a3dbfa79a772c57ae8b7e754bb651a16776bbf1b0470911a16a503eb",
+  "daily_aggregation": {
+    "deduplication": "Exact timestamps are deduplicated; the June update workbook wins exact overlaps.",
+    "rainfall": "The cumulative station rainfall counter is converted to one daily value using its maximum. Readings above 150 mm are rejected as sensor errors.",
+    "physical_ranges": {
+      "air_temp_c": [
+        5.0,
+        40.0
+      ],
+      "humidity_pct": [
+        1.0,
+        100.0
+      ],
+      "rainfall_counter_mm": [
+        0.0,
+        150.0
+      ],
+      "wind_speed_kmh": [
+        0.0,
+        150.0
+      ]
+    },
+    "usable_day": "At least 12 readings spanning at least 6 hours."
+  },
+  "forecast_rule": "Lag features use dates strictly earlier than the target date. Same-day features use only station readings timestamped before 06:00 local time.",
+  "feature_defaults": {
+    "rainfall_mm": 0.0,
+    "air_temp_mean_c": 19.0582,
+    "air_temp_range_c": 9.3,
+    "humidity_mean_pct": 82.3134,
+    "wind_speed_mean_kmh": 2.345,
+    "morning_air_temp_mean_c": 16.4724,
+    "morning_humidity_mean_pct": 94.4083,
+    "morning_rainfall_mm": 0.0,
+    "morning_wind_speed_mean_kmh": 0.0
+  },
+  "clarendon_join": {
+    "clarendon_workdays": 1725,
+    "weather_covered_workdays": 1601,
+    "workday_join_coverage_pct": 92.81,
+    "missing_workdays": 124
+  },
+  "limitations": [
+    "TRI-TW is a single regional station and may not capture every Clarendon field microclimate.",
+    "Weather improves productivity prediction only if it wins the untouched temporal test.",
+    "A future plan uses the weather model only when observations are recent; otherwise the no-weather model or historical fallback is used."
+  ]
+}

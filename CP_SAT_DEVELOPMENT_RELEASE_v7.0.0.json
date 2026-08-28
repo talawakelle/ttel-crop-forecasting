@@ -1,0 +1,13 @@
+{
+  "package": "TTE CP-SAT Development Allocation",
+  "version": "7.0.0",
+  "scenarios": [
+    "EXPECTED",
+    "CONSERVATIVE"
+  ],
+  "all_employee_scenario_input": true,
+  "each_employee_max_one_field_per_scenario": true,
+  "live_use": false,
+  "starts_rl": false,
+  "dependency": "ortools"
+}

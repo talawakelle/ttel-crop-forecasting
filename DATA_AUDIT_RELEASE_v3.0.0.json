@@ -1,0 +1,18 @@
+{
+  "package": "TTE Data Identity and Readiness Audit",
+  "version": "3.0.0",
+  "stage": "post-productivity data foundation",
+  "read_only": true,
+  "changes_live_models": false,
+  "changes_portal": false,
+  "starts_rl": false,
+  "outputs": [
+    "audit_summary.json",
+    "estate_data_audit.csv",
+    "estate_file_identity_audit.csv",
+    "estate_alias_mapping.csv",
+    "estate_readiness.json",
+    "rejected_rows_sample.csv",
+    "data_quality_report.md"
+  ]
+}

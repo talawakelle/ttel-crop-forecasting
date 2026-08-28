@@ -1,0 +1,39 @@
+{
+  "status": "PASS_SIMULATION_NAMED_PLUCKER_ALLOCATION_KG_REPAIR_CREATED",
+  "package_version": "13.0.1",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_1\\named_plucker_allocation_runs\\named_plucker_allocation_kg_repair_20260724_150820",
+  "source_cp_sat_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v7\\cp_sat_capacity_matching_runs\\capacity_matching_20260724_081322",
+  "source_assignment_file": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v7\\cp_sat_capacity_matching_runs\\capacity_matching_20260724_081322\\assignments\\cp_sat_capacity_matched_assignments.csv",
+  "named_assignment_rows": 15014,
+  "allocation_dates": [
+    "2026-07-24"
+  ],
+  "scenarios": [
+    "CONSERVATIVE",
+    "EXPECTED"
+  ],
+  "estate_count": 33,
+  "duplicate_employee_assignment_failures": 0,
+  "missing_field_crop_kg_rows": 0,
+  "missing_plucker_capacity_kg_rows": 0,
+  "missing_field_assigned_capacity_kg_rows": 0,
+  "source_assignment_method_counts": {
+    "CP_SAT_BASELINE": 15014
+  },
+  "supervisor_acceptance_mode": "SIMULATION_ACCEPT_ALL_NOT_REAL_APPROVAL",
+  "actual_supervisor_verified": false,
+  "attendance_verified": false,
+  "approved_leave_verified": false,
+  "fitness_verified": false,
+  "movement_restrictions_verified": false,
+  "allocation_gate": "READY_FOR_SUPERVISOR_NAMED_ALLOCATION_REVIEW",
+  "operational_status": "DEVELOPMENT_SIMULATION_ONLY",
+  "live_deployment_started": false,
+  "important_interpretation": [
+    "This version repairs the blank kg columns found in v13.0.0 by mapping the exact v7.1 CP-SAT fields: target_crop_kg, expected_productivity_kg and field_assigned_capacity_kg.",
+    "This output allocates named employee IDs from the development CP-SAT baseline.",
+    "The ACCEPT decision is a simulation marker requested by the user; it is not evidence of real supervisor approval.",
+    "Attendance, leave, fitness and movement restrictions remain unverified.",
+    "The output must not be sent to employees or used for live field deployment."
+  ]
+}

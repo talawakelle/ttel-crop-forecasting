@@ -1,0 +1,139 @@
+{
+  "crop": {
+    "source_file": "mahanilu_output.zip",
+    "estate": "Mahanilu",
+    "raw_rows": 230932,
+    "date_min": "2023-04-04",
+    "date_max": "2026-06-19",
+    "observed_crop_days": 838,
+    "calendar_days": 1173,
+    "non_record_days_treated_as_zero": 335,
+    "duplicate_weighing_ids_removed": 0,
+    "zero_net_rows": 0,
+    "negative_net_rows": 0,
+    "division_count": 2,
+    "field_count": 61,
+    "estate_ids": [
+      "57"
+    ],
+    "plantation_ids": [
+      "7"
+    ],
+    "workbook_files": [
+      "mahanilu_2023.xlsx",
+      "mahanilu_2024.xlsx",
+      "mahanilu_2025.xlsx",
+      "mahanilu_2026.xlsx"
+    ],
+    "filename_estate_mismatches": [],
+    "status_counts": {
+      "original": 107000,
+      "(blank)": 123932
+    },
+    "yearly_reconciliation": [
+      {
+        "file": "mahanilu_2023.xlsx",
+        "computed_net_kg": 72599.0,
+        "summary_net_kg": 72599.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "mahanilu_2024.xlsx",
+        "computed_net_kg": 498000.0,
+        "summary_net_kg": 498000.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "mahanilu_2025.xlsx",
+        "computed_net_kg": 804568.0,
+        "summary_net_kg": 804568.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "mahanilu_2026.xlsx",
+        "computed_net_kg": 401313.0,
+        "summary_net_kg": 401313.0,
+        "difference_kg": 0.0
+      }
+    ],
+    "prompt_actual_extension": {
+      "status": "SKIPPED_NO_MATCHING_COMPLETED_ROWS",
+      "source_file": "prompt_daily_actuals_snapshot.csv",
+      "rows_used": 0,
+      "completed_day_cutoff_exclusive": "2026-07-23",
+      "fallback": "historical crop archive only",
+      "provisional": true,
+      "personal_identifiers_retained": false
+    }
+  },
+  "weather": {
+    "source_file": "TRI-Thalawakele.xlsx",
+    "source_files": [
+      "TRI-Thalawakele.xlsx"
+    ],
+    "source_sheets": [
+      null
+    ],
+    "center_codes": [
+      "TRI-TW"
+    ],
+    "raw_rows": 170040,
+    "date_min": "2020-06-12",
+    "date_max": "2026-06-18",
+    "observed_days": 2037,
+    "calendar_days": 2198,
+    "missing_calendar_days": 161,
+    "coverage_pct": 92.68,
+    "individual_sources": [
+      {
+        "source_file": "TRI-Thalawakele.xlsx",
+        "source_files": [
+          "TRI-Thalawakele.xlsx"
+        ],
+        "source_sheets": [
+          "All Records"
+        ],
+        "center_codes": [
+          "TRI-TW"
+        ],
+        "raw_rows": 170040,
+        "date_min": "2020-06-12",
+        "date_max": "2026-06-18",
+        "observed_days": 2037,
+        "calendar_days": 2198,
+        "missing_calendar_days": 161,
+        "coverage_pct": 92.68,
+        "individual_sources": [
+          {
+            "source_file": "TRI-Thalawakele.xlsx",
+            "source_sheet": "All Records",
+            "center_codes": [
+              "TRI-TW"
+            ],
+            "raw_rows": 170040,
+            "date_min": "2020-06-12",
+            "date_max": "2026-06-18",
+            "observed_days": 2037,
+            "calendar_days": 2198,
+            "missing_calendar_days": 161,
+            "coverage_pct": 92.68
+          }
+        ],
+        "prepared_daily_cache": true,
+        "cache_file": "tri_weather_daily_cache.csv"
+      }
+    ]
+  },
+  "joined": {
+    "join_start": "2023-04-04",
+    "join_end": "2026-06-19",
+    "weekly_rows": 167,
+    "weeks_with_7_weather_days": 138,
+    "weeks_with_less_than_5_weather_days": 19,
+    "last_complete_week_ending": "2026-06-14",
+    "incomplete_crop_weeks_excluded_from_training": 26,
+    "minimum_crop_days_for_training_week": 3
+  },
+  "training_accelerator": "GPU",
+  "gpu_candidate_policy": "GPU CatBoost is tested for every horizon and selected only when chronological WAPE is lowest"
+}

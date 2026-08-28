@@ -1,0 +1,10 @@
+{
+  "package": "TTE Employee Home-Code Review Source Repair",
+  "version": "13.0.7.1",
+  "repair": "Prefer actual v13.0.6/v13.0.5 review files with renamed columns instead of following the older source preview.",
+  "required_columns": [
+    "allocation_division_context",
+    "employee_home_division_code"
+  ],
+  "live_deployment_started": false
+}

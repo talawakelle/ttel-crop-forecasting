@@ -1,0 +1,24 @@
+{
+  "product": "TTE Integrated Crop, GAP and Workforce Planning Platform",
+  "version": "2.0.0-audited-checkpoint",
+  "checkpoint_date": "2026-07-22",
+  "estate_accounts": 33,
+  "portfolio_administrator_accounts": 1,
+  "password_required": false,
+  "crop_forecast_horizons_weeks": [1, 2, 3, 4],
+  "maximum_planning_horizon_years": 5,
+  "packaged_prompt_actual_cutoff": "2026-07-12",
+  "user_reported_prompt_download_cutoff": "2026-07-22",
+  "current_crop_forecast_operational": false,
+  "best_practice_forecast_available": false,
+  "clarendon_workforce_pilot_preserved": true,
+  "automatic_employee_moves_authorized": false,
+  "gpu_training_authorized": false,
+  "rl_training_authorized": false,
+  "notes": [
+    "Run REFRESH_PROMPT_ACTUALS.ps1 against the July 22 PROMPT output folder.",
+    "Retrain crop forecasts before using crop demand for operational labour planning.",
+    "Every estate requires its own deterministic model comparison, untouched test and shadow approval.",
+    "Best-practice crop remains blank until validated all-estate GAP evidence exists."
+  ]
+}

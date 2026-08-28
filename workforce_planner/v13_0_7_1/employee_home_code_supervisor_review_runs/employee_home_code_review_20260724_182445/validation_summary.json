@@ -1,0 +1,12 @@
+{
+  "status": "PASS_EMPLOYEE_HOME_CODE_SUPERVISOR_REVIEW_VALIDATION_OUTPUTS",
+  "package_version": "13.0.7.1",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_7_1\\employee_home_code_supervisor_review_runs\\employee_home_code_review_20260724_182445",
+  "context_review_rows": 107,
+  "employee_exception_review_rows": 945,
+  "review_failures": 6484,
+  "review_gate": "SUPERVISOR_HOME_CODE_INPUT_OR_CORRECTION_REQUIRED",
+  "employee_home_code_verification_completed": false,
+  "operational_status": "EMPLOYEE_HOME_CODE_SUPERVISOR_REVIEW_ONLY",
+  "live_deployment_started": false
+}

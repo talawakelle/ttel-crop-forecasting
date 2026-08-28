@@ -1,0 +1,10 @@
+﻿{
+    "started_at":  "2026-07-22T18:10:42.9578668+05:30",
+    "crop_root":  "C:\\Users\\user\\Desktop\\HG 2",
+    "actuals_source":  "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\outputs\\prompt_daily_actuals.csv",
+    "actuals_snapshot":  "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\outputs\\gpu_candidates_20260722_181042\\prompt_daily_actuals_snapshot.csv",
+    "actuals_sha256":  "F8AC95FB55AEACD417B80D78D4BB67134079540A93416386DFF129DBD78C7244",
+    "accelerator":  "GPU",
+    "gpu_device":  0,
+    "live_models_replaced":  false
+}

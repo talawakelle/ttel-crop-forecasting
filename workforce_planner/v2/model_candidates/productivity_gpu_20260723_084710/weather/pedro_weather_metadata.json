@@ -1,0 +1,72 @@
+{
+  "weather_schema_version": 1,
+  "station": "PEDRO",
+  "station_label": "Pedro Nuwara Eliya",
+  "source_name": "Pedro_Estate_Nuwaraeliya.xlsx",
+  "source_sha256": "d35c317904cc9dd7f3ddb12cf981f178f38a8a773dd8f072ef4cb7121ccfd8f6",
+  "source_bytes": 3963675,
+  "workbooks": {
+    "Pedro_Estate_Nuwaraeliya.xlsx": 59535
+  },
+  "raw_rows_read": 59535,
+  "unique_timestamps": 59535,
+  "duplicate_timestamps_removed": 0,
+  "date_min": "2024-02-13",
+  "date_max": "2026-06-17",
+  "calendar_days": 856,
+  "observed_days": 785,
+  "usable_days": 769,
+  "calendar_day_coverage_pct": 91.71,
+  "usable_observed_day_pct": 97.96,
+  "invalid_sensor_readings": {
+    "temperature": 68,
+    "humidity": 69,
+    "wind": 3,
+    "rainfall": 87
+  },
+  "daily_file": "pedro_weather_daily.csv.gz",
+  "daily_sha256": "28be35ce5896b2837bf12c35e3db315b8bead666df3fdce263831a8eb9694a58",
+  "training_cutoff": null,
+  "training_prefix_sha256": null,
+  "daily_aggregation": {
+    "deduplication": "Exact timestamps are deduplicated; the June update workbook wins exact overlaps.",
+    "rainfall": "The cumulative station rainfall counter is converted to one daily value using its maximum. Readings above 150 mm are rejected as sensor errors.",
+    "physical_ranges": {
+      "air_temp_c": [
+        5.0,
+        40.0
+      ],
+      "humidity_pct": [
+        1.0,
+        100.0
+      ],
+      "rainfall_counter_mm": [
+        0.0,
+        150.0
+      ],
+      "wind_speed_kmh": [
+        0.0,
+        150.0
+      ]
+    },
+    "usable_day": "At least 12 readings spanning at least 6 hours."
+  },
+  "forecast_rule": "Lag features use dates strictly earlier than the target date. Same-day features use only station readings timestamped before 06:00 local time.",
+  "feature_defaults": {
+    "rainfall_mm": 0.0,
+    "air_temp_mean_c": 16.7471,
+    "air_temp_range_c": 8.3,
+    "humidity_mean_pct": 87.3034,
+    "wind_speed_mean_kmh": 2.8402,
+    "morning_air_temp_mean_c": 14.6095,
+    "morning_humidity_mean_pct": 93.625,
+    "morning_rainfall_mm": 0.0,
+    "morning_wind_speed_mean_kmh": 1.6375
+  },
+  "clarendon_join": null,
+  "limitations": [
+    "PEDRO is a regional station and may not capture every estate field microclimate.",
+    "Weather improves productivity prediction only if it wins the untouched temporal test.",
+    "A future plan uses the weather model only when observations are recent; otherwise the no-weather model or historical fallback is used."
+  ]
+}

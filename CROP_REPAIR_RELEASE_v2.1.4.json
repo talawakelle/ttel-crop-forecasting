@@ -1,0 +1,12 @@
+{
+  "release": "2.1.4",
+  "purpose": "Resume the interrupted 8-estate repair and start workforce productivity only after 33/33 crop PASS",
+  "changes": [
+    "Bambarakelly uses a guarded short-history provisional gate",
+    "weeks with fewer than three crop days remain excluded",
+    "completed repair outputs are reused",
+    "summary is persisted after every estate",
+    "all direct estates are attempted before final failure reporting"
+  ],
+  "operational_warning": "Repaired forecasts without current PROMPT actuals are provisional and may have an older forecast origin. Do not use them for automatic live workforce movement."
+}

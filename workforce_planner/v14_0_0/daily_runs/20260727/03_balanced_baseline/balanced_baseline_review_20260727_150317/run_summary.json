@@ -1,0 +1,53 @@
+{
+  "status": "PASS_BALANCED_BASELINE_REVIEW_OUTPUTS",
+  "package_version": "8.0.1",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v14_0_0\\daily_runs\\20260727\\03_balanced_baseline\\balanced_baseline_review_20260727_150317",
+  "comparison_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v14_0_0\\daily_runs\\20260727\\02_greedy_comparison\\greedy_comparison_20260727_150307",
+  "capacity_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v14_0_0\\daily_runs\\20260727\\01_cp_sat\\capacity_matching_20260727_142451",
+  "estate_scenario_rows": 66,
+  "legacy_strict_noninferiority_rate_pct": 63.64,
+  "material_noninferiority_rate_pct": 100.0,
+  "cp_sat_service_safe_rate_pct": 100.0,
+  "minimum_gate_pct": 80.0,
+  "absolute_tolerance_kg": 2.0,
+  "relative_tolerance_pct": 0.05,
+  "maximum_shortfall_rate_pct": 0.1,
+  "scenario_gates": [
+    {
+      "scenario": "EXPECTED",
+      "estate_scenarios": 33,
+      "material_noninferiority_rate_pct": 100.0,
+      "cp_sat_service_safe_rate_pct": 100.0,
+      "portfolio_effective_coverage_pct": 99.98,
+      "uncovered_fields": 0,
+      "fields_coverage_95_plus": 442,
+      "field_rows": 442,
+      "scenario_gate": "PASS"
+    },
+    {
+      "scenario": "CONSERVATIVE",
+      "estate_scenarios": 33,
+      "material_noninferiority_rate_pct": 100.0,
+      "cp_sat_service_safe_rate_pct": 100.0,
+      "portfolio_effective_coverage_pct": 99.99,
+      "uncovered_fields": 0,
+      "fields_coverage_95_plus": 442,
+      "field_rows": 442,
+      "scenario_gate": "PASS"
+    }
+  ],
+  "preferred_baseline_counts": {
+    "CP_SAT": 49,
+    "EITHER_BASELINE_ACCEPTABLE": 17
+  },
+  "rl_environment_gate": "READY_FOR_RL_ENVIRONMENT_DESIGN",
+  "operational_status": "DEVELOPMENT_SIMULATION_ONLY",
+  "rl_started": false,
+  "important_interpretation": [
+    "The legacy 0.5 kg rule is retained and reported for transparency.",
+    "The material gate uses the larger of 2 kg or 0.05 percent of estate-scenario crop.",
+    "CP-SAT must also have no uncovered fields, no duplicate assignments and no more than 0.10 percent estate-scenario shortfall.",
+    "A pass permits RL environment design only.",
+    "RL training has not started."
+  ]
+}

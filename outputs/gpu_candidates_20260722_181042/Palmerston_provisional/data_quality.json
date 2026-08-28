@@ -1,0 +1,153 @@
+{
+  "crop": {
+    "source_file": "palmerston_output.zip",
+    "estate": "Palmerston",
+    "raw_rows": 441909,
+    "date_min": "2021-04-01",
+    "date_max": "2026-07-21",
+    "observed_crop_days": 1761,
+    "calendar_days": 1938,
+    "non_record_days_treated_as_zero": 177,
+    "duplicate_weighing_ids_removed": 0,
+    "zero_net_rows": 0,
+    "negative_net_rows": 0,
+    "division_count": 2,
+    "field_count": 33,
+    "estate_ids": [
+      "40"
+    ],
+    "plantation_ids": [
+      "2"
+    ],
+    "workbook_files": [
+      "Palmerston_2021.xlsx",
+      "Palmerston_2022.xlsx",
+      "Palmerston_2023.xlsx",
+      "Palmerston_2024.xlsx",
+      "Palmerston_2025.xlsx",
+      "Palmerston_2026.xlsx"
+    ],
+    "filename_estate_mismatches": [],
+    "status_counts": {
+      "original": 438776,
+      "updated": 3133
+    },
+    "yearly_reconciliation": [
+      {
+        "file": "Palmerston_2021.xlsx",
+        "computed_net_kg": 680212.0,
+        "summary_net_kg": 680212.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Palmerston_2022.xlsx",
+        "computed_net_kg": 775283.0,
+        "summary_net_kg": 775283.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Palmerston_2023.xlsx",
+        "computed_net_kg": 902109.0,
+        "summary_net_kg": 902109.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Palmerston_2024.xlsx",
+        "computed_net_kg": 785594.0,
+        "summary_net_kg": 785594.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Palmerston_2025.xlsx",
+        "computed_net_kg": 790920.0,
+        "summary_net_kg": 790920.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Palmerston_2026.xlsx",
+        "computed_net_kg": 404894.0,
+        "summary_net_kg": 404894.0,
+        "difference_kg": 0.0
+      }
+    ],
+    "prompt_actual_extension": {
+      "source_file": "prompt_daily_actuals_snapshot.csv",
+      "rows_used": 19,
+      "date_min": "2026-07-01",
+      "date_max": "2026-07-21",
+      "completed_day_cutoff_exclusive": "2026-07-22",
+      "overlap_policy": "PROMPT estate/day total replaces the same completed date",
+      "personal_identifiers_retained": false
+    }
+  },
+  "weather": {
+    "source_file": "TRI-Thalawakele.xlsx",
+    "source_files": [
+      "TRI-Thalawakele.xlsx"
+    ],
+    "source_sheets": [
+      null
+    ],
+    "center_codes": [
+      "TRI-TW"
+    ],
+    "raw_rows": 170040,
+    "date_min": "2020-06-12",
+    "date_max": "2026-06-18",
+    "observed_days": 2037,
+    "calendar_days": 2198,
+    "missing_calendar_days": 161,
+    "coverage_pct": 92.68,
+    "individual_sources": [
+      {
+        "source_file": "TRI-Thalawakele.xlsx",
+        "source_files": [
+          "TRI-Thalawakele.xlsx"
+        ],
+        "source_sheets": [
+          "All Records"
+        ],
+        "center_codes": [
+          "TRI-TW"
+        ],
+        "raw_rows": 170040,
+        "date_min": "2020-06-12",
+        "date_max": "2026-06-18",
+        "observed_days": 2037,
+        "calendar_days": 2198,
+        "missing_calendar_days": 161,
+        "coverage_pct": 92.68,
+        "individual_sources": [
+          {
+            "source_file": "TRI-Thalawakele.xlsx",
+            "source_sheet": "All Records",
+            "center_codes": [
+              "TRI-TW"
+            ],
+            "raw_rows": 170040,
+            "date_min": "2020-06-12",
+            "date_max": "2026-06-18",
+            "observed_days": 2037,
+            "calendar_days": 2198,
+            "missing_calendar_days": 161,
+            "coverage_pct": 92.68
+          }
+        ],
+        "prepared_daily_cache": true,
+        "cache_file": "tri_weather_daily_cache.csv"
+      }
+    ]
+  },
+  "joined": {
+    "join_start": "2021-04-01",
+    "join_end": "2026-07-21",
+    "weekly_rows": 277,
+    "weeks_with_7_weather_days": 240,
+    "weeks_with_less_than_5_weather_days": 26,
+    "last_complete_week_ending": "2026-07-19",
+    "incomplete_crop_weeks_excluded_from_training": 5,
+    "minimum_crop_days_for_training_week": 3
+  },
+  "training_accelerator": "GPU",
+  "gpu_candidate_policy": "GPU CatBoost is tested for every horizon and selected only when chronological WAPE is lowest"
+}

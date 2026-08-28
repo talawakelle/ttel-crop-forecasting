@@ -1,0 +1,26 @@
+{
+  "status": "PASS_CODE_ONLY_DIVISION_NORMALIZATION_OUTPUTS",
+  "package_version": "13.0.4",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_4\\code_only_division_normalization_runs\\code_only_division_normalization_20260724_171617",
+  "source_field_context_keys": 447,
+  "official_field_code_rows": 447,
+  "verified_field_context_keys": 0,
+  "code_evidence_failures": 447,
+  "normalized_allocation_rows": 0,
+  "expected_primary_rows": 0,
+  "conservative_backup_rows": 0,
+  "code_comparison_counts": {},
+  "duplicate_employee_assignment_failures": 0,
+  "review_gate": "OFFICIAL_FIELD_CODE_INPUT_OR_CORRECTION_REQUIRED",
+  "official_field_code_input_started": false,
+  "official_field_code_input_completed": false,
+  "employee_home_code_verification_completed": false,
+  "operational_status": "CODE_ONLY_DIVISION_COMPARISON_REVIEW_ONLY",
+  "live_deployment_started": false,
+  "important_interpretation": [
+    "A passing gate confirms official field division-code evidence and code-to-code comparison only.",
+    "Employee home division codes remain inferred historical context and require supervisor verification.",
+    "Different-code rows are not automatically approved cross-division movements.",
+    "No employee notification or live assignment is authorized."
+  ]
+}

@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Stockholm,1,2026-06-14,2026-06-15,2026-06-21,19840.0,16883.5,26275.5,Same Week Last Year,16.993364312999645
+Stockholm,2,2026-06-14,2026-06-22,2026-06-28,20894.0,17937.5,27329.5,Same Week Last Year,16.993364312999645
+Stockholm,3,2026-06-14,2026-06-29,2026-07-05,20298.0,17341.5,26733.5,Same Week Last Year,16.993364312999645
+Stockholm,4,2026-06-14,2026-07-06,2026-07-12,18934.0,15977.5,25369.5,Same Week Last Year,16.993364312999645

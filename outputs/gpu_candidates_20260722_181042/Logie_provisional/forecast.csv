@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Logie,1,2026-07-19,2026-07-20,2026-07-26,14380.0,6933.5,21275.5,Same Week Last Year,21.420009270928396
+Logie,2,2026-07-19,2026-07-27,2026-08-02,12434.0,4987.5,19329.5,Same Week Last Year,21.420009270928396
+Logie,3,2026-07-19,2026-08-03,2026-08-09,15657.0,8210.5,22552.5,Same Week Last Year,21.420009270928396
+Logie,4,2026-07-19,2026-08-10,2026-08-16,17387.0,9940.5,24282.5,Same Week Last Year,21.420009270928396

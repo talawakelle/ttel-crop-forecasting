@@ -1,0 +1,28 @@
+{
+  "status": "PASS_SUPERVISOR_SHADOW_REVIEW_PACK_CREATED",
+  "package_version": "12.0.1",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v12_0_1\\supervisor_shadow_review_runs\\supervisor_shadow_review_identity_repair_20260724_142040",
+  "source_repair_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v11_0_2\\complete_fallback_routing_repair_runs\\movement_audit_repair_20260724_133455",
+  "source_repair_gate": "READY_FOR_SUPERVISOR_SHADOW_REVIEW",
+  "case_review_rows": 396,
+  "estate_context_rows": 33,
+  "employee_status_template_rows": 23043,
+  "employee_identity_key": "estate|employee_id",
+  "employee_identity_duplicate_count": 0,
+  "employee_estate_count": 33,
+  "employee_source_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v6\\all_employee_scenario_runs\\all_employee_scenario_20260723_175211\\registers\\all_employee_development_scenario_roster.csv",
+  "review_gate": "SUPERVISOR_INPUT_REQUIRED",
+  "supervisor_review_pack_created": true,
+  "supervisor_review_started": false,
+  "supervisor_review_completed": false,
+  "live_deployment_started": false,
+  "operational_status": "SUPERVISOR_SHADOW_REVIEW_ONLY",
+  "important_interpretation": [
+    "The 396 cases are simulated shadow-review cases.",
+    "Employee identity uses estate plus employee_id; employee numbers reused on different estates remain separate.",
+    "The employee template does not prove current attendance, leave status, fitness or availability.",
+    "Supervisors must verify actual records before entering YES.",
+    "A completed review remains shadow-only.",
+    "No payroll connection, employee notification or live assignment is authorized."
+  ]
+}

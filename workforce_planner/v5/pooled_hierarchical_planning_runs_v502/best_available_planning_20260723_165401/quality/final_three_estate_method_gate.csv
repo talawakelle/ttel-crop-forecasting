@@ -1,0 +1,4 @@
+﻿"estate","original_wape_pct","pooled_wape_pct","improvement_points","final_method","decision"
+"bambarakelly","39.08","41.31","-2.22","RECENT_SAME_WEEKDAY_MEDIAN","KEEP_ORIGINAL_METHOD"
+"EildonHall","30.86","27.03","3.83","POOLED_TREND_DAMPED_HYBRID","USE_POOLED_TECHNICAL_METHOD"
+"Tillicoultry","25.77","21.74","4.02","POOLED_WITH_OWN_WEEKDAY_SHRINKAGE","USE_POOLED_TECHNICAL_METHOD"

@@ -1,0 +1,10 @@
+plantation,region,estate,weather_station,latitude,longitude,status,notes
+UNCONFIRMED,UNCONFIRMED,Clarendon,TRI-TW,,,Pilot,Confirm plantation region and weather-station suitability
+KVPL,Nuwara Eliya,Pedro,,,,Data issue,Re-upload complete XLSX file and assign station
+TTEL,Nanu Oya,,,,,Required,Add 5 estate rows
+TTEL,Thalawakelle,,,,,Required,Add 7 estate rows
+KVPL,Hatton,,,,,Required,Add 7 estate rows
+KVPL,Nuwara Eliya,,,,,Required,Add 8 estate rows
+HPL,Lindula,,,,,Required,Add 3 estate rows
+HPL,Upcot,,,,,Required,Add 5 estate rows
+

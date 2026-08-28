@@ -1,0 +1,28 @@
+{
+  "product": "TTE All-33-Estate Workforce Productivity GPU Candidate Upgrade",
+  "version": "1.0.0",
+  "checkpoint_date": "2026-07-22",
+  "scope": "Separate estate-specific employee plucking productivity candidates for 33 estate accounts",
+  "gpu_engine": "CatBoost CUDA",
+  "source_scope": "Privacy-safe employee/date/field plucking history from each estate's own archive",
+  "selection_rule": "Candidate must beat the historical productivity baseline on an untouched temporal test and pass division safety gates",
+  "short_history_policy": "Bambarakelly, EildonHall and Tillicoultry are labelled conditional short-history provisional",
+  "clarendon_model_copied_to_other_estates": false,
+  "live_portal_auto_replacement": false,
+  "live_rl_approval": false,
+  "required_next_inputs": [
+    "daily attendance and leave",
+    "employee skills and work restrictions",
+    "legal and medical constraints",
+    "daily field work demand",
+    "supervisor approvals",
+    "estate-specific shadow-mode outcomes"
+  ],
+  "notes": [
+    "The script refuses to start while the all-estate crop GPU batch is incomplete.",
+    "The optional WaitForCrop launcher starts only after the crop batch contains 33 PASS results.",
+    "All candidates use estate-scoped pseudonymous employee aliases.",
+    "Rejected models remain rejected; GPU use does not override the accuracy gate.",
+    "No automatic employee reassignment is authorized by this upgrade."
+  ]
+}

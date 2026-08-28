@@ -1,0 +1,9 @@
+archive_estate,estate_id,verification_status,verification_basis
+edinburgh,11,VERIFIED_FILENAME_ONLY_MISMATCH,Distinct estate_id and data signature; no exact cross-archive workbook duplicate
+gouravilla,56,VERIFIED_FILENAME_ONLY_MISMATCH,Distinct estate_id and data signature; no exact cross-archive workbook duplicate
+ingestre,5,VERIFIED_FILENAME_ONLY_MISMATCH,Distinct estate_id and data signature; no exact cross-archive workbook duplicate
+oilphant,12,VERIFIED_FILENAME_ONLY_MISMATCH,Distinct estate_id and data signature; no exact cross-archive workbook duplicate
+pedro,9,VERIFIED_FILENAME_ONLY_MISMATCH,Distinct estate_id and data signature; no exact cross-archive workbook duplicate
+robgill,7,VERIFIED_FILENAME_ONLY_MISMATCH,Distinct estate_id and data signature; no exact cross-archive workbook duplicate
+tillyrie,8,VERIFIED_FILENAME_ONLY_MISMATCH,Distinct estate_id and data signature; no exact cross-archive workbook duplicate
+udaradella,14,VERIFIED_FILENAME_ONLY_MISMATCH,Distinct estate_id and data signature; no exact cross-archive workbook duplicate

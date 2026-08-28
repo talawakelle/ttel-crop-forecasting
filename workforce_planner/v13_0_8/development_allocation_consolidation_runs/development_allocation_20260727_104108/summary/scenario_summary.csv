@@ -1,0 +1,3 @@
+﻿scenario,assignment_rows,unique_employee_keys,allocated_capacity_kg,official_field_code_rows,official_field_code_coverage_pct,home_code_exception_rows,home_code_exception_pct,cross_division_exception_rows,operational_use_allowed,live_assignment_authorized
+EXPECTED,6101,6101,106380.6111,6061,99.3444,598,9.8017,0,NO,NO
+CONSERVATIVE,8913,8913,144028.6045,8858,99.3829,910,10.2098,0,NO,NO

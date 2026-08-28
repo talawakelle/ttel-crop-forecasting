@@ -1,0 +1,35 @@
+{
+  "source_file": "Pedro_Estate_Nuwaraeliya.xlsx",
+  "source_files": [
+    "Pedro_Estate_Nuwaraeliya.xlsx"
+  ],
+  "source_sheets": [
+    "All Records"
+  ],
+  "center_codes": [
+    "Pedro"
+  ],
+  "raw_rows": 59535,
+  "date_min": "2024-02-13",
+  "date_max": "2026-06-17",
+  "observed_days": 785,
+  "calendar_days": 856,
+  "missing_calendar_days": 71,
+  "coverage_pct": 91.71,
+  "individual_sources": [
+    {
+      "source_file": "Pedro_Estate_Nuwaraeliya.xlsx",
+      "source_sheet": "All Records",
+      "center_codes": [
+        "Pedro"
+      ],
+      "raw_rows": 59535,
+      "date_min": "2024-02-13",
+      "date_max": "2026-06-17",
+      "observed_days": 785,
+      "calendar_days": 856,
+      "missing_calendar_days": 71,
+      "coverage_pct": 91.71
+    }
+  ]
+}

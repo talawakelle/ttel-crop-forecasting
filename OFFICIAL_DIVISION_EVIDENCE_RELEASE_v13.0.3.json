@@ -1,0 +1,11 @@
+{
+  "package": "TTE Official Division Evidence Intake",
+  "version": "13.0.3",
+  "supports_one_to_many_division_groups": true,
+  "uses_system_suggestions_as_official_evidence": false,
+  "requires_source_document_references": true,
+  "requires_approval_fields": true,
+  "actual_supervisor_verified": false,
+  "operational_use_allowed": false,
+  "live_deployment_started": false
+}

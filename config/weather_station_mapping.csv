@@ -1,0 +1,34 @@
+estate,latitude,longitude,coordinate_basis,nearest_station,nearest_distance_km,alternate_station,alternate_distance_km,station_file_status,training_action,source_url,notes
+Alton,6.78670,80.61310,estate_location,TRI-TW,17.5,PEDRO-NE,28.7,valid,compare_weather_vs_crop_only,https://mapcarta.com/14848424,
+Annfield,6.87390,80.63570,estate_location,TRI-TW,9.0,PEDRO-NE,20.6,valid,compare_weather_vs_crop_only,https://mapcarta.com/14847880,
+Bambarakelly,6.89379,80.65355,estate_location,TRI-TW,6.2,PEDRO-NE,17.8,valid,compare_weather_vs_crop_only,https://mapcarta.com/14846904,
+Battalgalla,6.86670,80.60000,Dickoya_region_centroid,TRI-TW,12.9,PEDRO-NE,24.5,valid,compare_weather_vs_crop_only,https://www.kvpl.com/estate_hatton_battalgalla,"Confirm exact estate GPS when estate master is supplied. Nearest result is not sensitive to small local coordinate changes."
+Bearwell,6.932584,80.679948,official_estate_map,TRI-TW,3.5,PEDRO-NE,13.4,valid,compare_weather_vs_crop_only,https://cdn.cse.lk/cmt/upload_report_file/726_1527675976342.pdf,
+Calsay,6.90110,80.75570,estate_location,TRI-TW,5.7,PEDRO-NE,8.8,valid,compare_weather_vs_crop_only,https://mapcarta.com/14809202,"Nearest-station margin is modest; validate weather value chronologically."
+Clarendon,6.92643,80.73181,estate_location,TRI-TW,3.1,PEDRO-NE,8.5,valid,compare_weather_vs_crop_only,https://mapcarta.com/14844106,
+Dessford,6.917714,80.729447,official_estate_map,TRI-TW,2.6,PEDRO-NE,9.3,valid,compare_weather_vs_crop_only,https://cdn.cse.lk/cmt/upload_report_file/726_1527675976342.pdf,
+Edinburgh,6.93450,80.74560,estate_location,TRI-TW,4.9,PEDRO-NE,6.8,valid,compare_weather_vs_crop_only,https://mapcarta.com/14840584,"Near-boundary estate; confirm elevation and microclimate after the Pedro file is repaired."
+EildonHall,6.91030,80.66010,estate_location,TRI-TW,5.1,PEDRO-NE,16.4,valid,compare_weather_vs_crop_only,https://mapcarta.com/14839914,
+Fairlawn,6.78301,80.62703,estate_location,TRI-TW,17.0,PEDRO-NE,27.9,valid,compare_weather_vs_crop_only,https://mapcarta.com/14839120,
+Fordyce,6.85960,80.64190,estate_location,TRI-TW,9.4,PEDRO-NE,20.9,valid,compare_weather_vs_crop_only,https://mapcarta.com/14839064,
+Glassaugh,6.94290,80.72890,estate_location,TRI-TW,4.0,PEDRO-NE,8.0,valid,compare_weather_vs_crop_only,https://mapcarta.com/14836974,
+Gouravilla,6.79240,80.60660,estate_location,TRI-TW,17.5,PEDRO-NE,28.7,valid,compare_weather_vs_crop_only,https://mapcarta.com/14836274,"Outer ZIP name is authoritative; four internal crop workbooks are misnamed Mahanilu."
+GreatWestern,6.953055,80.675901,official_estate_map,TRI-TW,5.4,PEDRO-NE,13.3,valid,compare_weather_vs_crop_only,https://cdn.cse.lk/cmt/upload_report_file/726_1527675976342.pdf,
+Holyrood,6.94707,80.66431,estate_factory_location,TRI-TW,5.9,PEDRO-NE,14.7,valid,compare_weather_vs_crop_only,https://mapcarta.com/N6163655942,
+Ingestre,6.84203,80.64601,estate_location,TRI-TW,10.4,PEDRO-NE,21.8,valid,compare_weather_vs_crop_only,https://mabrocteas.com/single-garden-tea-box-gift-for-tea-lovers/,"Outer ZIP name is authoritative; six internal crop workbooks are misnamed Annfield."
+Invery,6.89250,80.62750,estate_location,TRI-TW,9.0,PEDRO-NE,20.5,valid,compare_weather_vs_crop_only,https://mapcarta.com/14831672,
+Logie,6.92540,80.67550,estate_location,TRI-TW,3.6,PEDRO-NE,14.2,valid,compare_weather_vs_crop_only,https://mapcarta.com/14820948,
+Mahanilu,6.80420,80.61150,estate_location,TRI-TW,16.1,PEDRO-NE,27.4,valid,compare_weather_vs_crop_only,https://mapcarta.com/14819504,
+Mattakelle,6.92770,80.69700,estate_location,TRI-TW,1.8,PEDRO-NE,11.9,valid,compare_weather_vs_crop_only,https://mapcarta.com/14817322,
+NuwaraEliya,6.98000,80.77000,reported_estate_area_estimate,PEDRO-NE,3.0,TRI-TW,10.1,valid,compare_weather_vs_crop_only,https://www.kvpl.com/estate_nuwaraeliya_nuwaraeliya,"Estate is reported about 5 km from Nuwara Eliya city toward Kandy road. Confirm exact estate GPS."
+Oilphant,6.96620,80.73200,estate_location,TRI-TW,6.4,PEDRO-NE,7.0,valid,compare_weather_vs_crop_only,https://mapcarta.com/14811024,"The uploaded outer ZIP spelling is authoritative. Physical distances are nearly tied; reassess climatic representativeness when clean Pedro weather is available."
+Palmerston,6.94370,80.67720,estate_location,TRI-TW,4.5,PEDRO-NE,13.4,valid,compare_weather_vs_crop_only,https://mapcarta.com/14808934,
+Pedro,6.96996,80.79562,estate_location,PEDRO-NE,0.0,TRI-TW,11.6,valid,compare_weather_vs_crop_only,https://mapcarta.com/W758466062,"Outer ZIP name is authoritative despite mismatched internal workbook names."
+Radella,6.937713,80.716599,official_estate_map,TRI-TW,2.8,PEDRO-NE,9.4,valid,compare_weather_vs_crop_only,https://cdn.cse.lk/cmt/upload_report_file/726_1527675976342.pdf,
+Robgill,6.82831,80.65893,estate_factory_location,TRI-TW,10.9,PEDRO-NE,21.8,valid,compare_weather_vs_crop_only,https://mapcarta.com/N6896189046,
+Somerset,6.927765,80.722200,official_estate_map,TRI-TW,2.3,PEDRO-NE,9.4,valid,compare_weather_vs_crop_only,https://cdn.cse.lk/cmt/upload_report_file/726_1527675976342.pdf,
+Stockholm,6.81670,80.59810,estate_location,TRI-TW,16.1,PEDRO-NE,27.7,valid,compare_weather_vs_crop_only,https://mapcarta.com/14800854,
+Tillicoultry,6.90798,80.68027,estate_location,TRI-TW,2.9,PEDRO-NE,14.5,valid,compare_weather_vs_crop_only,https://mapcarta.com/14800394,
+Tillyrie,6.83263,80.65373,estate_location,TRI-TW,10.8,PEDRO-NE,21.9,valid,compare_weather_vs_crop_only,https://mapcarta.com/N6575355255,
+Udaradella,6.95190,80.71800,estate_location,TRI-TW,4.4,PEDRO-NE,8.8,valid,compare_weather_vs_crop_only,https://mapcarta.com/14797558,
+Wattegoda,6.96250,80.65200,estate_location,TRI-TW,8.0,PEDRO-NE,15.9,valid,compare_weather_vs_crop_only,https://mapcarta.com/14793750,

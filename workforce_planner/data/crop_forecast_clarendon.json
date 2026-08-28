@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "estate": "Clarendon",
+  "forecast_origin": "2026-06-14",
+  "source_file": "TTEL_Plantation_Crop_Forecasting_Pilot.xlsx",
+  "source_model_scope": "estate-level weekly net green-leaf crop",
+  "field_schedule_scope": "not modelled; supervisor-selected template-day mix required",
+  "validation": {
+    "method": "chronological final 26 usable weeks",
+    "average_selected_wape": 0.14039034070141493,
+    "weather_day_coverage": 0.9268
+  },
+  "data_quality": {
+    "crop_records": 428401,
+    "crop_coverage": "2021-04-01 to 2026-06-15",
+    "observed_crop_days": 1725,
+    "divisions": 3,
+    "fields_reported_by_crop_project": 30,
+    "workforce_profile_fields": 36,
+    "weather_mapping": "Clarendon to TRI-TW provisional"
+  },
+  "periods": [
+    {
+      "estate": "Clarendon",
+      "horizon": 1,
+      "origin_week_ending": "2026-06-14",
+      "forecast_start": "2026-06-15",
+      "forecast_end": "2026-06-21",
+      "forecast_kg": 9806.867952876717,
+      "lower_80_kg": 7938.163646842184,
+      "upper_80_kg": 12791.69764422435,
+      "selected_method": "Crop-Only Random Forest",
+      "validation_wape": 0.13516516099277995
+    },
+    {
+      "estate": "Clarendon",
+      "horizon": 2,
+      "origin_week_ending": "2026-06-14",
+      "forecast_start": "2026-06-22",
+      "forecast_end": "2026-06-28",
+      "forecast_kg": 9069.624347170575,
+      "lower_80_kg": 6626.493301895674,
+      "upper_80_kg": 12092.682844169614,
+      "selected_method": "Weather + Crop Random Forest",
+      "validation_wape": 0.14767501438982894
+    },
+    {
+      "estate": "Clarendon",
+      "horizon": 3,
+      "origin_week_ending": "2026-06-14",
+      "forecast_start": "2026-06-29",
+      "forecast_end": "2026-07-05",
+      "forecast_kg": 8459.405365712164,
+      "lower_80_kg": 6133.72604875368,
+      "upper_80_kg": 10657.962442416625,
+      "selected_method": "Crop-Only Random Forest",
+      "validation_wape": 0.13025924576237355
+    },
+    {
+      "estate": "Clarendon",
+      "horizon": 4,
+      "origin_week_ending": "2026-06-14",
+      "forecast_start": "2026-07-06",
+      "forecast_end": "2026-07-12",
+      "forecast_kg": 7862.520093815749,
+      "lower_80_kg": 6152.924830568448,
+      "upper_80_kg": 11011.307461747956,
+      "selected_method": "Crop-Only Random Forest",
+      "validation_wape": 0.14846194166067722
+    }
+  ]
+}

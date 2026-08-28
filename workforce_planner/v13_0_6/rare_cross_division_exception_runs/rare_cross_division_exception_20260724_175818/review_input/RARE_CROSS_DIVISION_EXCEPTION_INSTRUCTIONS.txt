@@ -1,0 +1,14 @@
+Cross-division work is treated as a rare exception, not as the normal allocation model.
+
+Standard activity: one employee works within one division.
+Rare exception: one employee has allocation rows in more than one division on the same date and scenario.
+
+For any exception, an authorized supervisor must enter an exception reason, confirm the exception, and enter supervisor name and review date/time.
+
+The total employee_field_allocated_capacity_kg across all rows must not exceed employee_daily_capacity_kg.
+
+Keep all employee verification, operational-use and live assignment flags as NO.
+
+TLD and other unclear home codes remain unverified.
+
+Run VALIDATE_RARE_CROSS_DIVISION_EXCEPTION_v13.0.6.ps1 after review.

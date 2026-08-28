@@ -1,0 +1,9 @@
+{
+  "package": "TTE All-Employee Development Scenario",
+  "version": "6.1.0",
+  "uses_every_employee": true,
+  "official_templates_changed": false,
+  "operational_use": false,
+  "starts_cp_sat": false,
+  "starts_rl": false
+}

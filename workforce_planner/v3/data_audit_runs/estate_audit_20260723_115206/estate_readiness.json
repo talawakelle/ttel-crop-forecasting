@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "package_version": "3.0.0",
+  "generated_at": "2026-07-23T11:52:08",
+  "crop_root": "C:\\Users\\user\\Desktop\\HG 2",
+  "expected_estates": 33,
+  "archives_found": 33,
+  "estates": [
+    {
+      "estate": "alton",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "annfield",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "bambarakelly",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "battalgalla",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "bearwell",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "Calsay",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "Clarendon",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "Dessford",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "edinburgh",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "EildonHall",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "fairlawn",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "fordyce",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "glassaugh",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "gouravilla",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "greatwestern",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "holyrood",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "ingestre",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "Invery",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "logie",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "mahanilu",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "mattakelle",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "NuwaraEliya",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "oilphant",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "palmerston",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "pedro",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "Radella",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "robgill",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "Somerset",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "stockholm",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "Tillicoultry",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "tillyrie",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "udaradella",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    },
+    {
+      "estate": "Wattegoda",
+      "status": "NOT_READY",
+      "score": 35,
+      "blocking_reasons": [
+        "No readable workbook sheets",
+        "Missing required columns: date, employee, field, division, net_weight",
+        "No valid date range",
+        "Employee, field or division identities are missing",
+        "Very limited number of valid rows"
+      ],
+      "identity_mismatch_count": 0,
+      "data_date_max": ""
+    }
+  ]
+}

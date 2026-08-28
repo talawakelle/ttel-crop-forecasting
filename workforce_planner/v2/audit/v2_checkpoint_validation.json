@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "estates": 33,
+  "cross_estate_access_rejected": true,
+  "crop_horizons_per_estate": 4,
+  "stale_crop_demand_blocked": true,
+  "best_practice_fabricated": false,
+  "gpu_training_authorized": false,
+  "rl_training_authorized": false
+}

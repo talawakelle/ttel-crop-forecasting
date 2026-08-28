@@ -1,0 +1,14 @@
+Use only official source documents such as the approved division master, cost-centre master, employee home-division register, HR master, or an estate-manager-approved register.
+
+For every candidate row in official_division_code_evidence_input.csv:
+1. Enter YES or NO in include_as_valid_mapping.
+2. If YES, enter SINGLE_DIVISION or DIVISION_GROUP in mapping_scope.
+3. If YES, complete every source-document and approval field.
+4. Set evidence_status to VERIFIED only when the document supports the mapping.
+5. Keep operational_use_allowed and live_assignment_authorized as NO.
+
+One estate/code may have several YES rows when the code is an official division group, for example Lower and Upper.
+
+The priority file contains the four currently unresolved code groups. It is a working view only; enter final evidence in official_division_code_evidence_input.csv.
+
+After completing the official evidence file, run VALIDATE_OFFICIAL_DIVISION_EVIDENCE_v13.0.3.ps1.

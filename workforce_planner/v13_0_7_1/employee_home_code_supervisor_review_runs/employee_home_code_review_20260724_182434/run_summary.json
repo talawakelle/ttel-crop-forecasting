@@ -1,0 +1,17 @@
+{
+  "status": "PASS_EMPLOYEE_HOME_CODE_SUPERVISOR_REVIEW_PACK_CREATED",
+  "package_version": "13.0.7.1",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_7_1\\employee_home_code_supervisor_review_runs\\employee_home_code_review_20260724_182434",
+  "source_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_6\\rare_cross_division_exception_runs\\rare_cross_division_exception_20260724_175818",
+  "source_allocation_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_6\\rare_cross_division_exception_runs\\rare_cross_division_exception_20260724_175818\\review_input\\employee_capacity_and_cross_division_exception_review.csv",
+  "source_assignment_rows": 15014,
+  "home_code_context_rows": 107,
+  "single_candidate_contexts": 101,
+  "multiple_candidate_contexts": 4,
+  "no_direct_candidate_contexts": 2,
+  "employee_exception_review_rows": 945,
+  "review_gate": "SUPERVISOR_HOME_CODE_INPUT_REQUIRED",
+  "employee_home_code_verification_completed": false,
+  "operational_status": "EMPLOYEE_HOME_CODE_SUPERVISOR_REVIEW_ONLY",
+  "live_deployment_started": false
+}

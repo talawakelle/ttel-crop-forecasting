@@ -1,0 +1,10 @@
+{
+  "package": "TTE Balanced Baseline Review",
+  "version": "8.0.1",
+  "legacy_strict_tolerance_kg": 0.5,
+  "material_tolerance": "max(2 kg, 0.05% of estate-scenario crop)",
+  "maximum_shortfall_rate_pct": 0.1,
+  "minimum_noninferiority_gate_pct": 80.0,
+  "operational_use": false,
+  "starts_rl": false
+}

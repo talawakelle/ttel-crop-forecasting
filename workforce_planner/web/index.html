@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TTE Daily Employee Planner</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">TTE</div>
+          <div>
+            <strong>Daily Employee Planner</strong>
+            <span>Talawakelle Tea Estates PLC</span>
+          </div>
+        </div>
+        <div class="system-status" id="model-status">
+          <span class="status-dot"></span>
+          <b>Checking system…</b>
+        </div>
+      </div>
+    </header>
+
+    <main class="page">
+      <section class="welcome">
+        <p class="eyebrow">CLARENDON WORKFORCE PLANNING</p>
+        <h1>Prepare today’s employee allocation in three simple steps</h1>
+        <p class="welcome-copy">
+          Select the conditions, forecast employee productivity, compare safe plans, then review the strongest result.
+        </p>
+        <div class="steps" aria-label="Planning steps">
+          <div class="step active"><span>1</span><div><b>Enter details</b><small>Date, division and attendance</small></div></div>
+          <div class="step"><span>2</span><div><b>Compare plans</b><small>Optimizer, RL and standard method</small></div></div>
+          <div class="step"><span>3</span><div><b>Review &amp; export</b><small>Supervisor confirms the proposal</small></div></div>
+        </div>
+      </section>
+
+      <section class="card input-card">
+        <div class="section-title">
+          <span class="number">1</span>
+          <div>
+            <p class="eyebrow">ENTER DETAILS</p>
+            <h2>What should we plan?</h2>
+          </div>
+        </div>
+
+        <div class="input-grid">
+          <label>
+            <span>Planning date</span>
+            <input id="planning-date" type="date" />
+            <small>The approved forecast uses only earlier work records and automatically falls back when its safety horizon is exceeded.</small>
+          </label>
+          <label>
+            <span>Field schedule template</span>
+            <select id="template-date"></select>
+            <small>Chooses the active fields and field proportions. Forecast demand can scale this schedule.</small>
+          </label>
+          <label>
+            <span>Division</span>
+            <select id="division"><option value="">All divisions</option></select>
+            <small>Plan the whole estate or one selected division.</small>
+          </label>
+          <label>
+            <span>Crop-demand source</span>
+            <select id="demand-source">
+              <option value="historical_template" selected>Historical template crop</option>
+              <option value="crop_forecast">Merged estate crop forecast</option>
+            </select>
+            <small>The merged forecast is used only when it covers the selected planning date.</small>
+          </label>
+          <label>
+            <span>Expected employee attendance</span>
+            <select id="attendance">
+              <option value="70">70% — low attendance</option>
+              <option value="80">80%</option>
+              <option value="90" selected>90% — normal</option>
+              <option value="100">100% — full attendance</option>
+            </select>
+            <small>The prototype estimates who is available from this percentage.</small>
+          </label>
+          <label>
+            <span>Coverage goal</span>
+            <select id="coverage-goal">
+              <option value="80">80%</option>
+              <option value="85" selected>85% — target</option>
+              <option value="90">90%</option>
+              <option value="95">95%</option>
+            </select>
+            <small>The system checks if this is mathematically feasible and shows what is missing.</small>
+          </label>
+        </div>
+
+        <details class="advanced">
+          <summary>Advanced settings <span>Optional</span></summary>
+          <div class="advanced-grid">
+            <label>
+              <span>Forecast risk level</span>
+              <select id="forecast-risk">
+                <option value="lower">Lower 80% estimate</option>
+                <option value="central" selected>Central forecast</option>
+                <option value="upper">Upper 80% estimate</option>
+              </select>
+            </label>
+            <label>
+              <span>Demand stress multiplier</span>
+              <select id="demand">
+                <option value="80">80% — lower crop</option>
+                <option value="100" selected>100% — normal crop</option>
+                <option value="120">120% — higher crop</option>
+                <option value="140">140% — very high crop</option>
+              </select>
+            </label>
+            <label class="check-row">
+              <input id="same-division" type="checkbox" checked />
+              <span><b>Keep employees in their home division</b><small>Recommended for the first trial.</small></span>
+            </label>
+          </div>
+        </details>
+
+        <div class="button-row">
+          <button class="text-button" id="reset-btn" type="button">Reset</button>
+          <button class="primary-button" id="generate-btn" type="button">
+            <span>Create employee plan</span><b aria-hidden="true">→</b>
+          </button>
+        </div>
+      </section>
+
+      <section class="card result-card" id="result-section">
+        <div class="section-title">
+          <span class="number">2</span>
+          <div>
+            <p class="eyebrow">RECOMMENDATION</p>
+            <h2>Allocation result</h2>
+          </div>
+        </div>
+
+        <div class="empty-state" id="empty-state">
+          <div aria-hidden="true">✓</div>
+          <h3>Ready to compare safe plans</h3>
+          <p>Complete Step 1 and select <b>Create employee plan</b>.</p>
+        </div>
+
+        <div id="result-content" hidden>
+          <div class="recommendation-banner" id="recommendation-banner">
+            <div>
+              <p class="eyebrow">TODAY'S RECOMMENDATION</p>
+              <h3 id="plan-title">Recommended plan</h3>
+              <p id="plan-message"></p>
+            </div>
+            <div class="coverage-score"><strong id="kpi-coverage">—</strong><span>crop covered</span></div>
+          </div>
+
+          <div class="summary-grid">
+            <article><span>Employees assigned</span><strong id="kpi-assigned">—</strong><small id="kpi-workers">— available</small></article>
+            <article><span>Expected crop</span><strong id="kpi-fulfilled">—</strong><small id="kpi-target">— target</small></article>
+            <article><span>Rules checked</span><strong id="kpi-constraints">—</strong><small>No duplicate or over-capacity assignments</small></article>
+          </div>
+
+          <section class="goal-panel" id="goal-panel">
+            <div class="goal-heading">
+              <div>
+                <p class="eyebrow">COVERAGE GOAL CHECK</p>
+                <h3 id="goal-title">Checking the 85% goal</h3>
+              </div>
+              <span class="goal-badge" id="goal-badge">—</span>
+            </div>
+            <p class="goal-message" id="goal-message"></p>
+            <div class="goal-metrics">
+              <div><span>Current plan</span><strong id="goal-current">—</strong></div>
+              <div><span>Requested goal</span><strong id="goal-target">—</strong></div>
+              <div><span>Extra attendance</span><strong id="goal-workers">—</strong></div>
+              <div><span>Required attendance</span><strong id="goal-attendance">—</strong></div>
+            </div>
+            <ol class="goal-actions" id="goal-actions"></ol>
+            <div class="goal-fields" id="goal-fields" hidden></div>
+            <button class="export-button" id="goal-export-btn" type="button" hidden>Download goal staffing CSV</button>
+          </section>
+
+          <section class="frontier-panel" id="frontier-panel">
+            <div class="frontier-heading">
+              <div>
+                <p class="eyebrow">COVERAGE IMPROVEMENT FRONTIER</p>
+                <h3>What operational change can improve this plan?</h3>
+                <p>Compare the proven current maximum with controlled attendance and division-transfer scenarios.</p>
+              </div>
+              <button class="export-button" id="frontier-btn" type="button" disabled>Compare options</button>
+            </div>
+            <div class="frontier-loading" id="frontier-loading" hidden>Solving four zero-violation scenarios…</div>
+            <div id="frontier-results" hidden>
+              <div class="frontier-best" id="frontier-best"></div>
+              <div class="frontier-options" id="frontier-options"></div>
+              <div class="approval-note">Conditional plans are decision support only. A supervisor must confirm attendance and every cross-division transfer before deployment.</div>
+              <button class="export-button" id="frontier-export-btn" type="button" hidden>Download best conditional plan CSV</button>
+            </div>
+          </section>
+
+          <section class="practical-panel" id="practical-panel">
+            <div class="practical-heading">
+              <div>
+                <p class="eyebrow">MORNING PRACTICAL PLAN</p>
+                <h3>Use only the workers and transfers you can really manage</h3>
+                <p>Enter today’s approved limits. The optimizer cannot exceed them, and it will list the exact employee aliases requiring confirmation.</p>
+              </div>
+              <span class="practical-badge">STRICT PLAN STAYS DEFAULT</span>
+            </div>
+            <div class="practical-controls">
+              <label>
+                <span>Additional workers available today</span>
+                <input id="practical-extra" type="number" min="0" max="650" step="1" value="0" />
+                <small>Enter a real call-up limit, not the theoretical maximum.</small>
+              </label>
+              <label>
+                <span>Maximum cross-division transfers</span>
+                <input id="practical-transfers" type="number" min="0" max="650" step="1" value="0" />
+                <small>Use only the number transport and supervisors can support.</small>
+              </label>
+              <button class="primary-button practical-button" id="practical-btn" type="button" disabled>
+                <span>Build practical plan</span><b aria-hidden="true">→</b>
+              </button>
+            </div>
+            <p class="practical-suggestion" id="practical-suggestion">Start with zero, then enter only confirmed morning resources.</p>
+            <div class="frontier-loading" id="practical-loading" hidden>Solving within the supervisor’s exact limits…</div>
+            <div id="practical-results" hidden>
+              <div class="practical-result-heading">
+                <div>
+                  <span class="goal-badge" id="practical-status">—</span>
+                  <h3 id="practical-title">Practical plan ready</h3>
+                  <p id="practical-message"></p>
+                </div>
+                <strong id="practical-coverage">—</strong>
+              </div>
+              <div class="practical-metrics">
+                <div><span>Additional workers</span><strong id="practical-worker-use">—</strong></div>
+                <div><span>Division transfers</span><strong id="practical-transfer-use">—</strong></div>
+                <div><span>Change from current</span><strong id="practical-gain">—</strong></div>
+                <div><span>Hard-rule issues</span><strong id="practical-rules">—</strong></div>
+              </div>
+              <div class="practical-review-grid">
+                <section>
+                  <h4>Additional workers to confirm</h4>
+                  <div class="table-wrap compact-table"><table><thead><tr><th>Employee</th><th>Home</th><th>Assigned field</th></tr></thead><tbody id="practical-workers-body"></tbody></table></div>
+                </section>
+                <section>
+                  <h4>Transfers to approve</h4>
+                  <div class="table-wrap compact-table"><table><thead><tr><th>Employee</th><th>Move</th><th>Assigned field</th></tr></thead><tbody id="practical-transfers-body"></tbody></table></div>
+                </section>
+              </div>
+              <div class="practical-confirmations">
+                <label class="check-row"><input id="confirm-workers" type="checkbox" /><span><b>I confirmed every listed additional worker is present.</b><small>Required only when the plan uses call-up workers.</small></span></label>
+                <label class="check-row"><input id="confirm-transfers" type="checkbox" /><span><b>I approve every listed cross-division transfer.</b><small>Required only when the plan uses transfers.</small></span></label>
+              </div>
+              <div class="practical-export-row">
+                <p>Employee IDs are privacy-safe aliases. Connect them to the controlled HR roster before live deployment.</p>
+                <button class="export-button" id="practical-export-btn" type="button" disabled>Confirm above to download practical CSV</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="simple-section">
+            <div class="simple-heading">
+              <div><p class="eyebrow">FIELD SUMMARY</p><h3>How many employees go to each field?</h3></div>
+              <span id="field-count"></span>
+            </div>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th>Field</th><th>Employees</th><th>Expected kg</th><th>Target kg</th><th>Coverage</th></tr></thead>
+                <tbody id="field-body"></tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="simple-section review-section">
+            <div class="section-title compact">
+              <span class="number">3</span>
+              <div><p class="eyebrow">SUPERVISOR REVIEW</p><h3>Check the employee list</h3></div>
+            </div>
+            <div class="review-actions">
+              <input id="assignment-search" type="search" placeholder="Search employee or field" />
+              <button class="export-button" id="export-btn" type="button" disabled>Download Excel-ready CSV</button>
+            </div>
+            <div class="table-wrap assignments-wrap">
+              <table>
+                <thead><tr><th>Employee</th><th>Home division</th><th>Assigned field</th><th>Expected kg</th><th>Forecast confidence</th></tr></thead>
+                <tbody id="assignment-body"><tr><td colspan="5" class="empty-row">No allocation created.</td></tr></tbody>
+              </table>
+            </div>
+            <div class="approval-note">This is a planning recommendation. The estate supervisor must confirm attendance, restrictions and final deployment.</div>
+          </section>
+
+          <details class="technical-details">
+            <summary>Show technical comparison</summary>
+            <p id="comparison-text">Comparison will appear here.</p>
+          </details>
+        </div>
+      </section>
+
+      <details class="card about-card">
+        <summary>About the data, forecast and optimizer</summary>
+        <div class="about-grid">
+          <div><strong id="about-employees">—</strong><span>pseudonymized employees</span></div>
+          <div><strong id="about-fields">—</strong><span>fields</span></div>
+          <div><strong id="about-days">—</strong><span>historical workdays</span></div>
+          <p id="model-summary">Model information is loading.</p>
+        </div>
+      </details>
+    </main>
+
+    <div class="toast" id="toast" role="status"></div>
+    <script type="module" src="/assets/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "package": "TTE Matching-Method Existing-Data Planning",
+  "version": "5.0.1",
+  "matching_method_estates": [
+    "Bambarakelly",
+    "Tillicoultry",
+    "EildonHall"
+  ],
+  "other_estates_method": "existing v5 gate-based planning methods",
+  "matching_features": [
+    "recent crop scale",
+    "crop variability",
+    "recent trend",
+    "weekday pattern",
+    "monthly pattern",
+    "division count",
+    "field count"
+  ],
+  "data_policy": "USE_EXISTING_DATA_ONLY",
+  "changes_live_models": false,
+  "changes_portal": false,
+  "starts_cp_sat": false,
+  "starts_rl": false
+}

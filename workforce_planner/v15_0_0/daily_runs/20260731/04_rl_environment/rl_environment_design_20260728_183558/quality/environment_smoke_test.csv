@@ -1,0 +1,4 @@
+﻿episode_id,shock_id,initial_under_kg,available_actions,safe_actions,selected_action_id,selected_action_reward,action_accepted,terminated,smoke_status
+EP_001_CONSERVATIVE_calsay,SHOCK_01,221.9374,100,100,MOVE::EMP-216::Maha Eliya::1BNC::Calsay::6ANC,23109.759395,True,False,PASS
+EP_002_CONSERVATIVE_clarendon,SHOCK_01,55.0949,100,100,MOVE::EMP-105::Lower::5II::Upper::1A,18183.28812,True,False,PASS
+EP_003_CONSERVATIVE_dessford,SHOCK_01,140.2186,100,100,MOVE::EMP-0043::Lower::3B2::Upper::5/1,24172.193366,True,False,PASS

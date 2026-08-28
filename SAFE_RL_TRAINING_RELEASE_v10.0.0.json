@@ -1,0 +1,18 @@
+{
+  "package": "TTE Safe Development RL Training",
+  "version": "10.0.0",
+  "algorithm": "Safe action-conditioned Q-learning",
+  "hybrid_fallback": "Greedy",
+  "training_shocks": [
+    "SHOCK_01",
+    "SHOCK_02",
+    "SHOCK_03",
+    "SHOCK_04"
+  ],
+  "validation_shock": "SHOCK_05",
+  "baseline_safety_shock": "SHOCK_00_BASELINE",
+  "minimum_noninferiority_pct": 80.0,
+  "operational_use": false,
+  "starts_development_training": true,
+  "starts_live_deployment": false
+}

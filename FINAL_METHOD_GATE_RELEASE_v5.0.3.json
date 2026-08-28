@@ -1,0 +1,17 @@
+{
+  "package": "TTE Final Method-Gated Planning",
+  "version": "5.0.3",
+  "special_estates": [
+    "Bambarakelly",
+    "Tillicoultry",
+    "EildonHall"
+  ],
+  "selection_rule": "lower WAPE between original estate method and pooled hierarchical technical method",
+  "other_estates_method": "continue existing gate-based planning methods",
+  "uses_matching_donor_estates": false,
+  "data_policy": "USE_EXISTING_DATA_ONLY",
+  "changes_live_models": false,
+  "changes_portal": false,
+  "starts_cp_sat": false,
+  "starts_rl": false
+}

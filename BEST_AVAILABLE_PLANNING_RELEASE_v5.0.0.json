@@ -1,0 +1,18 @@
+{
+  "package": "TTE Best-Available Existing-Data Planning Outputs",
+  "version": "5.0.0",
+  "data_policy": "USE_EXISTING_DATA_ONLY",
+  "method": [
+    "WAPE-gated ensemble",
+    "robust recent-history fallback",
+    "historical active-field schedule inference",
+    "shrunk field productivity",
+    "conservative plucker-assignment demand",
+    "exact hierarchy reconciliation"
+  ],
+  "outputs_unique_employee_roster": false,
+  "changes_live_models": false,
+  "changes_portal": false,
+  "starts_cp_sat": false,
+  "starts_rl": false
+}

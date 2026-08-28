@@ -1,0 +1,30 @@
+{
+  "product": "TTE All-33-Estate GPU Crop Forecasting Upgrade",
+  "version": "2.1.2-gpu-candidate",
+  "checkpoint_date": "2026-07-22",
+  "scope": "Current-practice crop forecasting for all 33 estates",
+  "gpu_engine": "CatBoost CUDA",
+  "horizons_weeks": [1, 2, 3, 4],
+  "gpu_candidate_runs_per_estate": 8,
+  "selection_rule": "Lowest chronological validation WAPE among GPU, CPU and seasonal candidates",
+  "prompt_actual_policy": "Use completed estate/day actuals strictly before today",
+  "short_history_policy": "Eildon Hall and Tillicoultry remain pooled provisional",
+  "live_portal_auto_replacement": false,
+  "best_practice_line_trained": false,
+  "windows_launcher": "START_ALL_33_GPU_OVERNIGHT.ps1",
+  "morning_check": "CHECK_ALL_33_GPU_RESULTS.ps1",
+  "known_local_inputs": {
+    "crop_root": "C:\\Users\\user\\Desktop\\HG 2",
+    "pedro_weather": "C:\\Users\\user\\Desktop\\w_data\\weather_output\\Pedro_Estate_Nuwaraeliya.xlsx",
+    "tri_weather": "Select the TRI-Thalawakele base/update workbook(s) in the launcher"
+  },
+  "notes": [
+    "Actual crop does not require model training.",
+    "Best-practice forecasting requires validated GAP, field, fertilizer, foliar and sundry-work evidence.",
+    "GPU candidates are not selected unless they beat controls on chronological validation.",
+    "All outputs remain in a timestamped candidate folder until separately approved.",
+    "The launcher validates all 33 ZIPs before preparing weather caches and temporarily prevents Windows sleep.",
+    "One PROMPT actual-data snapshot is frozen at batch start so all 33 estates share the same cutoff.",
+    "Windows PowerShell keep-awake flags use explicit unsigned hexadecimal conversion."
+  ]
+}

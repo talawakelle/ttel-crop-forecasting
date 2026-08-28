@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "crop_estates": 33,
+  "workforce_estates": 33,
+  "actual_estates": 33,
+  "manager_accounts": 33,
+  "administrator_accounts": 1,
+  "workforce_readiness_states": [
+    "CONDITIONAL_SHORT_HISTORY",
+    "READY_FOR_MODEL_COMPARISON"
+  ],
+  "rl_training_authorized": false,
+  "automatic_employee_moves_authorized": false,
+  "errors": []
+}

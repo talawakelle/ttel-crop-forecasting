@@ -1,0 +1,3 @@
+station_code,station_name,latitude,longitude,weather_file,file_status,usable_for_training,notes
+TRI-TW,TRI Thalawakele (St. Coombs),6.91461,80.70604,TRI-Thalawakele.xlsx,valid,TRUE,"Main readable history from 2020-06-12 to 2026-06-18; daily coverage about 92.68%. Supplemental TRI-Thalawakele_2026_06.xlsx extends available readings through 2026-06-25."
+PEDRO-NE,Pedro Estate Nuwara Eliya,6.96996,80.79562,Pedro_Estate_Nuwaraeliya(2).xlsx,valid,TRUE,"Replacement workbook is readable from 2024-02-13 to 2026-06-17; 785 observed days and 91.71% coverage."

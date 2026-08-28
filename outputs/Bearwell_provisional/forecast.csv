@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Bearwell,1,2026-06-14,2026-06-15,2026-06-21,36345.5,28205.5,52821.25,Recent 4-Week Mean,17.31759343555223
+Bearwell,2,2026-06-14,2026-06-22,2026-06-28,36345.5,28213.875,50742.0,Recent 4-Week Mean,17.449680861588767
+Bearwell,3,2026-06-14,2026-06-29,2026-07-05,26095.480880001214,14314.388464417163,39905.79042973601,Weather + Crop Gradient Boosting,18.387496432901028
+Bearwell,4,2026-06-14,2026-07-06,2026-07-12,21256.174166174536,13836.220129742036,36009.58152966265,Weather + Crop Gradient Boosting,21.03871001398009

@@ -1,0 +1,12 @@
+{
+  "package": "TTE Named Plucker Allocation KG Repair",
+  "version": "13.0.1",
+  "repairs": [
+    "field_crop_kg from target_crop_kg",
+    "plucker_capacity_kg from expected_productivity_kg",
+    "field_assigned_capacity_kg from field_assigned_capacity_kg"
+  ],
+  "actual_supervisor_verified": false,
+  "operational_use_allowed": false,
+  "live_deployment_started": false
+}

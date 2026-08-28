@@ -1,0 +1,94 @@
+{
+  "crop": {
+    "source_file": "pedro_output.zip",
+    "estate": "Pedro",
+    "raw_rows": 576120,
+    "date_min": "2023-03-31",
+    "date_max": "2026-06-18",
+    "observed_crop_days": 1101,
+    "calendar_days": 1176,
+    "non_record_days_treated_as_zero": 75,
+    "duplicate_weighing_ids_removed": 0,
+    "zero_net_rows": 0,
+    "negative_net_rows": 0,
+    "division_count": 7,
+    "field_count": 176,
+    "estate_ids": [
+      "9"
+    ],
+    "plantation_ids": [
+      "1"
+    ],
+    "workbook_files": [
+      "Annfield_2023.xlsx",
+      "Annfield_2024.xlsx",
+      "Annfield_2025.xlsx",
+      "Annfield_2026.xlsx"
+    ],
+    "filename_estate_mismatches": [
+      "Annfield_2023.xlsx",
+      "Annfield_2024.xlsx",
+      "Annfield_2025.xlsx",
+      "Annfield_2026.xlsx"
+    ],
+    "status_counts": {
+      "original": 576120
+    },
+    "yearly_reconciliation": [
+      {
+        "file": "Annfield_2023.xlsx",
+        "computed_net_kg": 1247419.0,
+        "summary_net_kg": 1247419.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Annfield_2024.xlsx",
+        "computed_net_kg": 1620326.0,
+        "summary_net_kg": 1620326.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Annfield_2025.xlsx",
+        "computed_net_kg": 2011725.0,
+        "summary_net_kg": 2011725.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Annfield_2026.xlsx",
+        "computed_net_kg": 1152166.0,
+        "summary_net_kg": 1152166.0,
+        "difference_kg": 0.0
+      }
+    ]
+  },
+  "weather": {
+    "source_file": "Pedro_Estate_Nuwaraeliya(2).xlsx",
+    "source_sheet": "All Records",
+    "center_codes": [
+      "Pedro"
+    ],
+    "raw_rows": 59535,
+    "date_min": "2024-02-13",
+    "date_max": "2026-06-17",
+    "observed_days": 785,
+    "calendar_days": 856,
+    "missing_calendar_days": 71,
+    "coverage_pct": 91.71
+  },
+  "joined": {
+    "mode": "mapped_weather_from_weekly_crop_checkpoint",
+    "join_start": "2024-02-13",
+    "join_end": "2026-06-14",
+    "weekly_rows": 122,
+    "weeks_with_7_weather_days": 106,
+    "weeks_with_less_than_5_weather_days": 11,
+    "last_complete_week_ending": "2026-06-14"
+  },
+  "weather_mapping": {
+    "station_code": "PEDRO-NE",
+    "estate_distance_km": 0.0,
+    "coordinate_basis": "estate_location",
+    "source_url": "https://mapcarta.com/W758466062",
+    "selection_rule": "nearest physical station; retain weather features only if chronological validation wins"
+  }
+}

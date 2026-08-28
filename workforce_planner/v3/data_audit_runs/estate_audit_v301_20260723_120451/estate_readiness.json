@@ -1,0 +1,368 @@
+{
+  "schema_version": 2,
+  "package_version": "3.0.1",
+  "generated_at": "2026-07-23T13:22:14",
+  "estates": [
+    {
+      "estate": "alton",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-19",
+      "valid_rows": 306394
+    },
+    {
+      "estate": "annfield",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-18",
+      "valid_rows": 276350
+    },
+    {
+      "estate": "bambarakelly",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [
+        "Less than two years of history"
+      ],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-19",
+      "valid_rows": 178661
+    },
+    {
+      "estate": "battalgalla",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-17",
+      "valid_rows": 202782
+    },
+    {
+      "estate": "bearwell",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-15",
+      "valid_rows": 1013799
+    },
+    {
+      "estate": "Calsay",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-15",
+      "valid_rows": 575879
+    },
+    {
+      "estate": "Clarendon",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-15",
+      "valid_rows": 415920
+    },
+    {
+      "estate": "Dessford",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-16",
+      "valid_rows": 831190
+    },
+    {
+      "estate": "edinburgh",
+      "status": "CONDITIONAL",
+      "score": 100,
+      "blocking_reasons": [
+        "Archive/workbook identity mismatch: Glassaugh_2023.xlsx, Glassaugh_2024.xlsx, Glassaugh_2025.xlsx, Glassaugh_2026.xlsx"
+      ],
+      "identity_mismatch_workbooks": [
+        "Glassaugh_2023.xlsx",
+        "Glassaugh_2024.xlsx",
+        "Glassaugh_2025.xlsx",
+        "Glassaugh_2026.xlsx"
+      ],
+      "date_max": "2026-06-18",
+      "valid_rows": 115668
+    },
+    {
+      "estate": "EildonHall",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [
+        "Less than two years of history"
+      ],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-19",
+      "valid_rows": 47106
+    },
+    {
+      "estate": "fairlawn",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-19",
+      "valid_rows": 279853
+    },
+    {
+      "estate": "fordyce",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-18",
+      "valid_rows": 253596
+    },
+    {
+      "estate": "glassaugh",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-18",
+      "valid_rows": 263927
+    },
+    {
+      "estate": "gouravilla",
+      "status": "CONDITIONAL",
+      "score": 100,
+      "blocking_reasons": [
+        "Archive/workbook identity mismatch: mahanilu_2023.xlsx, mahanilu_2024.xlsx, mahanilu_2025.xlsx, mahanilu_2026.xlsx"
+      ],
+      "identity_mismatch_workbooks": [
+        "mahanilu_2023.xlsx",
+        "mahanilu_2024.xlsx",
+        "mahanilu_2025.xlsx",
+        "mahanilu_2026.xlsx"
+      ],
+      "date_max": "2026-06-19",
+      "valid_rows": 640541
+    },
+    {
+      "estate": "greatwestern",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-15",
+      "valid_rows": 947144
+    },
+    {
+      "estate": "holyrood",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-15",
+      "valid_rows": 790291
+    },
+    {
+      "estate": "ingestre",
+      "status": "CONDITIONAL",
+      "score": 100,
+      "blocking_reasons": [
+        "Archive/workbook identity mismatch: Annfield_2021.xlsx, Annfield_2022.xlsx, Annfield_2023.xlsx, Annfield_2024.xlsx, Annfield_2025.xlsx, Annfield_2026.xlsx"
+      ],
+      "identity_mismatch_workbooks": [
+        "Annfield_2021.xlsx",
+        "Annfield_2022.xlsx",
+        "Annfield_2023.xlsx",
+        "Annfield_2024.xlsx",
+        "Annfield_2025.xlsx",
+        "Annfield_2026.xlsx"
+      ],
+      "date_max": "2026-06-18",
+      "valid_rows": 576853
+    },
+    {
+      "estate": "Invery",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-18",
+      "valid_rows": 218711
+    },
+    {
+      "estate": "logie",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-15",
+      "valid_rows": 556927
+    },
+    {
+      "estate": "mahanilu",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-19",
+      "valid_rows": 230175
+    },
+    {
+      "estate": "mattakelle",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-15",
+      "valid_rows": 625565
+    },
+    {
+      "estate": "NuwaraEliya",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-18",
+      "valid_rows": 175649
+    },
+    {
+      "estate": "oilphant",
+      "status": "CONDITIONAL",
+      "score": 100,
+      "blocking_reasons": [
+        "Archive/workbook identity mismatch: Glassaugh_2023.xlsx, Glassaugh_2024.xlsx, Glassaugh_2025.xlsx, Glassaugh_2026.xlsx"
+      ],
+      "identity_mismatch_workbooks": [
+        "Glassaugh_2023.xlsx",
+        "Glassaugh_2024.xlsx",
+        "Glassaugh_2025.xlsx",
+        "Glassaugh_2026.xlsx"
+      ],
+      "date_max": "2026-06-18",
+      "valid_rows": 113937
+    },
+    {
+      "estate": "palmerston",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-15",
+      "valid_rows": 417546
+    },
+    {
+      "estate": "pedro",
+      "status": "CONDITIONAL",
+      "score": 100,
+      "blocking_reasons": [
+        "Archive/workbook identity mismatch: Annfield_2023.xlsx, Annfield_2024.xlsx, Annfield_2025.xlsx, Annfield_2026.xlsx"
+      ],
+      "identity_mismatch_workbooks": [
+        "Annfield_2023.xlsx",
+        "Annfield_2024.xlsx",
+        "Annfield_2025.xlsx",
+        "Annfield_2026.xlsx"
+      ],
+      "date_max": "2026-06-18",
+      "valid_rows": 522469
+    },
+    {
+      "estate": "Radella",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-16",
+      "valid_rows": 985652
+    },
+    {
+      "estate": "robgill",
+      "status": "CONDITIONAL",
+      "score": 100,
+      "blocking_reasons": [
+        "Archive/workbook identity mismatch: Annfield_2023.xlsx, Annfield_2024.xlsx, Annfield_2025.xlsx, Annfield_2026.xlsx"
+      ],
+      "identity_mismatch_workbooks": [
+        "Annfield_2023.xlsx",
+        "Annfield_2024.xlsx",
+        "Annfield_2025.xlsx",
+        "Annfield_2026.xlsx"
+      ],
+      "date_max": "2026-06-18",
+      "valid_rows": 216037
+    },
+    {
+      "estate": "Somerset",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-16",
+      "valid_rows": 1166033
+    },
+    {
+      "estate": "stockholm",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-19",
+      "valid_rows": 333391
+    },
+    {
+      "estate": "Tillicoultry",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [
+        "Less than two years of history"
+      ],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-19",
+      "valid_rows": 80082
+    },
+    {
+      "estate": "tillyrie",
+      "status": "CONDITIONAL",
+      "score": 100,
+      "blocking_reasons": [
+        "Archive/workbook identity mismatch: Annfield_2023.xlsx, Annfield_2024.xlsx, Annfield_2025.xlsx, Annfield_2026.xlsx"
+      ],
+      "identity_mismatch_workbooks": [
+        "Annfield_2023.xlsx",
+        "Annfield_2024.xlsx",
+        "Annfield_2025.xlsx",
+        "Annfield_2026.xlsx"
+      ],
+      "date_max": "2026-06-18",
+      "valid_rows": 184636
+    },
+    {
+      "estate": "udaradella",
+      "status": "CONDITIONAL",
+      "score": 100,
+      "blocking_reasons": [
+        "Archive/workbook identity mismatch: Annfield_2023.xlsx, Annfield_2024.xlsx, Annfield_2025.xlsx, Annfield_2026.xlsx"
+      ],
+      "identity_mismatch_workbooks": [
+        "Annfield_2023.xlsx",
+        "Annfield_2024.xlsx",
+        "Annfield_2025.xlsx",
+        "Annfield_2026.xlsx"
+      ],
+      "date_max": "2026-06-18",
+      "valid_rows": 255668
+    },
+    {
+      "estate": "Wattegoda",
+      "status": "READY",
+      "score": 100,
+      "blocking_reasons": [],
+      "identity_mismatch_workbooks": [],
+      "date_max": "2026-06-15",
+      "valid_rows": 786415
+    }
+  ]
+}

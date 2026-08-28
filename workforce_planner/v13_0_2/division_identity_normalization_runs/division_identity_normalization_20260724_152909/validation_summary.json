@@ -1,0 +1,26 @@
+{
+  "status": "PASS_DIVISION_IDENTITY_NORMALIZATION_VALIDATION_OUTPUTS",
+  "package_version": "13.0.2",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_2\\division_identity_normalization_runs\\division_identity_normalization_20260724_152909",
+  "source_allocation_rows": 15014,
+  "mapping_review_rows": 107,
+  "source_mapping_keys": 107,
+  "confirmed_mapping_rows": 0,
+  "mapping_validation_failures": 107,
+  "normalized_allocation_rows": 0,
+  "expected_primary_rows": 0,
+  "conservative_backup_rows": 0,
+  "normalized_cross_division_counts": {},
+  "duplicate_employee_assignment_failures": 0,
+  "review_gate": "DIVISION_MAPPING_INPUT_OR_CORRECTION_REQUIRED",
+  "manager_review_started": false,
+  "manager_review_completed": false,
+  "operational_status": "NORMALIZED_ALLOCATION_REVIEW_ONLY",
+  "live_deployment_started": false,
+  "important_interpretation": [
+    "A passing mapping gate confirms division identity normalization only.",
+    "It does not verify attendance, leave, fitness, movement permission or live employee availability.",
+    "The EXPECTED file is the primary review scenario and the CONSERVATIVE file is the backup review scenario.",
+    "No employee notification or live assignment is authorized."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "package": "TTE Employee Home-Division Code Supervisor Review",
+  "version": "13.0.7",
+  "source_assignment_rows": 15014,
+  "home_code_context_rows": 107,
+  "single_candidate_contexts": 101,
+  "multiple_candidate_contexts": 4,
+  "no_direct_candidate_contexts": 2,
+  "employee_exception_review_rows": 945,
+  "employee_home_code_verified": false,
+  "operational_use_allowed": false,
+  "live_deployment_started": false
+}

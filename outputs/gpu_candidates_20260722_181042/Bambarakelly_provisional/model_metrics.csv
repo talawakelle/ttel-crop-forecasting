@@ -1,0 +1,33 @@
+horizon_weeks,method,selected,mae_kg,rmse_kg,wape_pct,training_rows,validation_rows,history_class,accelerator,gpu_candidate_run
+1,Weather + Crop Gradient Boosting,False,7088.936325117576,8922.646037508654,28.562892183164827,36,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+1,Weather + Crop Random Forest,False,7690.616470972808,9286.98842604511,30.987194553313262,36,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+1,Weather + Crop GPU CatBoost,True,6386.986400734419,7926.051397448653,25.734580700510296,36,13,short-history estate-specific provisional,GPU,True
+1,Crop-Only Gradient Boosting,False,7174.041132795572,9070.576373409953,28.90579827435972,36,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+1,Crop-Only Random Forest,False,7812.172628538739,9414.668639147974,31.476971194479226,36,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+1,Crop-Only GPU CatBoost,False,8365.302782653975,9924.821448535866,33.70565491100122,36,13,short-history estate-specific provisional,GPU,True
+1,Same Week Last Year,False,10068.538461538461,12062.88128293377,40.568368134439616,36,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+1,Recent 4-Week Mean,False,6769.788461538462,8542.077195419157,27.276974860759417,36,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+2,Weather + Crop Gradient Boosting,False,7597.3708905744,8895.172899297952,30.61148748848331,35,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+2,Weather + Crop Random Forest,False,7839.558468144192,9171.040870205876,31.587314798670512,35,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+2,Weather + Crop GPU CatBoost,True,6206.147601788792,7807.682089650679,25.005941186777424,35,13,short-history estate-specific provisional,GPU,True
+2,Crop-Only Gradient Boosting,False,7990.681296050593,9540.572031849222,32.19622209335324,35,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+2,Crop-Only Random Forest,False,8142.995447592091,9829.324009133834,32.80992949442486,35,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+2,Crop-Only GPU CatBoost,False,6333.118510390238,7554.671535611573,25.517535057346073,35,13,short-history estate-specific provisional,GPU,True
+2,Same Week Last Year,False,10068.538461538461,12062.88128293377,40.568368134439616,35,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+2,Recent 4-Week Mean,False,6734.615384615385,8261.400025116809,27.13525475525581,35,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+3,Weather + Crop Gradient Boosting,False,8380.22810557482,10607.70027009588,33.765792337807625,34,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+3,Weather + Crop Random Forest,True,5856.255274613665,7640.602896180264,23.59614762135786,34,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+3,Weather + Crop GPU CatBoost,False,6753.935838404291,8556.673474038207,27.21310113631964,34,13,short-history estate-specific provisional,GPU,True
+3,Crop-Only Gradient Boosting,False,6913.152449431194,8312.921892482047,27.854620073147572,34,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+3,Crop-Only Random Forest,False,8260.761971793765,10093.192123958275,33.284436864682924,34,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+3,Crop-Only GPU CatBoost,False,6680.963663489379,8016.79130820663,26.919080105677768,34,13,short-history estate-specific provisional,GPU,True
+3,Same Week Last Year,False,10068.538461538461,12062.88128293377,40.568368134439616,34,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+3,Recent 4-Week Mean,False,6894.923076923077,8457.503984287017,27.78116989985836,34,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+4,Weather + Crop Gradient Boosting,False,7460.870517984167,8565.005184504142,30.061497300048096,33,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+4,Weather + Crop Random Forest,False,7233.443292926852,8584.22175552986,29.14514271440852,33,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+4,Weather + Crop GPU CatBoost,True,6269.519856345351,7717.5170270792105,25.261282015258217,33,13,short-history estate-specific provisional,GPU,True
+4,Crop-Only Gradient Boosting,False,8230.29775282697,10474.430644811655,33.16168978925642,33,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+4,Crop-Only Random Forest,False,7501.863808061912,8942.370599363096,30.226668331501028,33,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+4,Crop-Only GPU CatBoost,False,6605.100814042998,7819.386656205765,26.61341190807145,33,13,short-history estate-specific provisional,GPU,True
+4,Same Week Last Year,False,10068.538461538461,12062.88128293377,40.568368134439616,33,13,short-history estate-specific provisional,CPU_OR_BASELINE,True
+4,Recent 4-Week Mean,False,7621.961538461538,9010.14748822767,30.71056864708052,33,13,short-history estate-specific provisional,CPU_OR_BASELINE,True

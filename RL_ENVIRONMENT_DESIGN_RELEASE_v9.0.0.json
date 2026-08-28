@@ -1,0 +1,11 @@
+{
+  "package": "TTE Safe RL Environment Design",
+  "version": "9.0.0",
+  "episodes": 66,
+  "shock_sets_per_episode": 6,
+  "baseline": "CP-SAT development allocation",
+  "comparison_benchmark": "Budgeted dynamic greedy",
+  "safety_shield": true,
+  "operational_use": false,
+  "starts_rl_training": false
+}

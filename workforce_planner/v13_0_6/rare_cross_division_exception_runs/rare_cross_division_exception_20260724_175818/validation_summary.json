@@ -1,0 +1,16 @@
+{
+  "status": "PASS_RARE_CROSS_DIVISION_EXCEPTION_VALIDATION_OUTPUTS",
+  "package_version": "13.0.6",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_6\\rare_cross_division_exception_runs\\rare_cross_division_exception_20260724_175818",
+  "source_assignment_rows": 15014,
+  "review_assignment_rows": 15014,
+  "employee_daily_groups": 15014,
+  "standard_same_division_groups": 15014,
+  "rare_cross_division_exception_groups": 0,
+  "exception_rate_pct": 0.0,
+  "validation_failures": 0,
+  "review_gate": "READY_FOR_EMPLOYEE_HOME_CODE_SUPERVISOR_REVIEW",
+  "employee_home_code_verification_completed": false,
+  "operational_status": "STANDARD_ALLOCATION_WITH_RARE_EXCEPTION_REVIEW_ONLY",
+  "live_deployment_started": false
+}

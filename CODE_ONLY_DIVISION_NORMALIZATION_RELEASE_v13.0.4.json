@@ -1,0 +1,12 @@
+{
+  "package": "TTE Code-Only Division Normalization",
+  "version": "13.0.4",
+  "official_long_division_name_required": false,
+  "official_assigned_division_code_required": true,
+  "field_context_rows_expected": 447,
+  "employee_home_code_context_keys_expected": 107,
+  "employee_home_codes_verified": false,
+  "actual_supervisor_verified": false,
+  "operational_use_allowed": false,
+  "live_deployment_started": false
+}

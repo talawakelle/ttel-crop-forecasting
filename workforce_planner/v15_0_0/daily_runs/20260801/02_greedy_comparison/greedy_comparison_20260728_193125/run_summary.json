@@ -1,0 +1,30 @@
+{
+  "status": "PASS_CP_SAT_GREEDY_COMPARISON_OUTPUTS",
+  "package_version": "8.0.0",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v15_0_0\\daily_runs\\20260801\\02_greedy_comparison\\greedy_comparison_20260728_193125",
+  "capacity_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v15_0_0\\daily_runs\\20260801\\01_cp_sat\\capacity_matching_20260728_184417",
+  "planning_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v15_0_0\\daily_inputs\\planning_20260801",
+  "planning_date": "2026-08-01",
+  "comparison_rows_expected": 66,
+  "comparison_rows_actual": 66,
+  "greedy_assignment_rows": 14597,
+  "greedy_field_rows_expected": 852,
+  "greedy_field_rows_actual": 852,
+  "greedy_field_identity_failures": 0,
+  "greedy_duplicate_employee_assignment_failures": 0,
+  "greedy_expected_uncovered_fields": 0,
+  "cp_sat_noninferior_estate_scenarios": 40,
+  "cp_sat_noninferiority_rate_pct": 60.61,
+  "minimum_noninferiority_gate_pct": 80.0,
+  "rl_baseline_gate": "NOT_READY_BASELINE_REVIEW_REQUIRED",
+  "operational_status": "DEVELOPMENT_SIMULATION_ONLY",
+  "rl_started": false,
+  "duration_minutes": 0.19,
+  "important_interpretation": [
+    "The greedy method is a deterministic baseline, not a live allocator.",
+    "CP-SAT is compared against greedy across 33 estates and two scenarios.",
+    "The 80 percent noninferiority gate mirrors the Clarendon-style safety comparison.",
+    "Passing this gate permits RL environment design only; it does not approve RL deployment.",
+    "RL training has not started."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "package": "TTE CP-SAT vs Greedy Comparison",
+  "version": "8.0.0",
+  "method": "Budgeted dynamic greedy",
+  "clarendon_style_noninferiority_gate_pct": 80.0,
+  "estate_scenarios": 66,
+  "operational_use": false,
+  "starts_rl": false
+}

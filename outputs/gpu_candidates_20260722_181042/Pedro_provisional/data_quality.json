@@ -1,0 +1,143 @@
+{
+  "crop": {
+    "source_file": "pedro_output.zip",
+    "estate": "Pedro",
+    "raw_rows": 576120,
+    "date_min": "2023-03-31",
+    "date_max": "2026-07-21",
+    "observed_crop_days": 1122,
+    "calendar_days": 1209,
+    "non_record_days_treated_as_zero": 87,
+    "duplicate_weighing_ids_removed": 0,
+    "zero_net_rows": 0,
+    "negative_net_rows": 0,
+    "division_count": 7,
+    "field_count": 176,
+    "estate_ids": [
+      "9"
+    ],
+    "plantation_ids": [
+      "1"
+    ],
+    "workbook_files": [
+      "Annfield_2023.xlsx",
+      "Annfield_2024.xlsx",
+      "Annfield_2025.xlsx",
+      "Annfield_2026.xlsx"
+    ],
+    "filename_estate_mismatches": [
+      "Annfield_2023.xlsx",
+      "Annfield_2024.xlsx",
+      "Annfield_2025.xlsx",
+      "Annfield_2026.xlsx"
+    ],
+    "status_counts": {
+      "original": 576120
+    },
+    "yearly_reconciliation": [
+      {
+        "file": "Annfield_2023.xlsx",
+        "computed_net_kg": 1247419.0,
+        "summary_net_kg": 1247419.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Annfield_2024.xlsx",
+        "computed_net_kg": 1620326.0,
+        "summary_net_kg": 1620326.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Annfield_2025.xlsx",
+        "computed_net_kg": 2011725.0,
+        "summary_net_kg": 2011725.0,
+        "difference_kg": 0.0
+      },
+      {
+        "file": "Annfield_2026.xlsx",
+        "computed_net_kg": 1152166.0,
+        "summary_net_kg": 1152166.0,
+        "difference_kg": 0.0
+      }
+    ],
+    "prompt_actual_extension": {
+      "source_file": "prompt_daily_actuals_snapshot.csv",
+      "rows_used": 21,
+      "date_min": "2026-07-01",
+      "date_max": "2026-07-21",
+      "completed_day_cutoff_exclusive": "2026-07-22",
+      "overlap_policy": "PROMPT estate/day total replaces the same completed date",
+      "personal_identifiers_retained": false
+    }
+  },
+  "weather": {
+    "source_file": "Pedro_Estate_Nuwaraeliya.xlsx",
+    "source_files": [
+      "Pedro_Estate_Nuwaraeliya.xlsx"
+    ],
+    "source_sheets": [
+      null
+    ],
+    "center_codes": [
+      "Pedro"
+    ],
+    "raw_rows": 59535,
+    "date_min": "2024-02-13",
+    "date_max": "2026-06-17",
+    "observed_days": 785,
+    "calendar_days": 856,
+    "missing_calendar_days": 71,
+    "coverage_pct": 91.71,
+    "individual_sources": [
+      {
+        "source_file": "Pedro_Estate_Nuwaraeliya.xlsx",
+        "source_files": [
+          "Pedro_Estate_Nuwaraeliya.xlsx"
+        ],
+        "source_sheets": [
+          "All Records"
+        ],
+        "center_codes": [
+          "Pedro"
+        ],
+        "raw_rows": 59535,
+        "date_min": "2024-02-13",
+        "date_max": "2026-06-17",
+        "observed_days": 785,
+        "calendar_days": 856,
+        "missing_calendar_days": 71,
+        "coverage_pct": 91.71,
+        "individual_sources": [
+          {
+            "source_file": "Pedro_Estate_Nuwaraeliya.xlsx",
+            "source_sheet": "All Records",
+            "center_codes": [
+              "Pedro"
+            ],
+            "raw_rows": 59535,
+            "date_min": "2024-02-13",
+            "date_max": "2026-06-17",
+            "observed_days": 785,
+            "calendar_days": 856,
+            "missing_calendar_days": 71,
+            "coverage_pct": 91.71
+          }
+        ],
+        "prepared_daily_cache": true,
+        "cache_file": "pedro_weather_daily_cache.csv"
+      }
+    ]
+  },
+  "joined": {
+    "join_start": "2023-03-31",
+    "join_end": "2026-07-21",
+    "weekly_rows": 173,
+    "weeks_with_7_weather_days": 106,
+    "weeks_with_less_than_5_weather_days": 62,
+    "last_complete_week_ending": "2026-07-19",
+    "incomplete_crop_weeks_excluded_from_training": 2,
+    "minimum_crop_days_for_training_week": 3
+  },
+  "training_accelerator": "GPU",
+  "gpu_candidate_policy": "GPU CatBoost is tested for every horizon and selected only when chronological WAPE is lowest"
+}

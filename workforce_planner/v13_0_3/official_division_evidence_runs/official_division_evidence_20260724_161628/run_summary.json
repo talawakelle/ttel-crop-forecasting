@@ -1,0 +1,24 @@
+{
+  "status": "PASS_OFFICIAL_DIVISION_EVIDENCE_PACK_CREATED",
+  "package_version": "13.0.3",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_3\\official_division_evidence_runs\\official_division_evidence_20260724_161628",
+  "source_v13_0_2_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_2\\division_identity_normalization_runs\\division_identity_normalization_20260724_152909",
+  "source_mapping_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_2\\division_identity_normalization_runs\\division_identity_normalization_20260724_152909\\review_input\\division_identity_mapping_review.csv",
+  "source_preview_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_2\\division_identity_normalization_runs\\division_identity_normalization_20260724_152909\\allocation\\suggested_division_normalization_preview.csv",
+  "source_mapping_keys": 107,
+  "source_allocation_rows": 15014,
+  "evidence_candidate_rows": 435,
+  "priority_unresolved_keys": 4,
+  "estate_count": 33,
+  "review_gate": "OFFICIAL_SOURCE_DOCUMENT_INPUT_REQUIRED",
+  "official_evidence_started": false,
+  "official_evidence_completed": false,
+  "operational_status": "OFFICIAL_EVIDENCE_COLLECTION_ONLY",
+  "live_deployment_started": false,
+  "important_interpretation": [
+    "Generated suggestions and allocation history are not official evidence of division-code ownership.",
+    "A division code may map to more than one full division only when an official source document proves a group mapping.",
+    "No mapping will be validated from system suggestions alone.",
+    "No employee notification or live assignment is authorized."
+  ]
+}

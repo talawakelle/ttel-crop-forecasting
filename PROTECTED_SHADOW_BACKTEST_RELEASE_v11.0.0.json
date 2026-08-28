@@ -1,0 +1,13 @@
+{
+  "package": "TTE Protected Shadow Backtest",
+  "version": "11.0.0",
+  "source_stage": "v10 safe development RL training",
+  "fallback_episode_count_expected_from_current_run": 5,
+  "protected_hybrid_episode_count_expected_from_current_run": 61,
+  "shock_sets_per_episode": 6,
+  "routed_episode_shock_cases": 396,
+  "minimum_all_case_noninferiority_pct": 95.0,
+  "required_unseen_shock_05_noninferiority_pct": 100.0,
+  "operational_use": false,
+  "starts_live_deployment": false
+}

@@ -1,0 +1,2 @@
+"""Constrained workforce allocation package."""
+

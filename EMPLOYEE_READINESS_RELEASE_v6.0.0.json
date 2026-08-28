@@ -1,0 +1,21 @@
+{
+  "package": "TTE Employee Readiness Layer",
+  "version": "6.0.0",
+  "source_training_files": 33,
+  "inputs": [
+    "v2 productivity_training.csv.gz per estate",
+    "v2 productivity_portfolio_summary.csv",
+    "v5.0.3 field_required_plucker_assignments.csv"
+  ],
+  "outputs": [
+    "employee_master.csv",
+    "employee_field_experience.csv",
+    "employee_availability_template.csv",
+    "employee_constraints_template.csv",
+    "first_date_field_employee_candidate_matrix.csv",
+    "field_candidate_coverage.csv",
+    "cp_sat_readiness_gate.csv"
+  ],
+  "starts_cp_sat": false,
+  "starts_rl": false
+}

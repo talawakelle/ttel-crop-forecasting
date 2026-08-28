@@ -1,0 +1,31 @@
+{
+  "status": "PASS_SUPERVISOR_SHADOW_REVIEW_VALIDATION_OUTPUTS",
+  "package_version": "12.0.1",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v12_0_1\\supervisor_shadow_review_runs\\supervisor_shadow_review_identity_repair_20260724_142040",
+  "case_review_rows": 396,
+  "case_review_failures": 396,
+  "estate_context_rows": 33,
+  "estate_context_failures": 33,
+  "employee_template_rows": 23043,
+  "employee_identity_key": "estate|employee_id",
+  "employee_unique_composite_keys": 23043,
+  "employee_sample_rows_selected": 0,
+  "employee_sample_failures": 0,
+  "estates_missing_employee_sample": 33,
+  "signoff_failures": 1,
+  "decision_counts": {
+    "ACCEPT": 0,
+    "REJECT": 0,
+    "DEFER": 0
+  },
+  "review_gate": "SUPERVISOR_INPUT_OR_CORRECTION_REQUIRED",
+  "supervisor_review_started": false,
+  "supervisor_review_completed": false,
+  "live_deployment_started": false,
+  "operational_status": "SUPERVISOR_SHADOW_REVIEW_ONLY",
+  "important_interpretation": [
+    "A passing review confirms documentation completeness and supervisor shadow review only.",
+    "It does not approve live employee assignment.",
+    "Actual attendance, leave, fitness and restrictions must remain supported by approved records."
+  ]
+}

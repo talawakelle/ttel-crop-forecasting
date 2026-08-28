@@ -1,0 +1,44 @@
+{
+  "status": "PASS_DEVELOPMENT_OUTPUTS",
+  "package_version": "5.0.1",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v5\\best_available_planning_runs_v501\\best_available_planning_20260723_164657",
+  "source_v4_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v4\\daily_hierarchy_runs\\daily_hierarchy_candidate_20260723_145614",
+  "estates": 33,
+  "forecast_dates": 28,
+  "estate_planning_rows": 924,
+  "division_planning_rows": 3108,
+  "active_field_planning_rows": 12240,
+  "field_plucker_demand_rows": 12240,
+  "reconciliation_failures": 0,
+  "schedule_failures": 0,
+  "development_gate_counts": {
+    "ACCEPTED_DEVELOPMENT_CANDIDATE": 11,
+    "ACCEPTED_WITH_REVIEW": 10,
+    "PROVISIONAL_DAILY_CANDIDATE": 9,
+    "PROVISIONAL_SHORT_HISTORY": 1,
+    "REJECTED_DAILY_BASELINE": 2
+  },
+  "matching_method_estates": [
+    "bambarakelly",
+    "EildonHall",
+    "Tillicoultry"
+  ],
+  "matched_estate_links": 9,
+  "data_policy": "USE_EXISTING_DATA_ONLY",
+  "source_status": "STALE_SOURCE_ACCEPTED_BY_USER_FOR_DEVELOPMENT_OUTPUTS",
+  "operational_status": "DEVELOPMENT_AND_SCENARIO_PLANNING_ONLY",
+  "duration_minutes": 0.09,
+  "live_models_changed": false,
+  "portal_changed": false,
+  "allocator_changed": false,
+  "cp_sat_started": false,
+  "rl_started": false,
+  "important_interpretation": [
+    "Recommended plucker values are headcount-equivalent field assignments, not a unique employee roster.",
+    "Field activation is inferred from historical active-field counts, weekday frequency and plucking-due score.",
+    "Bambarakelly, Tillicoultry and EildonHall use a matched-estate analog ensemble.",
+    "All other estates use the existing gate-based planning ensemble.",
+    "The upper conservative crop and lower productivity rate are used for recommended assignment counts.",
+    "Stale source data increases uncertainty but is not silently presented as current operational data."
+  ]
+}

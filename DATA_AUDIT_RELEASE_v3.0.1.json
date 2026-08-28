@@ -1,0 +1,14 @@
+{
+  "package": "TTE Data Identity and Readiness Audit",
+  "version": "3.0.1",
+  "fixes": [
+    "Removed WorkbookAudit positional-field shift causing int + str TypeError",
+    "Uses exact All Records schema used by the successful productivity pipeline",
+    "Supports nested workbook paths inside estate ZIP archives",
+    "Continues auditing other workbooks when one workbook is invalid"
+  ],
+  "read_only": true,
+  "changes_live_models": false,
+  "changes_portal": false,
+  "starts_rl": false
+}

@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Fairlawn,1,2026-06-14,2026-06-15,2026-06-21,17335.0,12092.0,24656.5,Same Week Last Year,18.589458158238944
+Fairlawn,2,2026-06-14,2026-06-22,2026-06-28,16012.0,10769.0,23333.5,Same Week Last Year,18.589458158238944
+Fairlawn,3,2026-06-14,2026-06-29,2026-07-05,18610.0,13367.0,25931.5,Same Week Last Year,18.589458158238944
+Fairlawn,4,2026-06-14,2026-07-06,2026-07-12,15261.0,10018.0,22582.5,Same Week Last Year,18.589458158238944

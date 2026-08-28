@@ -1,0 +1,16 @@
+This stage uses division codes only. A long division name is not required in the official source document.
+
+Complete official_field_division_code_input.csv.
+For every estate + allocation_division_context + field row:
+1. Enter official_assigned_division_code from the approved source document.
+2. Enter the source-document name, date, sheet/page, row/cell reference, owner, verifier and verification date/time.
+3. Set evidence_status to VERIFIED only when the source document supports the code.
+4. Keep employee_home_code_verified, operational_use_allowed and live_assignment_authorized as NO.
+
+allocation_division_context is retained only to distinguish allocation rows. It is not treated as official evidence.
+
+The program will compare:
+official_assigned_division_code versus inferred_home_division.
+The inferred employee home code remains historical context and requires later supervisor verification.
+
+After official field codes are completed, run VALIDATE_CODE_ONLY_DIVISION_NORMALIZATION_v13.0.4.ps1.

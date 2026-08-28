@@ -1,0 +1,9 @@
+{
+  "package": "TTE Development Allocation Consolidation",
+  "version": "13.0.8",
+  "mode": "MANAGEMENT_SIMULATION_REVIEW_ONLY",
+  "continues_with_open_home_code_review": true,
+  "blank_supervisor_fields_treated_as_verified": false,
+  "operational_use_allowed": false,
+  "live_deployment_started": false
+}

@@ -1,0 +1,26 @@
+{
+  "status": "PASS_MIXED_DIVISION_CAPACITY_REVIEW_PACK_CREATED",
+  "package_version": "13.0.5",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_5\\mixed_division_capacity_runs\\mixed_division_capacity_20260724_175626",
+  "source_run": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_4\\code_only_division_normalization_runs\\code_only_division_normalization_20260724_171617",
+  "source_allocation_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_2\\division_identity_normalization_runs\\division_identity_normalization_20260724_152909\\allocation\\suggested_division_normalization_preview.csv",
+  "source_code_evidence_path": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_4\\code_only_division_normalization_runs\\code_only_division_normalization_20260724_171617\\review_input\\official_field_division_code_input.csv",
+  "source_assignment_rows": 15014,
+  "employee_daily_groups": 15014,
+  "single_row_employee_groups": 15014,
+  "multi_row_employee_groups": 0,
+  "mixed_division_employee_groups": 0,
+  "field_groups": 894,
+  "exact_duplicate_assignment_failures": 0,
+  "inconsistent_daily_capacity_groups": 0,
+  "review_gate": "MIXED_DIVISION_CAPACITY_REVIEW_READY",
+  "operational_status": "CAPACITY_SPLIT_AND_MOVEMENT_REVIEW_ONLY",
+  "live_deployment_started": false,
+  "important_interpretation": [
+    "Multiple rows for one employee are allowed when their total allocated capacity does not exceed daily capacity.",
+    "An exact duplicate employee-division-field row remains a data failure.",
+    "A different-division assignment requires supervisor confirmation and is not automatically approved.",
+    "Employee home codes, including unclear codes such as TLD, remain unverified.",
+    "No employee notification or live assignment is authorized."
+  ]
+}

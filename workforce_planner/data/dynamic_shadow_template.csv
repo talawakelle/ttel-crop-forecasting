@@ -1,0 +1,2 @@
+planning_date,decision_round,decision_time,employee_id,home_division,previous_field,recommended_field,actual_field,available,remaining_shift_fraction,predicted_kg,conservative_kg,actual_kg,field_remaining_before_kg,field_remaining_after_kg,weather_disruption,supervisor_override,override_reason,transfer_minutes,notes
+2026-07-22,midday,12:00,EMP-001,AD,FIELD-01,FIELD-03,FIELD-03,1,0.35,8.4,6.7,7.9,120.0,112.1,0,0,,12,

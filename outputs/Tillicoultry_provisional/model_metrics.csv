@@ -1,0 +1,25 @@
+horizon_weeks,method,selected,mae_kg,rmse_kg,wape_pct,training_rows,validation_rows,history_class
+1,Weather + Crop Pooled Gradient Boosting,False,7794.940179731715,9207.116099827947,27.726869655627716,781,13,short-history pooled provisional
+1,Weather + Crop Pooled Random Forest,False,6856.79716980147,8907.017700595097,24.389862782591084,781,13,short-history pooled provisional
+1,Crop-Only Pooled Gradient Boosting,False,6799.464315596091,7728.408141777224,24.18592785315172,781,13,short-history pooled provisional
+1,Crop-Only Pooled Random Forest,False,6681.403027098942,7963.772060859388,23.765979799406868,781,13,short-history pooled provisional
+1,Peer Seasonal Index,True,5438.953895924972,7179.232512403106,19.34654561267854,781,13,short-history pooled provisional
+1,Recent 4-Week Mean,False,7199.423076923077,9094.929257135962,25.60859488936255,781,13,short-history pooled provisional
+2,Weather + Crop Pooled Gradient Boosting,False,7993.252908741902,9917.711137779062,28.432274836621236,767,13,short-history pooled provisional
+2,Weather + Crop Pooled Random Forest,False,6018.539206305373,8243.494118629262,21.408150446673176,767,13,short-history pooled provisional
+2,Crop-Only Pooled Gradient Boosting,False,6099.297522127032,7414.736463512815,21.695410546784963,767,13,short-history pooled provisional
+2,Crop-Only Pooled Random Forest,False,5998.565627549228,7573.675035517351,21.337103741764775,767,13,short-history pooled provisional
+2,Peer Seasonal Index,True,5589.361521750809,7277.709022404858,19.881550698070857,767,13,short-history pooled provisional
+2,Recent 4-Week Mean,False,7208.442307692308,9390.38717329712,25.640676602649172,767,13,short-history pooled provisional
+3,Weather + Crop Pooled Gradient Boosting,False,21482.06171209891,35108.303781456176,76.41243053721776,753,13,short-history pooled provisional
+3,Weather + Crop Pooled Random Forest,False,6661.020914649258,8757.39094162217,23.693479926134174,753,13,short-history pooled provisional
+3,Crop-Only Pooled Gradient Boosting,False,9624.06971105361,11045.996215847763,34.233146154078945,753,13,short-history pooled provisional
+3,Crop-Only Pooled Random Forest,False,6074.218866978683,6944.651320316729,21.60620490999961,753,13,short-history pooled provisional
+3,Peer Seasonal Index,True,5853.506480088476,7312.726803762932,20.82112337741781,753,13,short-history pooled provisional
+3,Recent 4-Week Mean,False,7668.403846153846,9867.281734201948,27.276775575760727,753,13,short-history pooled provisional
+4,Weather + Crop Pooled Gradient Boosting,False,26641.49885168895,41621.55893347623,94.7647254576826,739,13,short-history pooled provisional
+4,Weather + Crop Pooled Random Forest,False,6054.217731572053,7220.957370128834,21.535060185139994,739,13,short-history pooled provisional
+4,Crop-Only Pooled Gradient Boosting,False,7854.950342079508,9434.371996998767,27.94032786198532,739,13,short-history pooled provisional
+4,Crop-Only Pooled Random Forest,False,5972.4542040353745,6947.0008356401995,21.244224512470105,739,13,short-history pooled provisional
+4,Peer Seasonal Index,True,5616.608190994383,7012.462277616532,19.978468035375247,739,13,short-history pooled provisional
+4,Recent 4-Week Mean,False,7584.9807692307695,10138.549225556804,26.980036828985998,739,13,short-history pooled provisional

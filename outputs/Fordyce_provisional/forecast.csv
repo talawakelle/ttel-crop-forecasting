@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Fordyce,1,2026-06-14,2026-06-15,2026-06-21,23672.5,15402.125,33182.0,Recent 4-Week Mean,25.031523716836627
+Fordyce,2,2026-06-14,2026-06-22,2026-06-28,23672.5,13785.125,33087.125,Recent 4-Week Mean,25.92548554986671
+Fordyce,3,2026-06-14,2026-06-29,2026-07-05,23672.5,13221.375,36103.0,Recent 4-Week Mean,27.841492827825498
+Fordyce,4,2026-06-14,2026-07-06,2026-07-12,23672.5,17288.5,35346.75,Recent 4-Week Mean,26.838827063851394

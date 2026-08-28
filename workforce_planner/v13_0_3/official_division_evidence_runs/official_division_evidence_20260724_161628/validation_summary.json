@@ -1,0 +1,25 @@
+{
+  "status": "PASS_OFFICIAL_DIVISION_EVIDENCE_VALIDATION_OUTPUTS",
+  "package_version": "13.0.3",
+  "run_folder": "C:\\TTE_Integrated_Platform\\ttel_crop_forecasting\\workforce_planner\\v13_0_3\\official_division_evidence_runs\\official_division_evidence_20260724_161628",
+  "source_mapping_keys": 107,
+  "official_evidence_rows": 435,
+  "verified_valid_mapping_keys": 0,
+  "official_evidence_failures": 542,
+  "normalized_allocation_rows": 0,
+  "expected_primary_rows": 0,
+  "conservative_backup_rows": 0,
+  "normalized_cross_division_counts": {},
+  "duplicate_employee_assignment_failures": 0,
+  "review_gate": "OFFICIAL_EVIDENCE_INPUT_OR_CORRECTION_REQUIRED",
+  "official_evidence_started": false,
+  "official_evidence_completed": false,
+  "operational_status": "OFFICIAL_DIVISION_NORMALIZED_REVIEW_ONLY",
+  "live_deployment_started": false,
+  "important_interpretation": [
+    "A passing gate confirms official division-code evidence completeness and normalization only.",
+    "It does not verify current attendance, leave, fitness, movement permission or employee availability.",
+    "The EXPECTED output is the primary review scenario and the CONSERVATIVE output is the backup review scenario.",
+    "No employee notification or live assignment is authorized."
+  ]
+}

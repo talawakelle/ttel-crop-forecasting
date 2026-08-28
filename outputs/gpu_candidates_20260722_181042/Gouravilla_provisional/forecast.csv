@@ -1,0 +1,5 @@
+estate,horizon_weeks,forecast_origin_week_ending,forecast_week_starting,forecast_week_ending,forecast_kg,lower_80_kg,upper_80_kg,selected_method,validation_wape_pct
+Gouravilla,1,2026-06-14,2026-06-15,2026-06-21,38825.0,34415.0,51343.5,Same Week Last Year,14.8547110187185
+Gouravilla,2,2026-06-14,2026-06-22,2026-06-28,45520.0,41110.0,58038.5,Same Week Last Year,14.8547110187185
+Gouravilla,3,2026-06-14,2026-06-29,2026-07-05,36256.0,31846.0,48774.5,Same Week Last Year,14.8547110187185
+Gouravilla,4,2026-06-14,2026-07-06,2026-07-12,35698.0,31288.0,48216.5,Same Week Last Year,14.8547110187185
